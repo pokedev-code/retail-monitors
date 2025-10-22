@@ -1,0 +1,23 @@
+2025-10-21 01:33:40,698 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-21 01:33:43,803 - ERROR - [ERROR] Scraping failed: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+Call log:
+  - navigating to "https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201", waiting until "domcontentloaded"
+
+2025-10-21 01:35:32,940 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-21 01:35:53,051 - ERROR - [ERROR] Scraping failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-21 01:51:46,526 - INFO - [SUCCESS] Sent Discord notification for: Unknown
+2025-10-21 01:52:25,830 - INFO - [SUCCESS] Sent Discord notification for: Pokemon TCG: Triple Whammy Tin
+2025-10-21 02:14:10,255 - INFO - [SUCCESS] Sent Discord notification for: Pokemon TCG: Triple Whammy Tin
+2025-10-21 02:18:04,600 - INFO - [SUCCESS] Sent Discord notification for: Pokemon TCG: Triple Whammy Tin
+2025-10-21 02:23:37,886 - INFO - [SUCCESS] Sent Discord notification for: Pokemon TCG: Triple Whammy Tin
+2025-10-21 02:25:22,933 - INFO - [SUCCESS] Sent Discord notification for: Pokemon TCG: Triple Whammy Tin
+2025-10-21 02:27:40,907 - INFO - [SUCCESS] Sent Discord notification for: Pokemon TCG: Triple Whammy Tin
+2025-10-21 02:30:05,436 - INFO - [DEBUG] Image URL being sent: https://www.bigw.com.au/medias/sys_master/images/images/h77/h54/101715670695966.jpg
+2025-10-21 02:30:06,652 - INFO - [SUCCESS] Sent Discord notification for: Pokemon TCG: Triple Whammy Tin
+2025-10-21 02:30:31,072 - INFO - [DEBUG] Image URL being sent: https://www.bigw.com.au/medias/sys_master/images/images/h77/h54/101715670695966.jpg
+2025-10-21 02:30:32,063 - INFO - [SUCCESS] Sent Discord notification for: Pokemon TCG: Triple Whammy Tin
+2025-10-21 02:33:11,573 - INFO - [DEBUG] Downloaded image for attachment
+2025-10-21 02:33:13,372 - ERROR - [ERROR] Discord webhook failed: 200
+2025-10-21 02:33:34,961 - INFO - [DEBUG] Downloaded image for attachment
+2025-10-21 02:33:36,725 - INFO - [SUCCESS] Sent Discord notification for: Pokemon TCG: Triple Whammy Tin
+2025-10-21 02:37:09,749 - INFO - [SUCCESS] Sent Discord notification for: Pokemon TCG: Triple Whammy Tin

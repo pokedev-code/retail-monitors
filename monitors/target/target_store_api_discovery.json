@@ -1,0 +1,3814 @@
+[
+  {
+    "type": "response",
+    "url": "https://api.target.com.au/location/search?searchTerm=PERTH",
+    "status": 200,
+    "body": {
+      "results": [
+        {
+          "postalCode": 6005,
+          "suburb": "West Perth",
+          "state": "Wa",
+          "encGeo": "hP3jwvdAs4AbwhJ-9HcMmS7I7BuGgyo5W5SCv1MgfkGm"
+        },
+        {
+          "postalCode": 2795,
+          "suburb": "Perthville",
+          "state": "Nsw",
+          "encGeo": "hP3hwvpMvoEbwhdy9HoMnSxilkYTL25c552NdZE4zGcP"
+        },
+        {
+          "postalCode": 6000,
+          "suburb": "Perth Gpo",
+          "state": "Wa",
+          "encGeo": "hP3jwvdAv4IbwhJ-9HcNkyy4cQf8O2NLegD2AHtQB--D"
+        },
+        {
+          "postalCode": 6000,
+          "suburb": "Perth",
+          "state": "Wa",
+          "encGeo": "hP3jwvdAv4IbwhJ-9HcNkyy4cQf8O2NLegD2AHtQB--D"
+        },
+        {
+          "postalCode": 6004,
+          "suburb": "East Perth",
+          "state": "Wa",
+          "encGeo": "hP3jwvdAvIAbwhJ-9HcPnSnNbUVE3RWxbIhA8Xcp-S5F"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://api.target.com.au/lz3inventory/stockStatus/71824284?modes=HD,ED,CC,CONSOLIDATED_STORES_SOH&postcode=6005&storeNumber=&locationRefs=",
+    "status": 200,
+    "body": {
+      "stock": [
+        {
+          "sku": "71824284",
+          "hd": "outOfStock",
+          "ed": "outOfStock",
+          "cc": "outOfStock",
+          "consolidated_stores_soh": "inStock",
+          "ats": "outOfStock"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.target.com.au/rest/v2/target/stores/?fields=DEFAULT&query=PERTH",
+    "status": 200,
+    "body": {
+      "pagination": {
+        "currentPage": 0,
+        "pageSize": 20,
+        "totalPages": 2,
+        "totalResults": 33
+      },
+      "stores": [
+        {
+          "acceptCNC": true,
+          "acceptLayBy": true,
+          "address": {
+            "addressValidated": false,
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Level 1, 44 Station Street, Subiaco, 6008",
+            "id": "9805067812887",
+            "line1": "Level 1, 44 Station Street",
+            "phone": "08 9484 4200",
+            "postalCode": "6008",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Subiaco"
+          },
+          "closed": false,
+          "collectionPoint": false,
+          "description": "Subiaco",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Subiaco+Level+1,+44+Station+Street+Subiaco+6008+Australia",
+          "features": {},
+          "formattedDistance": "3.7 km",
+          "geoPoint": {
+            "latitude": -31.943672,
+            "longitude": 115.823226
+          },
+          "longLeadTime": "7",
+          "name": "Subiaco",
+          "openingHours": {
+            "code": "opening-schedule-5429",
+            "name": "opening-schedule-5429",
+            "targetOpeningWeeks": [
+              {
+                "formattedEndDate": "Sun, 26 Oct",
+                "formattedStartDate": "Mon, 20 Oct",
+                "targetOpeningDayList": [
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Mon Oct 20 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Monday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Mon Oct 20 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Tue Oct 21 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Tuesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Tue Oct 21 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Wed Oct 22 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Wednesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Wed Oct 22 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Thu Oct 23 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Thursday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Thu Oct 23 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Fri Oct 24 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Friday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Fri Oct 24 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sat Oct 25 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Saturday",
+                    "formattedOpeningTime": "8:00 AM",
+                    "openingDateTime": "Sat Oct 25 08:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sun Oct 26 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Sunday",
+                    "formattedOpeningTime": "11:00 AM",
+                    "openingDateTime": "Sun Oct 26 11:00:00 AEDT 2025"
+                  }
+                ]
+              }
+            ],
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "1",
+          "storeNumber": "5429",
+          "timeZone": "Australia/West",
+          "type": "Target",
+          "url": "/store/wa/subiaco/5429"
+        },
+        {
+          "acceptCNC": false,
+          "acceptLayBy": false,
+          "address": {
+            "addressValidated": false,
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Albany Highway, East Victoria Park, 6101",
+            "id": "11978732601367",
+            "line1": "Albany Highway",
+            "phone": "08 6330 8300",
+            "postalCode": "6101",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "East Victoria Park"
+          },
+          "closed": false,
+          "collectionPoint": true,
+          "description": "East Victoria Park",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+East+Victoria+Park+Albany+Highway+East+Victoria+Park+6101+Australia",
+          "displayName": "Kmart East Victoria Park",
+          "features": {},
+          "formattedDistance": "5.2 km",
+          "geoPoint": {
+            "latitude": -31.9842402,
+            "longitude": 115.9016577
+          },
+          "name": "East Victoria Park",
+          "openingHours": {
+            "code": "opening-schedule-1278",
+            "name": "opening-schedule-1278",
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "3",
+          "storeNumber": "1278",
+          "timeZone": "Australia/West",
+          "type": "Kmart",
+          "url": "/store/wa/east-victoria-park/1278"
+        },
+        {
+          "acceptCNC": true,
+          "acceptLayBy": true,
+          "address": {
+            "addressValidated": false,
+            "building": "Galleria Shopping Centre",
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Collier Road, Morley, 6062",
+            "id": "8796620881943",
+            "line1": "Collier Road",
+            "phone": "08 9375 4200",
+            "postalCode": "6062",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Morley"
+          },
+          "closed": false,
+          "collectionPoint": false,
+          "description": "Morley",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Morley+Collier+Road+Morley+6062+Australia",
+          "features": {},
+          "formattedDistance": "7 km",
+          "geoPoint": {
+            "latitude": -31.897717,
+            "longitude": 115.900313
+          },
+          "longLeadTime": "7",
+          "name": "Morley",
+          "openingHours": {
+            "code": "opening-schedule-5043",
+            "name": "opening-schedule-5043",
+            "targetOpeningWeeks": [
+              {
+                "formattedEndDate": "Sun, 26 Oct",
+                "formattedStartDate": "Mon, 20 Oct",
+                "targetOpeningDayList": [
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Mon Oct 20 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Monday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Mon Oct 20 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Tue Oct 21 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Tuesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Tue Oct 21 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Wed Oct 22 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Wednesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Wed Oct 22 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Thu Oct 23 21:00:00 AEDT 2025",
+                    "formattedClosingTime": "9:00 PM",
+                    "formattedDay": "Thursday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Thu Oct 23 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Fri Oct 24 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Friday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Fri Oct 24 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sat Oct 25 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Saturday",
+                    "formattedOpeningTime": "8:00 AM",
+                    "openingDateTime": "Sat Oct 25 08:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sun Oct 26 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Sunday",
+                    "formattedOpeningTime": "11:00 AM",
+                    "openingDateTime": "Sun Oct 26 11:00:00 AEDT 2025"
+                  }
+                ]
+              }
+            ],
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "1",
+          "storeNumber": "5043",
+          "timeZone": "Australia/West",
+          "type": "Target",
+          "url": "/store/wa/morley/5043"
+        },
+        {
+          "acceptCNC": false,
+          "acceptLayBy": false,
+          "address": {
+            "addressValidated": false,
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Cnr Collier & Walter Rds, Morley, 6062",
+            "id": "11978969743383",
+            "line1": "Cnr Collier & Walter Rds",
+            "phone": "08 9376 0100",
+            "postalCode": "6062",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Morley"
+          },
+          "closed": false,
+          "collectionPoint": true,
+          "description": "Morley",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Morley+Cnr+Collier+&+Walter+Rds+Morley+6062+Australia",
+          "displayName": "Kmart Morley",
+          "features": {},
+          "formattedDistance": "7 km",
+          "geoPoint": {
+            "latitude": -31.896991,
+            "longitude": 115.899636
+          },
+          "name": "Morley",
+          "openingHours": {
+            "code": "opening-schedule-1004",
+            "name": "opening-schedule-1004",
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "3",
+          "storeNumber": "1004",
+          "timeZone": "Australia/West",
+          "type": "Kmart",
+          "url": "/store/wa/morley/1004"
+        },
+        {
+          "acceptCNC": false,
+          "acceptLayBy": false,
+          "address": {
+            "addressValidated": false,
+            "building": "Belmont Forum Shopping Centre",
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Belmont Ave, Belmont, 6104",
+            "id": "11978247045143",
+            "line1": "Belmont Ave",
+            "phone": "08 6272 9600",
+            "postalCode": "6104",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Belmont"
+          },
+          "closed": false,
+          "collectionPoint": true,
+          "description": "Belmont Forum",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Belmont+Forum+Belmont+Ave+Belmont+6104+Australia",
+          "displayName": "Kmart Belmont Forum",
+          "features": {},
+          "formattedDistance": "7 km",
+          "geoPoint": {
+            "latitude": -31.965462,
+            "longitude": 115.934394
+          },
+          "name": "Belmont Forum",
+          "openingHours": {
+            "code": "opening-schedule-1018",
+            "name": "opening-schedule-1018",
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "3",
+          "storeNumber": "1018",
+          "timeZone": "Australia/West",
+          "type": "Kmart",
+          "url": "/store/wa/belmont-forum/1018"
+        },
+        {
+          "acceptCNC": true,
+          "acceptLayBy": true,
+          "address": {
+            "addressValidated": false,
+            "building": "Westfield Innaloo City Centre",
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Oswald Street, Innaloo, Innaloo, 6018",
+            "id": "8796621864983",
+            "line1": "Oswald Street, Innaloo",
+            "phone": "08 9205 3500",
+            "postalCode": "6018",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Innaloo"
+          },
+          "closed": false,
+          "collectionPoint": false,
+          "description": "Innaloo",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Innaloo+Oswald+Street,+Innaloo+Innaloo+6018+Australia",
+          "features": {},
+          "formattedDistance": "8.1 km",
+          "geoPoint": {
+            "latitude": -31.900326,
+            "longitude": 115.800566
+          },
+          "longLeadTime": "7",
+          "name": "Innaloo",
+          "openingHours": {
+            "code": "opening-schedule-5065",
+            "name": "opening-schedule-5065",
+            "targetOpeningWeeks": [
+              {
+                "formattedEndDate": "Sun, 26 Oct",
+                "formattedStartDate": "Mon, 20 Oct",
+                "targetOpeningDayList": [
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Mon Oct 20 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Monday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Mon Oct 20 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Tue Oct 21 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Tuesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Tue Oct 21 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Wed Oct 22 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Wednesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Wed Oct 22 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Thu Oct 23 19:00:00 AEDT 2025",
+                    "formattedClosingTime": "7:00 PM",
+                    "formattedDay": "Thursday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Thu Oct 23 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Fri Oct 24 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Friday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Fri Oct 24 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sat Oct 25 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Saturday",
+                    "formattedOpeningTime": "8:00 AM",
+                    "openingDateTime": "Sat Oct 25 08:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sun Oct 26 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Sunday",
+                    "formattedOpeningTime": "11:00 AM",
+                    "openingDateTime": "Sun Oct 26 11:00:00 AEDT 2025"
+                  }
+                ]
+              }
+            ],
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "1",
+          "storeNumber": "5065",
+          "timeZone": "Australia/West",
+          "type": "Target",
+          "url": "/store/wa/innaloo/5065"
+        },
+        {
+          "acceptCNC": false,
+          "acceptLayBy": false,
+          "address": {
+            "addressValidated": false,
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "384 Scarborough Beach Road, Innaloo, 6018",
+            "id": "11979122933783",
+            "line1": "384 Scarborough Beach Road",
+            "phone": "08 6241 3100",
+            "postalCode": "6018",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Innaloo"
+          },
+          "closed": false,
+          "collectionPoint": true,
+          "description": "Innaloo",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Innaloo+384+Scarborough+Beach+Road+Innaloo+6018+Australia",
+          "displayName": "Kmart Innaloo",
+          "features": {},
+          "formattedDistance": "8.2 km",
+          "geoPoint": {
+            "latitude": -31.901382,
+            "longitude": 115.798406
+          },
+          "name": "Innaloo",
+          "openingHours": {
+            "code": "opening-schedule-1139",
+            "name": "opening-schedule-1139",
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "3",
+          "storeNumber": "1139",
+          "timeZone": "Australia/West",
+          "type": "Kmart",
+          "url": "/store/wa/innaloo/1139"
+        },
+        {
+          "acceptCNC": false,
+          "acceptLayBy": false,
+          "address": {
+            "addressValidated": false,
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Cnr Yirrigan Dr & Farrier Rd, Mirrabooka, 6061",
+            "id": "11979122999319",
+            "line1": "Cnr Yirrigan Dr & Farrier Rd",
+            "phone": "08 9345 7700",
+            "postalCode": "6061",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Mirrabooka"
+          },
+          "closed": false,
+          "collectionPoint": true,
+          "description": "Mirrabooka",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Mirrabooka+Cnr+Yirrigan+Dr+&+Farrier+Rd+Mirrabooka+6061+Australia",
+          "displayName": "Kmart Mirrabooka",
+          "features": {},
+          "formattedDistance": "8.9 km",
+          "geoPoint": {
+            "latitude": -31.871558,
+            "longitude": 115.862443
+          },
+          "name": "Mirrabooka",
+          "openingHours": {
+            "code": "opening-schedule-1142",
+            "name": "opening-schedule-1142",
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "3",
+          "storeNumber": "1142",
+          "timeZone": "Australia/West",
+          "type": "Kmart",
+          "url": "/store/wa/mirrabooka/1142"
+        },
+        {
+          "acceptCNC": false,
+          "acceptLayBy": false,
+          "address": {
+            "addressValidated": false,
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Risley Street, Booragoon, 6154",
+            "id": "11979246632983",
+            "line1": "Risley Street",
+            "phone": "08 6310 5100",
+            "postalCode": "6154",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Booragoon"
+          },
+          "closed": false,
+          "collectionPoint": true,
+          "description": "Booragoon",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Booragoon+Risley+Street+Booragoon+6154+Australia",
+          "displayName": "Kmart Booragoon",
+          "features": {},
+          "formattedDistance": "9.6 km",
+          "geoPoint": {
+            "latitude": -32.035466,
+            "longitude": 115.836768
+          },
+          "name": "Booragoon",
+          "openingHours": {
+            "code": "opening-schedule-1162",
+            "name": "opening-schedule-1162",
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "3",
+          "storeNumber": "1162",
+          "timeZone": "Australia/West",
+          "type": "Kmart",
+          "url": "/store/wa/booragoon/1162"
+        },
+        {
+          "acceptCNC": false,
+          "acceptLayBy": false,
+          "address": {
+            "addressValidated": false,
+            "building": "Westfield Shopping Centre",
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Cnr Albany & Cecil St., Cannington, 6107",
+            "id": "11979246600215",
+            "line1": "Cnr Albany & Cecil St.",
+            "phone": "08 6253 7600",
+            "postalCode": "6107",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Cannington"
+          },
+          "closed": false,
+          "collectionPoint": true,
+          "description": "Carousel",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Carousel+Cnr+Albany+&+Cecil+St.+Cannington+6107+Australia",
+          "displayName": "Kmart Carousel",
+          "features": {},
+          "formattedDistance": "10.3 km",
+          "geoPoint": {
+            "latitude": -32.018752,
+            "longitude": 115.936548
+          },
+          "name": "Carousel",
+          "openingHours": {
+            "code": "opening-schedule-1158",
+            "name": "opening-schedule-1158",
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "3",
+          "storeNumber": "1158",
+          "timeZone": "Australia/West",
+          "type": "Kmart",
+          "url": "/store/wa/carousel/1158"
+        },
+        {
+          "acceptCNC": true,
+          "acceptLayBy": true,
+          "address": {
+            "addressValidated": false,
+            "building": "Westfield Carousel",
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Albany Highway, Cannington, 6107",
+            "id": "8796620816407",
+            "line1": "Albany Highway",
+            "phone": "08 9356 4400",
+            "postalCode": "6107",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Cannington"
+          },
+          "closed": false,
+          "collectionPoint": false,
+          "description": "Carousel",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Carousel+Albany+Highway+Cannington+6107+Australia",
+          "features": {},
+          "formattedDistance": "10.3 km",
+          "geoPoint": {
+            "latitude": -32.017361,
+            "longitude": 115.938282
+          },
+          "longLeadTime": "7",
+          "name": "Carousel",
+          "openingHours": {
+            "code": "opening-schedule-5045",
+            "name": "opening-schedule-5045",
+            "targetOpeningWeeks": [
+              {
+                "formattedEndDate": "Sun, 26 Oct",
+                "formattedStartDate": "Mon, 20 Oct",
+                "targetOpeningDayList": [
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Mon Oct 20 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Monday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Mon Oct 20 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Tue Oct 21 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Tuesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Tue Oct 21 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Wed Oct 22 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Wednesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Wed Oct 22 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Thu Oct 23 21:00:00 AEDT 2025",
+                    "formattedClosingTime": "9:00 PM",
+                    "formattedDay": "Thursday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Thu Oct 23 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Fri Oct 24 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Friday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Fri Oct 24 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sat Oct 25 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Saturday",
+                    "formattedOpeningTime": "8:00 AM",
+                    "openingDateTime": "Sat Oct 25 08:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sun Oct 26 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Sunday",
+                    "formattedOpeningTime": "11:00 AM",
+                    "openingDateTime": "Sun Oct 26 11:00:00 AEDT 2025"
+                  }
+                ]
+              }
+            ],
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "1",
+          "storeNumber": "5045",
+          "timeZone": "Australia/West",
+          "type": "Target",
+          "url": "/store/wa/carousel/5045"
+        },
+        {
+          "acceptCNC": true,
+          "acceptLayBy": true,
+          "address": {
+            "addressValidated": false,
+            "building": "Bullcreek Shopping Centre",
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Cnr. Benningfield Road & South Street, Bull Creek, 6149",
+            "id": "8796622356503",
+            "line1": "Cnr. Benningfield Road & South Street",
+            "phone": "08 9313 9400",
+            "postalCode": "6149",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Bull Creek"
+          },
+          "closed": false,
+          "collectionPoint": false,
+          "description": "Bull Creek",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Bull+Creek+Cnr.+Benningfield+Road+&+South+Street+Bull+Creek+6149+Australia",
+          "features": {},
+          "formattedDistance": "12.5 km",
+          "geoPoint": {
+            "latitude": -32.064095,
+            "longitude": 115.856377
+          },
+          "longLeadTime": "7",
+          "name": "Bull Creek",
+          "openingHours": {
+            "code": "opening-schedule-5076",
+            "name": "opening-schedule-5076",
+            "targetOpeningWeeks": [
+              {
+                "formattedEndDate": "Sun, 26 Oct",
+                "formattedStartDate": "Mon, 20 Oct",
+                "targetOpeningDayList": [
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Mon Oct 20 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Monday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Mon Oct 20 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Tue Oct 21 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Tuesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Tue Oct 21 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Wed Oct 22 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Wednesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Wed Oct 22 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Thu Oct 23 19:00:00 AEDT 2025",
+                    "formattedClosingTime": "7:00 PM",
+                    "formattedDay": "Thursday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Thu Oct 23 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Fri Oct 24 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Friday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Fri Oct 24 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sat Oct 25 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Saturday",
+                    "formattedOpeningTime": "8:00 AM",
+                    "openingDateTime": "Sat Oct 25 08:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sun Oct 26 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Sunday",
+                    "formattedOpeningTime": "11:00 AM",
+                    "openingDateTime": "Sun Oct 26 11:00:00 AEDT 2025"
+                  }
+                ]
+              }
+            ],
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "1",
+          "storeNumber": "5076",
+          "timeZone": "Australia/West",
+          "type": "Target",
+          "url": "/store/wa/bull-creek/5076"
+        },
+        {
+          "acceptCNC": false,
+          "acceptLayBy": false,
+          "address": {
+            "addressValidated": false,
+            "building": "Warwick Grove Shopping Centre",
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Cnr Beach & Erindale Rds, Warwick, 6024",
+            "id": "11979123130391",
+            "line1": "Cnr Beach & Erindale Rds",
+            "phone": "08 9260 1500",
+            "postalCode": "6024",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Warwick"
+          },
+          "closed": false,
+          "collectionPoint": true,
+          "description": "Warwick Grove",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Warwick+Grove+Cnr+Beach+&+Erindale+Rds+Warwick+6024+Australia",
+          "displayName": "Kmart Warwick Grove",
+          "features": {},
+          "formattedDistance": "12.9 km",
+          "geoPoint": {
+            "latitude": -31.8438482,
+            "longitude": 115.8102364
+          },
+          "name": "Warwick Grove",
+          "openingHours": {
+            "code": "opening-schedule-1022",
+            "name": "opening-schedule-1022",
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "3",
+          "storeNumber": "1022",
+          "timeZone": "Australia/West",
+          "type": "Kmart",
+          "url": "/store/wa/warwick-grove/1022"
+        },
+        {
+          "acceptCNC": false,
+          "acceptLayBy": false,
+          "address": {
+            "addressValidated": false,
+            "building": "Kardinya Plaza Shopping Centre",
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Cnr North Lake Rd & South St, Kardinya, 6163",
+            "id": "11978969874455",
+            "line1": "Cnr North Lake Rd & South St",
+            "phone": "08 9338 8200",
+            "postalCode": "6163",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Kardinya"
+          },
+          "closed": false,
+          "collectionPoint": true,
+          "description": "Kardinya",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Kardinya+Cnr+North+Lake+Rd+&+South+St+Kardinya+6163+Australia",
+          "displayName": "Kmart Kardinya",
+          "features": {},
+          "formattedDistance": "13.6 km",
+          "geoPoint": {
+            "latitude": -32.0681,
+            "longitude": 115.816184
+          },
+          "name": "Kardinya",
+          "openingHours": {
+            "code": "opening-schedule-1024",
+            "name": "opening-schedule-1024",
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "3",
+          "storeNumber": "1024",
+          "timeZone": "Australia/West",
+          "type": "Kmart",
+          "url": "/store/wa/kardinya/1024"
+        },
+        {
+          "acceptCNC": true,
+          "acceptLayBy": true,
+          "address": {
+            "addressValidated": false,
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Cnr. Queen & Adelaide Streets, Fremantle, 6160",
+            "id": "8796586377239",
+            "line1": "Cnr. Queen & Adelaide Streets",
+            "phone": "08 9336 9800",
+            "postalCode": "6160",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Fremantle"
+          },
+          "closed": false,
+          "collectionPoint": false,
+          "description": "Fremantle",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Fremantle+Cnr.+Queen+&+Adelaide+Streets+Fremantle+6160+Australia",
+          "features": {},
+          "formattedDistance": "15.5 km",
+          "geoPoint": {
+            "latitude": -32.052679,
+            "longitude": 115.748091
+          },
+          "longLeadTime": "7",
+          "name": "Fremantle",
+          "openingHours": {
+            "code": "opening-schedule-5036",
+            "name": "opening-schedule-5036",
+            "targetOpeningWeeks": [
+              {
+                "formattedEndDate": "Sun, 26 Oct",
+                "formattedStartDate": "Mon, 20 Oct",
+                "targetOpeningDayList": [
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Mon Oct 20 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Monday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Mon Oct 20 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Tue Oct 21 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Tuesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Tue Oct 21 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Wed Oct 22 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Wednesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Wed Oct 22 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Thu Oct 23 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Thursday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Thu Oct 23 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Fri Oct 24 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Friday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Fri Oct 24 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sat Oct 25 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Saturday",
+                    "formattedOpeningTime": "8:00 AM",
+                    "openingDateTime": "Sat Oct 25 08:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sun Oct 26 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Sunday",
+                    "formattedOpeningTime": "11:00 AM",
+                    "openingDateTime": "Sun Oct 26 11:00:00 AEDT 2025"
+                  }
+                ]
+              }
+            ],
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "1",
+          "storeNumber": "5036",
+          "timeZone": "Australia/West",
+          "type": "Target",
+          "url": "/store/wa/fremantle/5036"
+        },
+        {
+          "acceptCNC": true,
+          "acceptLayBy": true,
+          "address": {
+            "addressValidated": false,
+            "building": "Midland Gate Shopping Centre",
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Great Eastern Highway, Midland, 6056",
+            "id": "8796621996055",
+            "line1": "Great Eastern Highway",
+            "phone": "08 9250 0900",
+            "postalCode": "6056",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Midland"
+          },
+          "closed": false,
+          "collectionPoint": false,
+          "description": "Midland",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Midland+Great+Eastern+Highway+Midland+6056+Australia",
+          "features": {},
+          "formattedDistance": "15.6 km",
+          "geoPoint": {
+            "latitude": -31.889978,
+            "longitude": 116.009518
+          },
+          "longLeadTime": "7",
+          "name": "Midland",
+          "openingHours": {
+            "code": "opening-schedule-5069",
+            "name": "opening-schedule-5069",
+            "targetOpeningWeeks": [
+              {
+                "formattedEndDate": "Sun, 26 Oct",
+                "formattedStartDate": "Mon, 20 Oct",
+                "targetOpeningDayList": [
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Mon Oct 20 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Monday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Mon Oct 20 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Tue Oct 21 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Tuesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Tue Oct 21 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Wed Oct 22 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Wednesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Wed Oct 22 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Thu Oct 23 19:00:00 AEDT 2025",
+                    "formattedClosingTime": "7:00 PM",
+                    "formattedDay": "Thursday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Thu Oct 23 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Fri Oct 24 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Friday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Fri Oct 24 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sat Oct 25 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Saturday",
+                    "formattedOpeningTime": "8:00 AM",
+                    "openingDateTime": "Sat Oct 25 08:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sun Oct 26 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Sunday",
+                    "formattedOpeningTime": "11:00 AM",
+                    "openingDateTime": "Sun Oct 26 11:00:00 AEDT 2025"
+                  }
+                ]
+              }
+            ],
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "1",
+          "storeNumber": "5069",
+          "timeZone": "Australia/West",
+          "type": "Target",
+          "url": "/store/wa/midland/5069"
+        },
+        {
+          "acceptCNC": false,
+          "acceptLayBy": false,
+          "address": {
+            "addressValidated": false,
+            "building": "Midland Gate Shopping Centre",
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Great Eastern Hwy, Midland, 6056",
+            "id": "11979122901015",
+            "line1": "Great Eastern Hwy",
+            "phone": "08 6274 2800",
+            "postalCode": "6056",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Midland"
+          },
+          "closed": false,
+          "collectionPoint": true,
+          "description": "Midland",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Midland+Great+Eastern+Hwy+Midland+6056+Australia",
+          "displayName": "Kmart Midland",
+          "features": {},
+          "formattedDistance": "15.6 km",
+          "geoPoint": {
+            "latitude": -31.889817,
+            "longitude": 116.010328
+          },
+          "name": "Midland",
+          "openingHours": {
+            "code": "opening-schedule-1052",
+            "name": "opening-schedule-1052",
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "3",
+          "storeNumber": "1052",
+          "timeZone": "Australia/West",
+          "type": "Kmart",
+          "url": "/store/wa/midland/1052"
+        },
+        {
+          "acceptCNC": false,
+          "acceptLayBy": false,
+          "address": {
+            "addressValidated": false,
+            "building": "Maddington Metro Shopping Centre",
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Cnr Olga Rd & Atfield St, Maddington, 6109",
+            "id": "11978246946839",
+            "line1": "Cnr Olga Rd & Atfield St",
+            "phone": "08 9334 4300",
+            "postalCode": "6109",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Maddington"
+          },
+          "closed": false,
+          "collectionPoint": true,
+          "description": "Maddington",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Maddington+Cnr+Olga+Rd+&+Atfield+St+Maddington+6109+Australia",
+          "displayName": "Kmart Maddington",
+          "features": {},
+          "formattedDistance": "15.8 km",
+          "geoPoint": {
+            "latitude": -32.053239,
+            "longitude": 115.978256
+          },
+          "name": "Maddington",
+          "openingHours": {
+            "code": "opening-schedule-1057",
+            "name": "opening-schedule-1057",
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "3",
+          "storeNumber": "1057",
+          "timeZone": "Australia/West",
+          "type": "Kmart",
+          "url": "/store/wa/maddington/1057"
+        },
+        {
+          "acceptCNC": false,
+          "acceptLayBy": false,
+          "address": {
+            "addressValidated": false,
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "816 Beerliar Drive, Success, 6164",
+            "id": "11218259083287",
+            "line1": "816 Beerliar Drive",
+            "phone": "08 9395 3900",
+            "postalCode": "6164",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Success"
+          },
+          "closed": false,
+          "collectionPoint": true,
+          "description": "Success",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Success+816+Beerliar+Drive+Success+6164+Australia",
+          "displayName": "Kmart Success",
+          "features": {},
+          "formattedDistance": "19.9 km",
+          "geoPoint": {
+            "latitude": -32.130987,
+            "longitude": 115.856841
+          },
+          "name": "Success",
+          "openingHours": {
+            "code": "opening-schedule-1362",
+            "name": "opening-schedule-1362",
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "3",
+          "storeNumber": "1362",
+          "timeZone": "Australia/West",
+          "type": "Kmart",
+          "url": "/store/wa/success/1362"
+        },
+        {
+          "acceptCNC": false,
+          "acceptLayBy": false,
+          "address": {
+            "addressValidated": false,
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "11 Main Street, Ellenbrook, 6069",
+            "id": "11979246338071",
+            "line1": "11 Main Street",
+            "phone": "08 6497 4900",
+            "postalCode": "6069",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Ellenbrook"
+          },
+          "closed": false,
+          "collectionPoint": true,
+          "description": "Ellenbrook",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Ellenbrook+11+Main+Street+Ellenbrook+6069+Australia",
+          "displayName": "Kmart Ellenbrook",
+          "features": {},
+          "formattedDistance": "21.3 km",
+          "geoPoint": {
+            "latitude": -31.782888,
+            "longitude": 115.969751
+          },
+          "name": "Ellenbrook",
+          "openingHours": {
+            "code": "opening-schedule-1282",
+            "name": "opening-schedule-1282",
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "3",
+          "storeNumber": "1282",
+          "timeZone": "Australia/West",
+          "type": "Kmart",
+          "url": "/store/wa/ellenbrook/1282"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.target.com.au/rest/v2/target/users/anonymous/delivery/estimates/71824284?calculateCost=true&modes=ED&fields=DEFAULT&postcode=6005",
+    "status": 200,
+    "body": {
+      "deliveryModeEstimates": [
+        {
+          "mode": "ED",
+          "unfulfilled": [
+            {
+              "quantity": 1,
+              "sku": "71824284"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.target.com.au/rest/v2/target/users/anonymous/delivery/estimates/71824284?calculateCost=true&modes=HD&fields=DEFAULT&postcode=6005",
+    "status": 200,
+    "body": {
+      "deliveryModeEstimates": [
+        {
+          "mode": "HD",
+          "unfulfilled": [
+            {
+              "quantity": 1,
+              "sku": "71824284"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://api.target.com.au/location/search?searchTerm=Subiaco,+WA,+6008",
+    "status": 200,
+    "body": {
+      "results": [
+        {
+          "postalCode": 6008,
+          "suburb": "Subiaco East",
+          "state": "Wa",
+          "encGeo": "hP3jwvdAuo0bwhJ-9HcIkybO8l7nhAMLD9hgdj82L2p4"
+        },
+        {
+          "postalCode": 6008,
+          "suburb": "Subiaco",
+          "state": "Wa",
+          "encGeo": "hP3jwvdBs4MbwhJ-9HcKnC7xgYCNTehMC6J34PXc56NN"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.target.com.au/rest/v2/target/users/anonymous/delivery/estimates/71824284?calculateCost=true&modes=CC&fields=DEFAULT&storeNumber=5429",
+    "status": 200,
+    "body": {
+      "deliveryModeEstimates": [
+        {
+          "mode": "CC",
+          "unfulfilled": [
+            {
+              "quantity": 1,
+              "sku": "71824284"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://api.target.com.au/lz3inventory/stockStatus/71824284?modes=HD,ED,CC,CONSOLIDATED_STORES_SOH&postcode=6005&storeNumber=5429&locationRefs=5429",
+    "status": 200,
+    "body": {
+      "stock": [
+        {
+          "sku": "71824284",
+          "hd": "outOfStock",
+          "ed": "outOfStock",
+          "cc": "outOfStock",
+          "consolidated_stores_soh": "inStock",
+          "storeSoh": {
+            "5429": "outOfStock"
+          },
+          "ats": "outOfStock"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.target.com.au/rest/v2/target/stores/nearest/store/5429",
+    "status": 200,
+    "body": {
+      "pagination": {
+        "currentPage": 0,
+        "pageSize": 20,
+        "totalPages": 1,
+        "totalResults": 5
+      },
+      "stores": [
+        {
+          "acceptCNC": true,
+          "acceptLayBy": true,
+          "address": {
+            "addressValidated": false,
+            "building": "Westfield Innaloo City Centre",
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Oswald Street, Innaloo, Innaloo, 6018",
+            "id": "8796621864983",
+            "line1": "Oswald Street, Innaloo",
+            "phone": "08 9205 3500",
+            "postalCode": "6018",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Innaloo"
+          },
+          "closed": false,
+          "collectionPoint": false,
+          "description": "Innaloo",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Innaloo+Oswald+Street,+Innaloo+Innaloo+6018+Australia",
+          "features": {},
+          "formattedDistance": "5.3 km",
+          "geoPoint": {
+            "latitude": -31.900326,
+            "longitude": 115.800566
+          },
+          "longLeadTime": "7",
+          "name": "Innaloo",
+          "openingHours": {
+            "code": "opening-schedule-5065",
+            "name": "opening-schedule-5065",
+            "targetOpeningWeeks": [
+              {
+                "formattedEndDate": "Sun, 26 Oct",
+                "formattedStartDate": "Mon, 20 Oct",
+                "targetOpeningDayList": [
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Mon Oct 20 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Monday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Mon Oct 20 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Tue Oct 21 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Tuesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Tue Oct 21 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Wed Oct 22 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Wednesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Wed Oct 22 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Thu Oct 23 19:00:00 AEDT 2025",
+                    "formattedClosingTime": "7:00 PM",
+                    "formattedDay": "Thursday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Thu Oct 23 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Fri Oct 24 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Friday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Fri Oct 24 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sat Oct 25 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Saturday",
+                    "formattedOpeningTime": "8:00 AM",
+                    "openingDateTime": "Sat Oct 25 08:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sun Oct 26 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Sunday",
+                    "formattedOpeningTime": "11:00 AM",
+                    "openingDateTime": "Sun Oct 26 11:00:00 AEDT 2025"
+                  }
+                ]
+              }
+            ],
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "1",
+          "storeNumber": "5065",
+          "timeZone": "Australia/West",
+          "type": "Target",
+          "url": "/store/wa/innaloo/5065"
+        },
+        {
+          "acceptCNC": true,
+          "acceptLayBy": true,
+          "address": {
+            "addressValidated": false,
+            "building": "Galleria Shopping Centre",
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Collier Road, Morley, 6062",
+            "id": "8796620881943",
+            "line1": "Collier Road",
+            "phone": "08 9375 4200",
+            "postalCode": "6062",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Morley"
+          },
+          "closed": false,
+          "collectionPoint": false,
+          "description": "Morley",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Morley+Collier+Road+Morley+6062+Australia",
+          "features": {},
+          "formattedDistance": "8.9 km",
+          "geoPoint": {
+            "latitude": -31.897717,
+            "longitude": 115.900313
+          },
+          "longLeadTime": "7",
+          "name": "Morley",
+          "openingHours": {
+            "code": "opening-schedule-5043",
+            "name": "opening-schedule-5043",
+            "targetOpeningWeeks": [
+              {
+                "formattedEndDate": "Sun, 26 Oct",
+                "formattedStartDate": "Mon, 20 Oct",
+                "targetOpeningDayList": [
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Mon Oct 20 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Monday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Mon Oct 20 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Tue Oct 21 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Tuesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Tue Oct 21 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Wed Oct 22 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Wednesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Wed Oct 22 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Thu Oct 23 21:00:00 AEDT 2025",
+                    "formattedClosingTime": "9:00 PM",
+                    "formattedDay": "Thursday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Thu Oct 23 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Fri Oct 24 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Friday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Fri Oct 24 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sat Oct 25 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Saturday",
+                    "formattedOpeningTime": "8:00 AM",
+                    "openingDateTime": "Sat Oct 25 08:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sun Oct 26 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Sunday",
+                    "formattedOpeningTime": "11:00 AM",
+                    "openingDateTime": "Sun Oct 26 11:00:00 AEDT 2025"
+                  }
+                ]
+              }
+            ],
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "1",
+          "storeNumber": "5043",
+          "timeZone": "Australia/West",
+          "type": "Target",
+          "url": "/store/wa/morley/5043"
+        },
+        {
+          "acceptCNC": true,
+          "acceptLayBy": true,
+          "address": {
+            "addressValidated": false,
+            "building": "Westfield Carousel",
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Albany Highway, Cannington, 6107",
+            "id": "8796620816407",
+            "line1": "Albany Highway",
+            "phone": "08 9356 4400",
+            "postalCode": "6107",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Cannington"
+          },
+          "closed": false,
+          "collectionPoint": false,
+          "description": "Carousel",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Carousel+Albany+Highway+Cannington+6107+Australia",
+          "features": {},
+          "formattedDistance": "13.6 km",
+          "geoPoint": {
+            "latitude": -32.017361,
+            "longitude": 115.938282
+          },
+          "longLeadTime": "7",
+          "name": "Carousel",
+          "openingHours": {
+            "code": "opening-schedule-5045",
+            "name": "opening-schedule-5045",
+            "targetOpeningWeeks": [
+              {
+                "formattedEndDate": "Sun, 26 Oct",
+                "formattedStartDate": "Mon, 20 Oct",
+                "targetOpeningDayList": [
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Mon Oct 20 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Monday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Mon Oct 20 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Tue Oct 21 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Tuesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Tue Oct 21 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Wed Oct 22 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Wednesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Wed Oct 22 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Thu Oct 23 21:00:00 AEDT 2025",
+                    "formattedClosingTime": "9:00 PM",
+                    "formattedDay": "Thursday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Thu Oct 23 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Fri Oct 24 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Friday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Fri Oct 24 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sat Oct 25 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Saturday",
+                    "formattedOpeningTime": "8:00 AM",
+                    "openingDateTime": "Sat Oct 25 08:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sun Oct 26 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Sunday",
+                    "formattedOpeningTime": "11:00 AM",
+                    "openingDateTime": "Sun Oct 26 11:00:00 AEDT 2025"
+                  }
+                ]
+              }
+            ],
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "1",
+          "storeNumber": "5045",
+          "timeZone": "Australia/West",
+          "type": "Target",
+          "url": "/store/wa/carousel/5045"
+        },
+        {
+          "acceptCNC": true,
+          "acceptLayBy": true,
+          "address": {
+            "addressValidated": false,
+            "building": "Bullcreek Shopping Centre",
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Cnr. Benningfield Road & South Street, Bull Creek, 6149",
+            "id": "8796622356503",
+            "line1": "Cnr. Benningfield Road & South Street",
+            "phone": "08 9313 9400",
+            "postalCode": "6149",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Bull Creek"
+          },
+          "closed": false,
+          "collectionPoint": false,
+          "description": "Bull Creek",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Bull+Creek+Cnr.+Benningfield+Road+&+South+Street+Bull+Creek+6149+Australia",
+          "features": {},
+          "formattedDistance": "13.7 km",
+          "geoPoint": {
+            "latitude": -32.064095,
+            "longitude": 115.856377
+          },
+          "longLeadTime": "7",
+          "name": "Bull Creek",
+          "openingHours": {
+            "code": "opening-schedule-5076",
+            "name": "opening-schedule-5076",
+            "targetOpeningWeeks": [
+              {
+                "formattedEndDate": "Sun, 26 Oct",
+                "formattedStartDate": "Mon, 20 Oct",
+                "targetOpeningDayList": [
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Mon Oct 20 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Monday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Mon Oct 20 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Tue Oct 21 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Tuesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Tue Oct 21 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Wed Oct 22 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Wednesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Wed Oct 22 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Thu Oct 23 19:00:00 AEDT 2025",
+                    "formattedClosingTime": "7:00 PM",
+                    "formattedDay": "Thursday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Thu Oct 23 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Fri Oct 24 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Friday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Fri Oct 24 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sat Oct 25 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Saturday",
+                    "formattedOpeningTime": "8:00 AM",
+                    "openingDateTime": "Sat Oct 25 08:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sun Oct 26 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Sunday",
+                    "formattedOpeningTime": "11:00 AM",
+                    "openingDateTime": "Sun Oct 26 11:00:00 AEDT 2025"
+                  }
+                ]
+              }
+            ],
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "1",
+          "storeNumber": "5076",
+          "timeZone": "Australia/West",
+          "type": "Target",
+          "url": "/store/wa/bull-creek/5076"
+        },
+        {
+          "acceptCNC": true,
+          "acceptLayBy": true,
+          "address": {
+            "addressValidated": false,
+            "country": {
+              "isocode": "AU",
+              "name": "Australia"
+            },
+            "defaultAddress": false,
+            "district": "WA",
+            "formattedAddress": "Cnr. Queen & Adelaide Streets, Fremantle, 6160",
+            "id": "8796586377239",
+            "line1": "Cnr. Queen & Adelaide Streets",
+            "phone": "08 9336 9800",
+            "postalCode": "6160",
+            "shippingAddress": false,
+            "state": "WA",
+            "town": "Fremantle"
+          },
+          "closed": false,
+          "collectionPoint": false,
+          "description": "Fremantle",
+          "directionUrl": "https://maps.google.com.au?saddr=Current+Location&daddr=Target+Fremantle+Cnr.+Queen+&+Adelaide+Streets+Fremantle+6160+Australia",
+          "features": {},
+          "formattedDistance": "14 km",
+          "geoPoint": {
+            "latitude": -32.052679,
+            "longitude": 115.748091
+          },
+          "longLeadTime": "7",
+          "name": "Fremantle",
+          "openingHours": {
+            "code": "opening-schedule-5036",
+            "name": "opening-schedule-5036",
+            "targetOpeningWeeks": [
+              {
+                "formattedEndDate": "Sun, 26 Oct",
+                "formattedStartDate": "Mon, 20 Oct",
+                "targetOpeningDayList": [
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Mon Oct 20 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Monday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Mon Oct 20 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Tue Oct 21 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Tuesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Tue Oct 21 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Wed Oct 22 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Wednesday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Wed Oct 22 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Thu Oct 23 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Thursday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Thu Oct 23 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Fri Oct 24 18:00:00 AEDT 2025",
+                    "formattedClosingTime": "6:00 PM",
+                    "formattedDay": "Friday",
+                    "formattedOpeningTime": "9:00 AM",
+                    "openingDateTime": "Fri Oct 24 09:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sat Oct 25 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Saturday",
+                    "formattedOpeningTime": "8:00 AM",
+                    "openingDateTime": "Sat Oct 25 08:00:00 AEDT 2025"
+                  },
+                  {
+                    "allDayTrade": false,
+                    "closed": false,
+                    "closingDateTime": "Sun Oct 26 17:00:00 AEDT 2025",
+                    "formattedClosingTime": "5:00 PM",
+                    "formattedDay": "Sunday",
+                    "formattedOpeningTime": "11:00 AM",
+                    "openingDateTime": "Sun Oct 26 11:00:00 AEDT 2025"
+                  }
+                ]
+              }
+            ],
+            "weekDayOpeningList": [
+              {
+                "closed": true,
+                "weekDay": "Sun"
+              },
+              {
+                "closed": true,
+                "weekDay": "Mon"
+              },
+              {
+                "closed": true,
+                "weekDay": "Tue"
+              },
+              {
+                "closed": true,
+                "weekDay": "Wed"
+              },
+              {
+                "closed": true,
+                "weekDay": "Thu"
+              },
+              {
+                "closed": true,
+                "weekDay": "Fri"
+              },
+              {
+                "closed": true,
+                "weekDay": "Sat"
+              }
+            ]
+          },
+          "shortLeadTime": "1",
+          "storeNumber": "5036",
+          "timeZone": "Australia/West",
+          "type": "Target",
+          "url": "/store/wa/fremantle/5036"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.target.com.au/rest/v2/target/stocks/?fields=FULL&deliveryModes=HD,ED,CC,CONSOLIDATED_STORES_SOH&locations=5065,5043,5045,5076,5036&sku=71824284",
+    "status": 200,
+    "body": {
+      "stocks": [
+        {
+          "ats": false,
+          "atsCc": "outOfStock",
+          "atsEd": "outOfStock",
+          "atsHd": "outOfStock",
+          "consolidatedStoreStock": "inStock",
+          "sku": "71824284",
+          "storeSoh": {
+            "entry": [
+              {
+                "key": "5065",
+                "value": "outOfStock"
+              },
+              {
+                "key": "5043",
+                "value": "outOfStock"
+              },
+              {
+                "key": "5045",
+                "value": "outOfStock"
+              },
+              {
+                "key": "5076",
+                "value": "outOfStock"
+              },
+              {
+                "key": "5036",
+                "value": "outOfStock"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.target.com.au/rest/v2/target/users/anonymous/delivery/estimates/71824284?calculateCost=true&modes=CC&fields=DEFAULT&storeNumber=5429",
+    "status": 200,
+    "body": {
+      "deliveryModeEstimates": [
+        {
+          "mode": "CC",
+          "unfulfilled": [
+            {
+              "quantity": 1,
+              "sku": "71824284"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.target.com.au/rest/v2/target/stores/location/geo/hP3jwvdAuo0bwhJ-9HcIkybO8l7nhAMLD9hgdj82L2p4?fields=stores(name,storeNumber,type,formattedDistance)&sort=asc&pageSize=1000",
+    "status": 200,
+    "body": {
+      "stores": [
+        {
+          "formattedDistance": "1.6 km",
+          "name": "Subiaco",
+          "storeNumber": "5429",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "5.8 km",
+          "name": "Innaloo",
+          "storeNumber": "5065",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "10.5 km",
+          "name": "Morley",
+          "storeNumber": "5043",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "12.6 km",
+          "name": "Fremantle",
+          "storeNumber": "5036",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "13.2 km",
+          "name": "Bull Creek",
+          "storeNumber": "5076",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "14.2 km",
+          "name": "Carousel",
+          "storeNumber": "5045",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "20.2 km",
+          "name": "Midland",
+          "storeNumber": "5069",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "23.4 km",
+          "name": "Joondalup",
+          "storeNumber": "5180",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "29.6 km",
+          "name": "Armadale",
+          "storeNumber": "5287",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "37.9 km",
+          "name": "Rockingham",
+          "storeNumber": "5128",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "65.2 km",
+          "name": "Mandurah",
+          "storeNumber": "5430",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "153.3 km",
+          "name": "Bunbury",
+          "storeNumber": "5173",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "1,997.9 km",
+          "name": "Alice Springs",
+          "storeNumber": "5213",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,130.1 km",
+          "name": "West Lakes",
+          "storeNumber": "5394",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,133.7 km",
+          "name": "Reynella",
+          "storeNumber": "5134",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,135.4 km",
+          "name": "Marion",
+          "storeNumber": "5127",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,137.8 km",
+          "name": "Edwardstown",
+          "storeNumber": "5026",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,140.1 km",
+          "name": "Sefton Park",
+          "storeNumber": "5047",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,140.5 km",
+          "name": "Centrepoint",
+          "storeNumber": "5009",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,140.8 km",
+          "name": "Unley",
+          "storeNumber": "5197",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,141.6 km",
+          "name": "Hollywood Plaza",
+          "storeNumber": "5142",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,145.6 km",
+          "name": "Elizabeth",
+          "storeNumber": "5077",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,146.7 km",
+          "name": "Newton",
+          "storeNumber": "5024",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,148 km",
+          "name": "Tea Tree Plaza",
+          "storeNumber": "5021",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,152.6 km",
+          "name": "Gawler",
+          "storeNumber": "5227",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,464.4 km",
+          "name": "Mildura",
+          "storeNumber": "5194",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,476.5 km",
+          "name": "Horsham",
+          "storeNumber": "5293",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,522.5 km",
+          "name": "Warrnambool",
+          "storeNumber": "5023",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,631.5 km",
+          "name": "Ballarat",
+          "storeNumber": "5004",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,657.3 km",
+          "name": "Palmerston",
+          "storeNumber": "5146",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,662.7 km",
+          "name": "Bendigo",
+          "storeNumber": "5008",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,679.3 km",
+          "name": "Waurn Ponds",
+          "storeNumber": "5100",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,682.4 km",
+          "name": "Geelong",
+          "storeNumber": "5001",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,707 km",
+          "name": "Werribee",
+          "storeNumber": "5423",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,708.4 km",
+          "name": "Sunbury",
+          "storeNumber": "5226",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,712.1 km",
+          "name": "Point Cook",
+          "storeNumber": "5269",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,714.1 km",
+          "name": "Brimbank Central",
+          "storeNumber": "5158",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,723.4 km",
+          "name": "Airport West",
+          "storeNumber": "5168",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,736.6 km",
+          "name": "Northland",
+          "storeNumber": "5121",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,739.5 km",
+          "name": "Plenty Valley",
+          "storeNumber": "5290",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,740.7 km",
+          "name": "Southland",
+          "storeNumber": "5086",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,742.6 km",
+          "name": "Greensborough",
+          "storeNumber": "5179",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,742.6 km",
+          "name": "Chadstone",
+          "storeNumber": "5419",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,748.7 km",
+          "name": "Frankston",
+          "storeNumber": "5098",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,749.3 km",
+          "name": "Forest Hill",
+          "storeNumber": "5278",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,749.6 km",
+          "name": "Glen Waverley",
+          "storeNumber": "5099",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,753.6 km",
+          "name": "Somerville",
+          "storeNumber": "5220",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,754.7 km",
+          "name": "Eastland",
+          "storeNumber": "5420",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,756.1 km",
+          "name": "Knox City",
+          "storeNumber": "5058",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,761.3 km",
+          "name": "Shepparton",
+          "storeNumber": "5007",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,761.5 km",
+          "name": "Chirnside Park",
+          "storeNumber": "5157",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,762.2 km",
+          "name": "Cranbourne",
+          "storeNumber": "5417",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,763.2 km",
+          "name": "Fountain Gate",
+          "storeNumber": "5097",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,823.8 km",
+          "name": "Griffith",
+          "storeNumber": "5147",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,843.9 km",
+          "name": "Wangaratta",
+          "storeNumber": "5411",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,861.6 km",
+          "name": "Burnie",
+          "storeNumber": "5273",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,894 km",
+          "name": "Wodonga",
+          "storeNumber": "5006",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,896.9 km",
+          "name": "Albury",
+          "storeNumber": "5005",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,917.8 km",
+          "name": "Sale",
+          "storeNumber": "5075",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,970.4 km",
+          "name": "Mowbray",
+          "storeNumber": "5391",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "2,971.1 km",
+          "name": "Launceston",
+          "storeNumber": "5028",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,019.5 km",
+          "name": "Hobart",
+          "storeNumber": "5161",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,093 km",
+          "name": "Tuggeranong",
+          "storeNumber": "5162",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,093.7 km",
+          "name": "Belconnen",
+          "storeNumber": "5123",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,157 km",
+          "name": "Goulburn",
+          "storeNumber": "5122",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,209.6 km",
+          "name": "Lithgow",
+          "storeNumber": "5277",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,256.6 km",
+          "name": "Narellan",
+          "storeNumber": "5424",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,260.7 km",
+          "name": "Shellharbour",
+          "storeNumber": "5154",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,262 km",
+          "name": "Macarthur",
+          "storeNumber": "5303",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,267 km",
+          "name": "Wollongong",
+          "storeNumber": "5407",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,267.5 km",
+          "name": "Mt. Druitt",
+          "storeNumber": "5125",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,271.6 km",
+          "name": "Glenquarie",
+          "storeNumber": "5395",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,275.6 km",
+          "name": "Blacktown",
+          "storeNumber": "5178",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,282.2 km",
+          "name": "Merrylands",
+          "storeNumber": "5219",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,283.5 km",
+          "name": "Parramatta",
+          "storeNumber": "5144",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,285.2 km",
+          "name": "Castle Hill",
+          "storeNumber": "5177",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,288.9 km",
+          "name": "Carlingford",
+          "storeNumber": "5292",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,292.7 km",
+          "name": "Burwood",
+          "storeNumber": "5171",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,294.2 km",
+          "name": "Hornsby",
+          "storeNumber": "5169",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,296.4 km",
+          "name": "Leichhardt",
+          "storeNumber": "5055",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,300.5 km",
+          "name": "Broadway",
+          "storeNumber": "5286",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,300.7 km",
+          "name": "Chatswood",
+          "storeNumber": "5091",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,302.7 km",
+          "name": "Eastgardens",
+          "storeNumber": "5095",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,322.4 km",
+          "name": "Tamworth",
+          "storeNumber": "5175",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,328 km",
+          "name": "Tuggerah",
+          "storeNumber": "5164",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,329.9 km",
+          "name": "Cessnock",
+          "storeNumber": "5011",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,355.2 km",
+          "name": "Glendale",
+          "storeNumber": "5016",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,359.3 km",
+          "name": "Charlestown",
+          "storeNumber": "5136",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,361.2 km",
+          "name": "Kotara",
+          "storeNumber": "5288",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,442.7 km",
+          "name": "Earlville",
+          "storeNumber": "5010",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,446.4 km",
+          "name": "Cairns City",
+          "storeNumber": "5436",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,448.9 km",
+          "name": "Taree",
+          "storeNumber": "5228",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,500.4 km",
+          "name": "Port Macquarie",
+          "storeNumber": "5145",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,512.9 km",
+          "name": "Toowoomba",
+          "storeNumber": "5139",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,517.1 km",
+          "name": "Mackay",
+          "storeNumber": "5003",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,536.3 km",
+          "name": "Rockhampton",
+          "storeNumber": "5049",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,544 km",
+          "name": "Grafton",
+          "storeNumber": "5271",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,547.4 km",
+          "name": "Coffs Harbour",
+          "storeNumber": "5002",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,587.9 km",
+          "name": "Ipswich",
+          "storeNumber": "5276",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,597.3 km",
+          "name": "Redbank Plains",
+          "storeNumber": "5431",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,599.2 km",
+          "name": "Springfield Orion",
+          "storeNumber": "5426",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,607 km",
+          "name": "Mount Ommaney",
+          "storeNumber": "5298",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,611.6 km",
+          "name": "Indooroopilly",
+          "storeNumber": "5380",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,612.8 km",
+          "name": "Browns Plains",
+          "storeNumber": "5133",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,615.2 km",
+          "name": "Brookside",
+          "storeNumber": "5434",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,617.5 km",
+          "name": "Brisbane",
+          "storeNumber": "5184",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,617.7 km",
+          "name": "Buranda",
+          "storeNumber": "5059",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,619.8 km",
+          "name": "Strathpine",
+          "storeNumber": "5172",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,620.3 km",
+          "name": "Mt. Gravatt",
+          "storeNumber": "5414",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,621.1 km",
+          "name": "Chermside",
+          "storeNumber": "5166",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,622.6 km",
+          "name": "Springwood",
+          "storeNumber": "5083",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,622.7 km",
+          "name": "Morayfield",
+          "storeNumber": "5156",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,623.9 km",
+          "name": "Carindale",
+          "storeNumber": "5233",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,624.3 km",
+          "name": "North Lakes",
+          "storeNumber": "5167",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,631.6 km",
+          "name": "Capalaba",
+          "storeNumber": "5135",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,632.2 km",
+          "name": "Robina",
+          "storeNumber": "5126",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,632.4 km",
+          "name": "Helensvale",
+          "storeNumber": "5198",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,632.8 km",
+          "name": "Coomera",
+          "storeNumber": "5435",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,637.8 km",
+          "name": "Pacific Fair",
+          "storeNumber": "5415",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,638.8 km",
+          "name": "Runaway Bay",
+          "storeNumber": "5027",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,643.6 km",
+          "name": "Bribie Island",
+          "storeNumber": "5195",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,644.5 km",
+          "name": "Tweed Heads",
+          "storeNumber": "5040",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,647.9 km",
+          "name": "Bundaberg",
+          "storeNumber": "5048",
+          "type": "Target"
+        },
+        {
+          "formattedDistance": "3,651 km",
+          "name": "Maroochydore",
+          "storeNumber": "5038",
+          "type": "Target"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://api.target.com.au/lz3inventory/stockStatus/71824284?modes=CC,+CONSOLIDATED_STORES_SOH&storeNumber=5429,5065,5043,5036,5076,5045,5069,5180,5287,5128,5430,5173,5213,5394,5134,5127,5026,5047,5009,5197,5142,5077,5024,5021,5227,5194,5293,5023,5004,5146,5008,5100,5001,5423,5226,5269,5158,5168,5121,5290,5086,5179,5419,5098,5278,5099,5220,5420,5058,5007,5157,5417,5097,5147,5411,5273,5006,5005,5075,5391,5028,5161,5162,5123,5122,5277,5424,5154,5303,5407,5125,5395,5178,5219,5144,5177,5292,5171,5169,5055,5286,5091,5095,5175,5164,5011,5016,5136,5288,5010,5436,5228,5145,5139,5003,5049,5271,5002,5276,5431,5426,5298,5380,5133,5434,5184,5059,5172,5414,5166,5083,5156,5233,5167,5135,5126,5198,5435,5415,5027,5195,5040,5048,5038&locationRefs=5429,5065,5043,5036,5076,5045,5069,5180,5287,5128,5430,5173,5213,5394,5134,5127,5026,5047,5009,5197,5142,5077,5024,5021,5227,5194,5293,5023,5004,5146,5008,5100,5001,5423,5226,5269,5158,5168,5121,5290,5086,5179,5419,5098,5278,5099,5220,5420,5058,5007,5157,5417,5097,5147,5411,5273,5006,5005,5075,5391,5028,5161,5162,5123,5122,5277,5424,5154,5303,5407,5125,5395,5178,5219,5144,5177,5292,5171,5169,5055,5286,5091,5095,5175,5164,5011,5016,5136,5288,5010,5436,5228,5145,5139,5003,5049,5271,5002,5276,5431,5426,5298,5380,5133,5434,5184,5059,5172,5414,5166,5083,5156,5233,5167,5135,5126,5198,5435,5415,5027,5195,5040,5048,5038",
+    "status": 200,
+    "body": {
+      "stock": [
+        {
+          "sku": "71824284",
+          "cc": "outOfStock",
+          "storeSoh": {
+            "5001": "outOfStock",
+            "5002": "outOfStock",
+            "5003": "outOfStock",
+            "5004": "outOfStock",
+            "5005": "outOfStock",
+            "5006": "outOfStock",
+            "5007": "outOfStock",
+            "5008": "outOfStock",
+            "5009": "outOfStock",
+            "5010": "outOfStock",
+            "5011": "outOfStock",
+            "5016": "outOfStock",
+            "5021": "outOfStock",
+            "5023": "outOfStock",
+            "5024": "outOfStock",
+            "5026": "outOfStock",
+            "5027": "outOfStock",
+            "5028": "outOfStock",
+            "5036": "outOfStock",
+            "5038": "outOfStock",
+            "5040": "outOfStock",
+            "5043": "outOfStock",
+            "5045": "outOfStock",
+            "5047": "outOfStock",
+            "5048": "outOfStock",
+            "5049": "outOfStock",
+            "5055": "outOfStock",
+            "5058": "outOfStock",
+            "5059": "outOfStock",
+            "5065": "outOfStock",
+            "5069": "outOfStock",
+            "5075": "outOfStock",
+            "5076": "outOfStock",
+            "5077": "outOfStock",
+            "5083": "outOfStock",
+            "5086": "outOfStock",
+            "5091": "outOfStock",
+            "5095": "outOfStock",
+            "5097": "outOfStock",
+            "5098": "outOfStock",
+            "5099": "outOfStock",
+            "5100": "outOfStock",
+            "5121": "outOfStock",
+            "5122": "outOfStock",
+            "5123": "outOfStock",
+            "5125": "outOfStock",
+            "5126": "outOfStock",
+            "5127": "outOfStock",
+            "5128": "outOfStock",
+            "5133": "outOfStock",
+            "5134": "outOfStock",
+            "5135": "outOfStock",
+            "5136": "outOfStock",
+            "5139": "outOfStock",
+            "5142": "outOfStock",
+            "5144": "outOfStock",
+            "5145": "outOfStock",
+            "5146": "outOfStock",
+            "5147": "outOfStock",
+            "5154": "outOfStock",
+            "5156": "outOfStock",
+            "5157": "outOfStock",
+            "5158": "outOfStock",
+            "5161": "outOfStock",
+            "5162": "outOfStock",
+            "5164": "outOfStock",
+            "5166": "outOfStock",
+            "5167": "outOfStock",
+            "5168": "outOfStock",
+            "5169": "outOfStock",
+            "5171": "outOfStock",
+            "5172": "outOfStock",
+            "5173": "outOfStock",
+            "5175": "outOfStock",
+            "5177": "outOfStock",
+            "5178": "outOfStock",
+            "5179": "outOfStock",
+            "5180": "outOfStock",
+            "5184": "outOfStock",
+            "5194": "outOfStock",
+            "5195": "outOfStock",
+            "5197": "outOfStock",
+            "5198": "outOfStock",
+            "5213": "outOfStock",
+            "5219": "outOfStock",
+            "5220": "outOfStock",
+            "5226": "outOfStock",
+            "5227": "outOfStock",
+            "5228": "outOfStock",
+            "5233": "outOfStock",
+            "5269": "outOfStock",
+            "5271": "outOfStock",
+            "5273": "outOfStock",
+            "5276": "outOfStock",
+            "5277": "outOfStock",
+            "5278": "outOfStock",
+            "5286": "outOfStock",
+            "5287": "outOfStock",
+            "5288": "outOfStock",
+            "5290": "outOfStock",
+            "5292": "outOfStock",
+            "5293": "outOfStock",
+            "5298": "outOfStock",
+            "5303": "outOfStock",
+            "5380": "outOfStock",
+            "5391": "outOfStock",
+            "5394": "outOfStock",
+            "5395": "outOfStock",
+            "5407": "outOfStock",
+            "5411": "outOfStock",
+            "5414": "outOfStock",
+            "5415": "outOfStock",
+            "5417": "outOfStock",
+            "5419": "outOfStock",
+            "5420": "outOfStock",
+            "5423": "outOfStock",
+            "5424": "outOfStock",
+            "5426": "outOfStock",
+            "5429": "outOfStock",
+            "5430": "outOfStock",
+            "5431": "outOfStock",
+            "5434": "outOfStock",
+            "5435": "outOfStock",
+            "5436": "outOfStock"
+          },
+          "ats": "outOfStock"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "url": "https://www.target.com.au/images/social-media-icons/apple_store.svg",
+    "status": 200,
+    "body_text": "<svg width=\"923\" height=\"258\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M917.121 227.486c0 3.245-.679 6.458-1.997 9.456a24.659 24.659 0 0 1-5.688 8.015 26.377 26.377 0 0 1-8.512 5.352 27.604 27.604 0 0 1-10.037 1.872H32.358c-6.958.007-13.634-2.591-18.56-7.222-4.927-4.631-7.7-10.916-7.708-17.473V30.546c.009-6.56 2.78-12.848 7.705-17.484 4.926-4.637 11.602-7.242 18.563-7.243H890.88c3.446 0 6.858.64 10.041 1.882a26.398 26.398 0 0 1 8.512 5.36 24.68 24.68 0 0 1 5.686 8.023c1.318 3 1.99"
+  },
+  {
+    "type": "response",
+    "url": "https://www.target.com.au/images/social-media-icons/google_store.svg",
+    "status": 200,
+    "body_text": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"924\" height=\"274\" fill=\"none\"><path fill=\"#000\" d=\"M889.35 273.973H34.65c-18.805 0-34.19-15.409-34.19-34.243V34.27C.461 15.436 15.846.027 34.65.027h854.7c18.803 0 34.188 15.41 34.188 34.243v205.46c0 18.834-15.385 34.243-34.188 34.243\"/><path fill=\"#A6A6A6\" d=\"M889.35.027H34.65C15.845.027.46 15.437.46 34.27v205.46c0 18.834 15.385 34.243 34.189 34.243h854.7c18.803 0 34.188-15.409 34.188-34.243V34.27c0-18.834-15.384-34.243-34.188-34.243m0 5.478c15.836 "
+  }
+]

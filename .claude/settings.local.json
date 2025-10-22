@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"../../../.venv/Scripts/python.exe\" test_state_notifications.py)",
+      "WebFetch(domain:www.bigw.com.au)",
+      "WebFetch(domain:www.ebgames.com.au)",
+      "Bash(\"../../../.venv/Scripts/python.exe\" test_monitor.py)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

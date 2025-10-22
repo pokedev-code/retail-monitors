@@ -1,0 +1,718 @@
+{
+  "3316": {
+    "state": "VIC",
+    "name": "Ararat"
+  },
+  "1292": {
+    "state": "VIC",
+    "name": "Castlemaine"
+  },
+  "5004": {
+    "state": "VIC",
+    "name": "Ballarat"
+  },
+  "5008": {
+    "state": "VIC",
+    "name": "Bendigo"
+  },
+  "5028": {
+    "state": "TAS",
+    "name": "Launceston"
+  },
+  "5391": {
+    "state": "TAS",
+    "name": "Mowbray"
+  },
+  "5161": {
+    "state": "TAS",
+    "name": "Hobart"
+  },
+  "5162": {
+    "state": "ACT",
+    "name": "Tuggeranong"
+  },
+  "5123": {
+    "state": "ACT",
+    "name": "Belconnen"
+  },
+  "3305": {
+    "state": "NSW",
+    "name": "Yass"
+  },
+  "3323": {
+    "state": "NSW",
+    "name": "Tumut"
+  },
+  "5122": {
+    "state": "NSW",
+    "name": "Goulburn"
+  },
+  "5286": {
+    "state": "NSW",
+    "name": "Broadway"
+  },
+  "1372": {
+    "state": "NSW",
+    "name": "Westfield Bondi"
+  },
+  "5055": {
+    "state": "NSW",
+    "name": "Leichhardt"
+  },
+  "5095": {
+    "state": "NSW",
+    "name": "Eastgardens"
+  },
+  "5091": {
+    "state": "NSW",
+    "name": "Chatswood"
+  },
+  "5171": {
+    "state": "NSW",
+    "name": "Burwood"
+  },
+  "1364": {
+    "state": "NSW",
+    "name": "Rhodes"
+  },
+  "1368": {
+    "state": "NSW",
+    "name": "Macquarie"
+  },
+  "5292": {
+    "state": "NSW",
+    "name": "Carlingford"
+  },
+  "5144": {
+    "state": "NSW",
+    "name": "Parramatta"
+  },
+  "1371": {
+    "state": "NSW",
+    "name": "Miranda"
+  },
+  "5219": {
+    "state": "NSW",
+    "name": "Merrylands"
+  },
+  "5169": {
+    "state": "NSW",
+    "name": "Hornsby"
+  },
+  "5177": {
+    "state": "NSW",
+    "name": "Castle Hill"
+  },
+  "1354": {
+    "state": "NSW",
+    "name": "Wetherill Park"
+  },
+  "5178": {
+    "state": "NSW",
+    "name": "Blacktown"
+  },
+  "5395": {
+    "state": "NSW",
+    "name": "Glenquarie"
+  },
+  "1380": {
+    "state": "NSW",
+    "name": "Rouse Hill"
+  },
+  "5125": {
+    "state": "NSW",
+    "name": "Mt. Druitt"
+  },
+  "5303": {
+    "state": "NSW",
+    "name": "Macarthur"
+  },
+  "3337": {
+    "state": "NSW",
+    "name": "Windsor"
+  },
+  "5424": {
+    "state": "NSW",
+    "name": "Narellan"
+  },
+  "1098": {
+    "state": "NSW",
+    "name": "Bateau Bay"
+  },
+  "3333": {
+    "state": "NSW",
+    "name": "Picton"
+  },
+  "5164": {
+    "state": "NSW",
+    "name": "Tuggerah"
+  },
+  "5407": {
+    "state": "NSW",
+    "name": "Wollongong"
+  },
+  "5154": {
+    "state": "NSW",
+    "name": "Shellharbour"
+  },
+  "3317": {
+    "state": "NSW",
+    "name": "Katoomba"
+  },
+  "3342": {
+    "state": "NSW",
+    "name": "Bowral"
+  },
+  "5277": {
+    "state": "NSW",
+    "name": "Lithgow"
+  },
+  "1350": {
+    "state": "VIC",
+    "name": "Camberwell"
+  },
+  "5121": {
+    "state": "VIC",
+    "name": "Northland"
+  },
+  "5168": {
+    "state": "VIC",
+    "name": "Airport West"
+  },
+  "5419": {
+    "state": "VIC",
+    "name": "Chadstone"
+  },
+  "1373": {
+    "state": "VIC",
+    "name": "Doncaster"
+  },
+  "1262": {
+    "state": "VIC",
+    "name": "Broadmeadows"
+  },
+  "5179": {
+    "state": "VIC",
+    "name": "Greensborough"
+  },
+  "5086": {
+    "state": "VIC",
+    "name": "Southland"
+  },
+  "5278": {
+    "state": "VIC",
+    "name": "Forest Hill"
+  },
+  "5158": {
+    "state": "VIC",
+    "name": "Brimbank Central"
+  },
+  "5606": {
+    "state": "VIC",
+    "name": "Online BB Truganina"
+  },
+  "5605": {
+    "state": "VIC",
+    "name": "VIC Online Exclusive"
+  },
+  "1369": {
+    "state": "VIC",
+    "name": "Epping"
+  },
+  "1263": {
+    "state": "VIC",
+    "name": "Templestowe"
+  },
+  "5099": {
+    "state": "VIC",
+    "name": "Glen Waverley"
+  },
+  "5594": {
+    "state": "VIC",
+    "name": "G VIC Truganina Online CFC"
+  },
+  "1095": {
+    "state": "VIC",
+    "name": "Brandon Park"
+  },
+  "5290": {
+    "state": "VIC",
+    "name": "Plenty Valley"
+  },
+  "5269": {
+    "state": "VIC",
+    "name": "Point Cook"
+  },
+  "5420": {
+    "state": "VIC",
+    "name": "Eastland"
+  },
+  "1370": {
+    "state": "VIC",
+    "name": "Craigieburn"
+  },
+  "5058": {
+    "state": "VIC",
+    "name": "Knox City"
+  },
+  "1164": {
+    "state": "VIC",
+    "name": "Knox City"
+  },
+  "5423": {
+    "state": "VIC",
+    "name": "Werribee"
+  },
+  "1136": {
+    "state": "VIC",
+    "name": "Rowville"
+  },
+  "5157": {
+    "state": "VIC",
+    "name": "Chirnside Park"
+  },
+  "1265": {
+    "state": "VIC",
+    "name": "Endeavour Hills"
+  },
+  "5226": {
+    "state": "VIC",
+    "name": "Sunbury"
+  },
+  "5097": {
+    "state": "VIC",
+    "name": "Fountain Gate"
+  },
+  "5098": {
+    "state": "VIC",
+    "name": "Frankston"
+  },
+  "1361": {
+    "state": "VIC",
+    "name": "Casey"
+  },
+  "5417": {
+    "state": "VIC",
+    "name": "Cranbourne"
+  },
+  "5220": {
+    "state": "VIC",
+    "name": "Somerville"
+  },
+  "1293": {
+    "state": "VIC",
+    "name": "Woodend"
+  },
+  "5001": {
+    "state": "VIC",
+    "name": "Geelong"
+  },
+  "5100": {
+    "state": "VIC",
+    "name": "Waurn Ponds"
+  },
+  "1290": {
+    "state": "VIC",
+    "name": "Seymour"
+  },
+  "1355": {
+    "state": "VIC",
+    "name": "Wonthaggi"
+  },
+  "3309": {
+    "state": "VIC",
+    "name": "Leongatha"
+  },
+  "3327": {
+    "state": "VIC",
+    "name": "Mansfield"
+  },
+  "5184": {
+    "state": "QLD",
+    "name": "Brisbane"
+  },
+  "5059": {
+    "state": "QLD",
+    "name": "Buranda"
+  },
+  "1124": {
+    "state": "QLD",
+    "name": "Toowong"
+  },
+  "5380": {
+    "state": "QLD",
+    "name": "Indooroopilly"
+  },
+  "5434": {
+    "state": "QLD",
+    "name": "Brookside"
+  },
+  "5233": {
+    "state": "QLD",
+    "name": "Carindale"
+  },
+  "5166": {
+    "state": "QLD",
+    "name": "Chermside"
+  },
+  "5414": {
+    "state": "QLD",
+    "name": "Mt. Gravatt"
+  },
+  "5298": {
+    "state": "QLD",
+    "name": "Mount Ommaney"
+  },
+  "5609": {
+    "state": "QLD",
+    "name": "Online BB Richlands"
+  },
+  "5608": {
+    "state": "QLD",
+    "name": "Richlands Online Store"
+  },
+  "1219": {
+    "state": "QLD",
+    "name": "Calamvale"
+  },
+  "5135": {
+    "state": "QLD",
+    "name": "Capalaba"
+  },
+  "1363": {
+    "state": "QLD",
+    "name": "Forest Lake"
+  },
+  "5172": {
+    "state": "QLD",
+    "name": "Strathpine"
+  },
+  "5083": {
+    "state": "QLD",
+    "name": "Springwood"
+  },
+  "5133": {
+    "state": "QLD",
+    "name": "Browns Plains"
+  },
+  "5431": {
+    "state": "QLD",
+    "name": "Redbank Plains"
+  },
+  "5167": {
+    "state": "QLD",
+    "name": "North Lakes"
+  },
+  "5426": {
+    "state": "QLD",
+    "name": "Springfield Orion"
+  },
+  "5276": {
+    "state": "QLD",
+    "name": "Ipswich"
+  },
+  "1283": {
+    "state": "QLD",
+    "name": "Yamanto"
+  },
+  "5156": {
+    "state": "QLD",
+    "name": "Morayfield"
+  },
+  "1122": {
+    "state": "QLD",
+    "name": "Caboolture"
+  },
+  "5195": {
+    "state": "QLD",
+    "name": "Bribie Island"
+  },
+  "5435": {
+    "state": "QLD",
+    "name": "Coomera"
+  },
+  "5198": {
+    "state": "QLD",
+    "name": "Helensvale"
+  },
+  "5027": {
+    "state": "QLD",
+    "name": "Runaway Bay"
+  },
+  "3311": {
+    "state": "QLD",
+    "name": "Beerwah"
+  },
+  "5415": {
+    "state": "QLD",
+    "name": "Pacific Fair"
+  },
+  "3348": {
+    "state": "QLD",
+    "name": "Gatton"
+  },
+  "5126": {
+    "state": "QLD",
+    "name": "Robina"
+  },
+  "5038": {
+    "state": "QLD",
+    "name": "Maroochydore"
+  },
+  "5040": {
+    "state": "NSW",
+    "name": "Tweed Heads"
+  },
+  "3318": {
+    "state": "QLD",
+    "name": "Warwick"
+  },
+  "1211": {
+    "state": "SA",
+    "name": "Rundle Mall"
+  },
+  "5009": {
+    "state": "SA",
+    "name": "Centrepoint"
+  },
+  "5197": {
+    "state": "SA",
+    "name": "Unley"
+  },
+  "1005": {
+    "state": "SA",
+    "name": "Kurralta Park"
+  },
+  "1012": {
+    "state": "SA",
+    "name": "Firle"
+  },
+  "5047": {
+    "state": "SA",
+    "name": "Sefton Park"
+  },
+  "5026": {
+    "state": "SA",
+    "name": "Edwardstown"
+  },
+  "1223": {
+    "state": "SA",
+    "name": "Churchill"
+  },
+  "5024": {
+    "state": "SA",
+    "name": "Newton"
+  },
+  "5127": {
+    "state": "SA",
+    "name": "Marion"
+  },
+  "1151": {
+    "state": "SA",
+    "name": "Marion"
+  },
+  "5394": {
+    "state": "SA",
+    "name": "West Lakes"
+  },
+  "1021": {
+    "state": "SA",
+    "name": "West Lakes"
+  },
+  "1003": {
+    "state": "SA",
+    "name": "Ingle Farm"
+  },
+  "1116": {
+    "state": "SA",
+    "name": "Port Adelaide"
+  },
+  "1153": {
+    "state": "SA",
+    "name": "Tea Tree Plaza"
+  },
+  "5021": {
+    "state": "SA",
+    "name": "Tea Tree Plaza"
+  },
+  "5142": {
+    "state": "SA",
+    "name": "Hollywood Plaza"
+  },
+  "5134": {
+    "state": "SA",
+    "name": "Reynella"
+  },
+  "5077": {
+    "state": "SA",
+    "name": "Elizabeth"
+  },
+  "1048": {
+    "state": "SA",
+    "name": "Port Noarlunga"
+  },
+  "1170": {
+    "state": "SA",
+    "name": "Munno Para"
+  },
+  "1167": {
+    "state": "SA",
+    "name": "Mt.Barker"
+  },
+  "5227": {
+    "state": "SA",
+    "name": "Gawler"
+  },
+  "3350": {
+    "state": "SA",
+    "name": "Murray Bridge"
+  },
+  "3328": {
+    "state": "SA",
+    "name": "Victor Harbor"
+  },
+  "5429": {
+    "state": "WA",
+    "name": "Subiaco"
+  },
+  "1278": {
+    "state": "WA",
+    "name": "East Victoria Park"
+  },
+  "5043": {
+    "state": "WA",
+    "name": "Morley"
+  },
+  "1004": {
+    "state": "WA",
+    "name": "Morley"
+  },
+  "1018": {
+    "state": "WA",
+    "name": "Belmont Forum"
+  },
+  "5065": {
+    "state": "WA",
+    "name": "Innaloo"
+  },
+  "1139": {
+    "state": "WA",
+    "name": "Innaloo"
+  },
+  "1142": {
+    "state": "WA",
+    "name": "Mirrabooka"
+  },
+  "1162": {
+    "state": "WA",
+    "name": "Booragoon"
+  },
+  "1158": {
+    "state": "WA",
+    "name": "Carousel"
+  },
+  "5045": {
+    "state": "WA",
+    "name": "Carousel"
+  },
+  "5076": {
+    "state": "WA",
+    "name": "Bull Creek"
+  },
+  "1022": {
+    "state": "WA",
+    "name": "Warwick Grove"
+  },
+  "1024": {
+    "state": "WA",
+    "name": "Kardinya"
+  },
+  "5036": {
+    "state": "WA",
+    "name": "Fremantle"
+  },
+  "5069": {
+    "state": "WA",
+    "name": "Midland"
+  },
+  "1052": {
+    "state": "WA",
+    "name": "Midland"
+  },
+  "1057": {
+    "state": "WA",
+    "name": "Maddington"
+  },
+  "1362": {
+    "state": "WA",
+    "name": "Success"
+  },
+  "1282": {
+    "state": "WA",
+    "name": "Ellenbrook"
+  },
+  "1395": {
+    "state": "WA",
+    "name": "Wanneroo"
+  },
+  "5180": {
+    "state": "WA",
+    "name": "Joondalup"
+  },
+  "5287": {
+    "state": "WA",
+    "name": "Armadale"
+  },
+  "1096": {
+    "state": "WA",
+    "name": "Armadale"
+  },
+  "1356": {
+    "state": "WA",
+    "name": "Ocean Keys"
+  },
+  "5128": {
+    "state": "WA",
+    "name": "Rockingham"
+  },
+  "1039": {
+    "state": "WA",
+    "name": "Rockingham City"
+  },
+  "1229": {
+    "state": "WA",
+    "name": "Baldivis"
+  },
+  "1257": {
+    "state": "WA",
+    "name": "Lakelands"
+  },
+  "5430": {
+    "state": "WA",
+    "name": "Mandurah"
+  },
+  "1244": {
+    "state": "WA",
+    "name": "Halls Head"
+  },
+  "3320": {
+    "state": "WA",
+    "name": "Pinjarra"
+  },
+  "3341": {
+    "state": "WA",
+    "name": "Northam"
+  },
+  "1049": {
+    "state": "NT",
+    "name": "Darwin"
+  },
+  "5146": {
+    "state": "NT",
+    "name": "Palmerston"
+  },
+  "1225": {
+    "state": "NT",
+    "name": "Coolalinga"
+  }
+}

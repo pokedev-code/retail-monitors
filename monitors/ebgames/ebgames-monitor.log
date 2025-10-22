@@ -1,0 +1,26 @@
+2025-10-21 05:15:24,249 - INFO - [SCRAPE] Loading https://www.ebgames.com.au/search?category=toys-hobbies&subcategory=toys-hobbies-trading-cards&attributes=franchise%3Apokemon
+2025-10-21 05:15:30,947 - INFO - [SCRAPE] Found 32 products
+2025-10-21 05:15:30,952 - INFO - [FILTER] 31 products after filtering
+2025-10-21 05:23:25,528 - INFO - [SCRAPE] Loading https://www.ebgames.com.au/search?category=toys-hobbies&subcategory=toys-hobbies-trading-cards&attributes=franchise%3Apokemon
+2025-10-21 05:23:41,512 - INFO - [SCRAPE] Found 32 products
+2025-10-21 05:23:41,623 - INFO - [FILTER] 31 products after filtering
+2025-10-21 05:23:43,640 - INFO - [SUCCESS] Sent Discord notification for: $65.00  ($10.00 deposit)  Pokemon - TCG - Dec 25 Collectors Chest Trading Cards   PREORDER Fri, 05 Dec 2025  Delivery  Collect
+2025-10-21 05:26:55,579 - INFO - [SCRAPE] Loading https://www.ebgames.com.au/search?category=toys-hobbies&subcategory=toys-hobbies-trading-cards&attributes=franchise%3Apokemon
+2025-10-21 05:27:00,152 - INFO - [SCRAPE] Found 0 products
+2025-10-21 05:27:00,152 - INFO - [FILTER] 0 products after filtering
+2025-10-21 05:30:04,762 - INFO - [SCRAPE] Loading https://www.ebgames.com.au/search?category=toys-hobbies&subcategory=toys-hobbies-trading-cards&attributes=franchise%3Apokemon
+2025-10-21 05:30:10,433 - INFO - [SCRAPE] Found 0 products
+2025-10-21 05:30:10,434 - INFO - [FILTER] 0 products after filtering
+2025-10-21 05:32:27,516 - INFO - [SCRAPE] Loading https://www.ebgames.com.au/search?category=toys-hobbies&subcategory=toys-hobbies-trading-cards&attributes=franchise%3Apokemon
+2025-10-21 05:32:32,087 - INFO - [SCRAPE] Found 0 products
+2025-10-21 05:32:32,087 - INFO - [FILTER] 0 products after filtering
+2025-10-21 05:34:44,182 - INFO - [SCRAPE] Loading https://www.ebgames.com.au/search?category=toys-hobbies&subcategory=toys-hobbies-trading-cards&attributes=franchise%3Apokemon
+2025-10-21 05:34:48,750 - INFO - [SCRAPE] Found 0 products
+2025-10-21 05:34:48,750 - INFO - [FILTER] 0 products after filtering
+2025-10-21 05:36:07,685 - INFO - [SCRAPE] Loading https://www.ebgames.com.au/search?category=toys-hobbies&subcategory=toys-hobbies-trading-cards&attributes=franchise%3Apokemon
+2025-10-21 05:36:12,579 - INFO - [SCRAPE] Found 0 products
+2025-10-21 05:36:12,580 - INFO - [FILTER] 0 products after filtering
+2025-10-21 05:39:09,713 - INFO - [SCRAPE] Loading https://www.ebgames.com.au/search?category=toys-hobbies&subcategory=toys-hobbies-trading-cards&attributes=franchise%3Apokemon
+2025-10-21 05:39:14,301 - INFO - [SCRAPE] Found 32 products
+2025-10-21 05:39:14,305 - INFO - [FILTER] 31 products after filtering
+2025-10-21 05:39:15,403 - INFO - [SUCCESS] Sent Discord notification for: Pokemon - TCG - Dec 25 Collectors Chest

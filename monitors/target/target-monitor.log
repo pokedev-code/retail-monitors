@@ -1,0 +1,175 @@
+2025-10-19 02:57:18,190 - asyncio - Using proactor: IocpProactor
+2025-10-19 02:57:18,191 - root - [MONITOR] Target AU Monitor Starting...
+2025-10-19 02:57:18,191 - root - [CONFIG] Monitoring keywords: ['pokemon cards']
+2025-10-19 02:57:18,191 - root - [CONFIG] Delay: 30 seconds
+2025-10-19 02:57:19,372 - root - [SCRAPING] Loading: https://www.target.com.au/search?sEngine=c&text=pokemon+cards
+2025-10-19 02:57:45,862 - asyncio - Future exception was never retrieved
+future: <Future finished exception=Error('net::ERR_ABORTED at https://www.target.com.au/search?sEngine=c&text=pokemon+cards\nCall log:\n  - navigating to "https://www.target.com.au/search?sEngine=c&text=pokemon+cards", waiting until "networkidle"\n')>
+playwright._impl._errors.Error: net::ERR_ABORTED at https://www.target.com.au/search?sEngine=c&text=pokemon+cards
+Call log:
+  - navigating to "https://www.target.com.au/search?sEngine=c&text=pokemon+cards", waiting until "networkidle"
+
+2025-10-19 03:50:53,232 - asyncio - Using proactor: IocpProactor
+2025-10-19 03:51:10,485 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-19 03:51:11,523 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429181362169974848/h44prs1hsqDyvq9HRh1Qi0eZIsFJsUaLZnfrTYWDOZuRhxh64BRCQCavBu_hDgUcN4bh HTTP/1.1" 204 0
+2025-10-19 03:51:11,524 - root - [SUCCESS] Sent Discord notification for: Pokemon TCG: Mega Evolution Blister - Assorted
+2025-10-19 04:05:25,041 - asyncio - Using proactor: IocpProactor
+2025-10-19 04:05:31,221 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-19 04:05:32,273 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429181362169974848/h44prs1hsqDyvq9HRh1Qi0eZIsFJsUaLZnfrTYWDOZuRhxh64BRCQCavBu_hDgUcN4bh HTTP/1.1" 204 0
+2025-10-19 04:05:32,274 - root - [SUCCESS] Sent Discord notification for: Pokemon TCG: Mega Evolution Blister - Assorted
+2025-10-19 04:08:47,321 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-19 04:08:48,266 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429181362169974848/h44prs1hsqDyvq9HRh1Qi0eZIsFJsUaLZnfrTYWDOZuRhxh64BRCQCavBu_hDgUcN4bh HTTP/1.1" 204 0
+2025-10-19 04:08:48,267 - root - [SUCCESS] Sent Discord notification for: Pokemon TCG: Scarlet & Violet Booster Bundle
+2025-10-19 04:08:48,270 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-19 04:08:49,194 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429181362169974848/h44prs1hsqDyvq9HRh1Qi0eZIsFJsUaLZnfrTYWDOZuRhxh64BRCQCavBu_hDgUcN4bh HTTP/1.1" 204 0
+2025-10-19 04:08:49,195 - root - [SUCCESS] Sent Discord notification for: Pokemon TCG: Mega Evolution Blister - Test
+2025-10-19 04:08:49,198 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-19 04:08:50,308 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429181362169974848/h44prs1hsqDyvq9HRh1Qi0eZIsFJsUaLZnfrTYWDOZuRhxh64BRCQCavBu_hDgUcN4bh HTTP/1.1" 204 0
+2025-10-19 04:08:50,309 - root - [SUCCESS] Sent Discord notification for: Pokemon TCG: Out of Stock Test
+2025-10-20 23:46:39,311 - root - [STORE MAPPER] Loaded 179 stores from store_state_mapping.json
+2025-10-20 23:46:57,523 - root - [STORE MAPPER] Loaded 179 stores from store_state_mapping.json
+2025-10-20 23:46:57,523 - root - Using state-specific webhook for NSW
+2025-10-20 23:46:57,532 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-20 23:46:58,491 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856592916119633/2eg9InBsY3NVJz6JM7eZALpVb7NA-TXxaJMPr-ERLCXtXTg6tD4v2ebt4GE9VlwTriug HTTP/1.1" 204 0
+2025-10-20 23:46:58,492 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-20 23:46:58,494 - root - Using state-specific webhook for VIC
+2025-10-20 23:46:58,496 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-20 23:46:59,453 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856928544198839/w--sSDmNH7CRvESDqf7jLKRFMNV41To-YFg1Paw2N_YVC6MPmSzlIZFu8-N_I5jfC_73 HTTP/1.1" 204 0
+2025-10-20 23:46:59,454 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-20 23:46:59,455 - root - Using state-specific webhook for WA
+2025-10-20 23:46:59,456 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-20 23:47:00,480 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429857445840158742/wPIp8yRQlZFW_iAIN3go3TMzBeqlaV2ElPE-bHvecCNiDp52cWdhw6d-bwj37CD6hoXU HTTP/1.1" 204 0
+2025-10-20 23:47:00,481 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-20 23:47:19,658 - root - [STORE MAPPER] Loaded 179 stores from store_state_mapping.json
+2025-10-20 23:47:19,658 - root - Using state-specific webhook for NSW
+2025-10-20 23:47:19,661 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-20 23:47:20,669 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856592916119633/2eg9InBsY3NVJz6JM7eZALpVb7NA-TXxaJMPr-ERLCXtXTg6tD4v2ebt4GE9VlwTriug HTTP/1.1" 204 0
+2025-10-20 23:47:20,670 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-20 23:47:20,671 - root - Using state-specific webhook for VIC
+2025-10-20 23:47:20,672 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-20 23:47:21,685 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856928544198839/w--sSDmNH7CRvESDqf7jLKRFMNV41To-YFg1Paw2N_YVC6MPmSzlIZFu8-N_I5jfC_73 HTTP/1.1" 204 0
+2025-10-20 23:47:21,687 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-20 23:47:21,688 - root - Using state-specific webhook for WA
+2025-10-20 23:47:21,690 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-20 23:47:22,794 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429857445840158742/wPIp8yRQlZFW_iAIN3go3TMzBeqlaV2ElPE-bHvecCNiDp52cWdhw6d-bwj37CD6hoXU HTTP/1.1" 204 0
+2025-10-20 23:47:22,795 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-20 23:55:12,880 - root - [STORE MAPPER] Loaded 179 stores from store_state_mapping.json
+2025-10-20 23:55:32,732 - root - [STORE MAPPER] Loaded 179 stores from store_state_mapping.json
+2025-10-20 23:55:32,732 - root - Using state-specific webhook for NSW
+2025-10-20 23:55:32,739 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-20 23:55:33,891 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856592916119633/2eg9InBsY3NVJz6JM7eZALpVb7NA-TXxaJMPr-ERLCXtXTg6tD4v2ebt4GE9VlwTriug HTTP/1.1" 204 0
+2025-10-20 23:55:33,892 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-20 23:55:33,893 - root - Using state-specific webhook for VIC
+2025-10-20 23:55:33,894 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-20 23:55:35,055 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856928544198839/w--sSDmNH7CRvESDqf7jLKRFMNV41To-YFg1Paw2N_YVC6MPmSzlIZFu8-N_I5jfC_73 HTTP/1.1" 204 0
+2025-10-20 23:55:35,057 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-20 23:55:35,060 - root - Using state-specific webhook for WA
+2025-10-20 23:55:35,062 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-20 23:55:36,106 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429857445840158742/wPIp8yRQlZFW_iAIN3go3TMzBeqlaV2ElPE-bHvecCNiDp52cWdhw6d-bwj37CD6hoXU HTTP/1.1" 204 0
+2025-10-20 23:55:36,106 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-21 00:01:03,548 - root - [STORE MAPPER] Loaded 179 stores from store_state_mapping.json
+2025-10-21 00:01:03,549 - root - Using state-specific webhook for NSW
+2025-10-21 00:01:03,555 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:01:04,630 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856592916119633/2eg9InBsY3NVJz6JM7eZALpVb7NA-TXxaJMPr-ERLCXtXTg6tD4v2ebt4GE9VlwTriug HTTP/1.1" 204 0
+2025-10-21 00:01:04,630 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-21 00:01:04,632 - root - Using state-specific webhook for VIC
+2025-10-21 00:01:04,633 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:01:05,701 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856928544198839/w--sSDmNH7CRvESDqf7jLKRFMNV41To-YFg1Paw2N_YVC6MPmSzlIZFu8-N_I5jfC_73 HTTP/1.1" 204 0
+2025-10-21 00:01:05,702 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-21 00:01:05,703 - root - Using state-specific webhook for WA
+2025-10-21 00:01:05,704 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:01:06,876 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429857445840158742/wPIp8yRQlZFW_iAIN3go3TMzBeqlaV2ElPE-bHvecCNiDp52cWdhw6d-bwj37CD6hoXU HTTP/1.1" 204 0
+2025-10-21 00:01:06,877 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-21 00:08:26,812 - root - [STORE MAPPER] Loaded 179 stores from store_state_mapping.json
+2025-10-21 00:08:26,813 - root - Using state-specific webhook for NSW
+2025-10-21 00:08:26,819 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:08:27,942 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856592916119633/2eg9InBsY3NVJz6JM7eZALpVb7NA-TXxaJMPr-ERLCXtXTg6tD4v2ebt4GE9VlwTriug HTTP/1.1" 204 0
+2025-10-21 00:08:27,943 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-21 00:08:27,945 - root - Using state-specific webhook for VIC
+2025-10-21 00:08:27,946 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:08:29,063 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856928544198839/w--sSDmNH7CRvESDqf7jLKRFMNV41To-YFg1Paw2N_YVC6MPmSzlIZFu8-N_I5jfC_73 HTTP/1.1" 204 0
+2025-10-21 00:08:29,065 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-21 00:08:29,067 - root - Using state-specific webhook for WA
+2025-10-21 00:08:29,069 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:08:30,144 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429857445840158742/wPIp8yRQlZFW_iAIN3go3TMzBeqlaV2ElPE-bHvecCNiDp52cWdhw6d-bwj37CD6hoXU HTTP/1.1" 204 0
+2025-10-21 00:08:30,145 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-21 00:21:56,067 - root - [STORE MAPPER] Loaded 179 stores from store_state_mapping.json
+2025-10-21 00:21:56,073 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:21:57,056 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429181362169974848/h44prs1hsqDyvq9HRh1Qi0eZIsFJsUaLZnfrTYWDOZuRhxh64BRCQCavBu_hDgUcN4bh HTTP/1.1" 204 0
+2025-10-21 00:21:57,057 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-21 00:21:57,058 - root - Using state-specific webhook for NSW
+2025-10-21 00:21:57,059 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:21:58,030 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856592916119633/2eg9InBsY3NVJz6JM7eZALpVb7NA-TXxaJMPr-ERLCXtXTg6tD4v2ebt4GE9VlwTriug HTTP/1.1" 204 0
+2025-10-21 00:21:58,031 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-21 00:21:58,032 - root - Using state-specific webhook for VIC
+2025-10-21 00:21:58,033 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:21:59,019 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856928544198839/w--sSDmNH7CRvESDqf7jLKRFMNV41To-YFg1Paw2N_YVC6MPmSzlIZFu8-N_I5jfC_73 HTTP/1.1" 204 0
+2025-10-21 00:21:59,020 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-21 00:21:59,021 - root - Using state-specific webhook for WA
+2025-10-21 00:21:59,022 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:22:00,159 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429857445840158742/wPIp8yRQlZFW_iAIN3go3TMzBeqlaV2ElPE-bHvecCNiDp52cWdhw6d-bwj37CD6hoXU HTTP/1.1" 204 0
+2025-10-21 00:22:00,160 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-21 00:22:43,949 - root - [STORE MAPPER] Loaded 179 stores from store_state_mapping.json
+2025-10-21 00:22:43,952 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:22:45,109 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429181362169974848/h44prs1hsqDyvq9HRh1Qi0eZIsFJsUaLZnfrTYWDOZuRhxh64BRCQCavBu_hDgUcN4bh HTTP/1.1" 204 0
+2025-10-21 00:22:45,110 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-21 00:22:45,112 - root - Using state-specific webhook for NSW
+2025-10-21 00:22:45,113 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:22:46,450 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856592916119633/2eg9InBsY3NVJz6JM7eZALpVb7NA-TXxaJMPr-ERLCXtXTg6tD4v2ebt4GE9VlwTriug HTTP/1.1" 204 0
+2025-10-21 00:22:46,452 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-21 00:22:46,454 - root - Using state-specific webhook for VIC
+2025-10-21 00:22:46,456 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:22:47,495 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856928544198839/w--sSDmNH7CRvESDqf7jLKRFMNV41To-YFg1Paw2N_YVC6MPmSzlIZFu8-N_I5jfC_73 HTTP/1.1" 204 0
+2025-10-21 00:22:47,496 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-21 00:22:47,497 - root - Using state-specific webhook for WA
+2025-10-21 00:22:47,498 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:22:48,571 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429857445840158742/wPIp8yRQlZFW_iAIN3go3TMzBeqlaV2ElPE-bHvecCNiDp52cWdhw6d-bwj37CD6hoXU HTTP/1.1" 204 0
+2025-10-21 00:22:48,572 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test)
+2025-10-21 00:33:51,434 - root - [STORE MAPPER] Loaded 179 stores from store_state_mapping.json
+2025-10-21 00:33:51,443 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:33:52,413 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429181362169974848/h44prs1hsqDyvq9HRh1Qi0eZIsFJsUaLZnfrTYWDOZuRhxh64BRCQCavBu_hDgUcN4bh HTTP/1.1" 204 0
+2025-10-21 00:33:52,419 - root - [ERROR] Discord webhook error: 'charmap' codec can't encode character '\u2713' in position 6: character maps to <undefined>
+2025-10-21 00:33:52,421 - root - Using state-specific webhook for NSW
+2025-10-21 00:33:52,422 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:33:53,479 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856592916119633/2eg9InBsY3NVJz6JM7eZALpVb7NA-TXxaJMPr-ERLCXtXTg6tD4v2ebt4GE9VlwTriug HTTP/1.1" 204 0
+2025-10-21 00:33:53,480 - root - [ERROR] Discord webhook error: 'charmap' codec can't encode character '\u2713' in position 6: character maps to <undefined>
+2025-10-21 00:33:53,481 - root - Using state-specific webhook for VIC
+2025-10-21 00:33:53,482 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:33:54,583 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856928544198839/w--sSDmNH7CRvESDqf7jLKRFMNV41To-YFg1Paw2N_YVC6MPmSzlIZFu8-N_I5jfC_73 HTTP/1.1" 204 0
+2025-10-21 00:33:54,584 - root - [ERROR] Discord webhook error: 'charmap' codec can't encode character '\u2713' in position 6: character maps to <undefined>
+2025-10-21 00:33:54,585 - root - Using state-specific webhook for WA
+2025-10-21 00:33:54,586 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:33:56,579 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429857445840158742/wPIp8yRQlZFW_iAIN3go3TMzBeqlaV2ElPE-bHvecCNiDp52cWdhw6d-bwj37CD6hoXU HTTP/1.1" 204 0
+2025-10-21 00:33:56,579 - root - [ERROR] Discord webhook error: 'charmap' codec can't encode character '\u2713' in position 6: character maps to <undefined>
+2025-10-21 00:34:14,790 - root - [STORE MAPPER] Loaded 179 stores from store_state_mapping.json
+2025-10-21 00:34:14,793 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:34:15,825 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429181362169974848/h44prs1hsqDyvq9HRh1Qi0eZIsFJsUaLZnfrTYWDOZuRhxh64BRCQCavBu_hDgUcN4bh HTTP/1.1" 204 0
+2025-10-21 00:34:15,826 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test) to main/fallback
+2025-10-21 00:34:15,828 - root - Using state-specific webhook for NSW
+2025-10-21 00:34:15,830 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:34:17,428 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856592916119633/2eg9InBsY3NVJz6JM7eZALpVb7NA-TXxaJMPr-ERLCXtXTg6tD4v2ebt4GE9VlwTriug HTTP/1.1" 204 0
+2025-10-21 00:34:17,429 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test) to NSW state-specific
+2025-10-21 00:34:17,431 - root - Using state-specific webhook for VIC
+2025-10-21 00:34:17,432 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:34:18,474 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856928544198839/w--sSDmNH7CRvESDqf7jLKRFMNV41To-YFg1Paw2N_YVC6MPmSzlIZFu8-N_I5jfC_73 HTTP/1.1" 204 0
+2025-10-21 00:34:18,475 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test) to VIC state-specific
+2025-10-21 00:34:18,476 - root - Using state-specific webhook for WA
+2025-10-21 00:34:18,477 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:34:19,529 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429857445840158742/wPIp8yRQlZFW_iAIN3go3TMzBeqlaV2ElPE-bHvecCNiDp52cWdhw6d-bwj37CD6hoXU HTTP/1.1" 204 0
+2025-10-21 00:34:19,529 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test) to WA state-specific
+2025-10-21 00:37:38,220 - root - [STORE MAPPER] Loaded 179 stores from store_state_mapping.json
+2025-10-21 00:37:38,222 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:37:39,267 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429181362169974848/h44prs1hsqDyvq9HRh1Qi0eZIsFJsUaLZnfrTYWDOZuRhxh64BRCQCavBu_hDgUcN4bh HTTP/1.1" 204 0
+2025-10-21 00:37:39,268 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test) to main/fallback
+2025-10-21 00:37:39,269 - root - Using state-specific webhook for NSW
+2025-10-21 00:37:39,270 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:37:40,255 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856592916119633/2eg9InBsY3NVJz6JM7eZALpVb7NA-TXxaJMPr-ERLCXtXTg6tD4v2ebt4GE9VlwTriug HTTP/1.1" 204 0
+2025-10-21 00:37:40,255 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test) to NSW state-specific
+2025-10-21 00:37:40,257 - root - Using state-specific webhook for VIC
+2025-10-21 00:37:40,257 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:37:41,223 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429856928544198839/w--sSDmNH7CRvESDqf7jLKRFMNV41To-YFg1Paw2N_YVC6MPmSzlIZFu8-N_I5jfC_73 HTTP/1.1" 204 0
+2025-10-21 00:37:41,224 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test) to VIC state-specific
+2025-10-21 00:37:41,225 - root - Using state-specific webhook for WA
+2025-10-21 00:37:41,227 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2025-10-21 00:37:42,311 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/1429857445840158742/wPIp8yRQlZFW_iAIN3go3TMzBeqlaV2ElPE-bHvecCNiDp52cWdhw6d-bwj37CD6hoXU HTTP/1.1" 204 0
+2025-10-21 00:37:42,312 - root - [SUCCESS] Sent Discord notification for: TEST: Pokemon TCG Mega Evolution Blister (State Notification Test) to WA state-specific

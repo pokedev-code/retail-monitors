@@ -1,9 +1,9 @@
 # --------------------- WEBHOOK URL ---------------------
-WEBHOOK = ""
+WEBHOOK = "https://discord.com/api/webhooks/1428801182532632728/VvLx8EJVLQBFv9MZMO4XRnTxtA7C2nYy01-_-qcHHwwDImMvWCKaUFBsc_YTn1TI8pVK"
 
 # --------------------- SHOPIFY URL ---------------------
 # Ensure the URL is one that contains products.json (e.g. https://www.hanon-shop.com/collections/whats-new/products.json)
-URL = ""
+URL = "https://kith.com/collections/footwear/products.json"
 
 # --------------------- FREE PROXY ---------------------
 # A single or multiple locations can be added in the array (e.g. ["GB"] or ["GB", "US"])
@@ -12,7 +12,7 @@ FREE_PROXY_LOCATION = ["GB"]
 
 # --------------------- DELAY ---------------------
 # Delay between site requests
-DELAY = 5
+DELAY = 10
 
 # --------------------- OPTIONAL PROXY ---------------------
 # Proxies must follow this format: "<proxy>:<port>" OR "<proxy_username>:<proxy_password>@<proxy_domain>:<port>")
