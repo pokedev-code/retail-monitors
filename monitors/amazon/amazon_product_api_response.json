@@ -1,0 +1,16 @@
+{
+  "resource": {
+    "url": "/api/marketplaces/A39IBJ37TRP1C6/products/B0FJX86YTG,B0C8Y7SDJW,B0DMNFRYVD",
+    "types": []
+  },
+  "type": "error/v1",
+  "entity": {
+    "status": 415,
+    "code": "415.1",
+    "details": {
+      "message": "Sorry, We are experiencing issues right now.",
+      "url": "https://api.amazon.com/shop"
+    },
+    "encryptedInternalInfo": "uFvOzqDULVg57Jlkdj3Js/cWya2Q1keWhvswMz8dUjvo6OlGyzmRMVt7l0pXrxV3SQWkEM/v6XYU9kPZLcIK3a1ruSAxyA6TfDvNr7vjYJS+FmiQg9LjoUpILtT9WFGis2sTeevomuSVRH+Ia6eq/FG93Q9hM7h26Gte00KqKA3ilMjw8RZ5NLrzKJyZQQyk3jjFYQ1cu90WkxMq0kHRdT6pb0mnc6JQ5ln7wkELZuwy7ROZeHaXLqMi3nNEiZVQHDUyzbkyM9kN5W3L/EtCcP8HJeyQaxEIht70I6PIVIgB1A0cMrkOicPSENHIWE7OU87+16Kl8NJ9pCvP4XhTnhXBouulrKY5ERqISyaJacHsS//Eh8+L/YFf5M4e0n3MOYeUSEjNFyBhEsYIU5EfLzvfZt+XoWy7iA6V9UeB3XXSHK9sVI8xcMQKg+Wqi8DQ2vkrh4wJXqAwvWpeXgR4BZ7Ko4rw0bVMz6SGq1EgSt28h9CLvapllcB18zOm/o9Q3zBUJbav0vT5Ueg4P7N7erJoqrK1SIJGrFrYnIHLHQuN8574e2Otq9xr/JuOzObjdGJ8K2mNPxmESitOWWkUPwSMcxbzUnRC5aflRe+9CahUhA2EO0zqdN99AXapvFKmOYUDyUGgG6XTTx0g+iR3XlwqeEq3qUYdNWFsAQm59ok4Mp+1u7WRl0sM2sHXwruVC3NzyBkuYnOep1hYLQJrxJQPOqO14FXRmUQs7mBhyESm+VtK+Z10recQ238upIgdD+Q/Ay2L4yE/Kxh8a4OJTBNb0piacbzpo1RLKBF1Rt0="
+  }
+}

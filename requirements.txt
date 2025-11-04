@@ -1,3 +1,5 @@
+playwright
+playwright-stealth
 beautifulsoup4==4.14.2
 certifi==2025.10.5
 charset-normalizer==3.4.4

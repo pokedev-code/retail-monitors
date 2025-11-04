@@ -130,9 +130,11 @@ def discord_webhook(product_info: Dict, state_name: Optional[str] = None,
                 delivery_text = []
                 for mode, status in delivery_modes.items():
                     if status == 'inStock':
-                        delivery_text.append(f"✓ {mode}")
+                        # Green circle emoji (should work in Discord)
+                        delivery_text.append(f"\U0001F7E2 {mode}")
                     elif status == 'outOfStock':
-                        delivery_text.append(f"✗ {mode}")
+                        # Red circle emoji (should work in Discord)
+                        delivery_text.append(f"\U0001F534 {mode}")
 
                 if delivery_text:
                     fields.append({
@@ -348,7 +350,6 @@ async def get_product_details(page, product_url: str, product_id: str, retry_cou
 
             delivery_status = {
                 'Home Delivery': stock_item.get('hd', 'unknown'),
-                'Express Delivery': stock_item.get('ed', 'unknown'),
                 'Click & Collect': stock_item.get('cc', 'unknown')
             }
 
@@ -394,9 +395,24 @@ async def get_product_details(page, product_url: str, product_id: str, retry_cou
 def is_pokemon_card_product(title: str) -> bool:
     """Filter logic to determine if product is a Pokemon card product"""
     title_lower = title.lower()
-    is_excluded = any(keyword in title_lower for keyword in config.CARD_EXCLUDE_KEYWORDS)
+
+    # First check if it's actually a Pokemon product
+    is_pokemon = 'pokemon' in title_lower or 'pokémon' in title_lower
+    if not is_pokemon:
+        # If it's not a Pokemon product at all, exclude it
+        return False
+
+    # Check if it's a card product (has card-related keywords)
     is_card_product = any(keyword in title_lower for keyword in config.CARD_INCLUDE_KEYWORDS)
-    return is_card_product and not is_excluded
+    if not is_card_product:
+        # It's Pokemon but not a card product (e.g., plush, toy)
+        return False
+
+    # Check for exclusions, but ignore "game" since "Trading Card Game" is valid for Pokemon TCG
+    exclusions_to_check = [kw for kw in config.CARD_EXCLUDE_KEYWORDS if kw != 'game']
+    is_excluded = any(keyword in title_lower for keyword in exclusions_to_check)
+
+    return not is_excluded
 
 
 async def scrape_products(page, keyword: str) -> List[Dict]:
@@ -666,7 +682,10 @@ async def monitor():
 
                                 # Merge details
                                 product['price'] = details.get('price', product.get('price', 'N/A'))
-                                product['image'] = details.get('image', product.get('image', ''))
+                                # Prioritize search result image (more reliable than product page image)
+                                search_image = product.get('image', '')
+                                detail_image = details.get('image', '')
+                                product['image'] = search_image if search_image else detail_image
                                 product['availability'] = details.get('availability', 'In Stock')
                                 if 'stock_info' in details:
                                     product['stock_info'] = details['stock_info']

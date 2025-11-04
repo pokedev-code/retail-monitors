@@ -42,15 +42,10 @@ STATE_WEBHOOKS = {
 # Add product dicts with 'id', 'title', and 'url'
 # To get product ID: visit product page, ID is in URL (e.g., /product/pokemon-...-43350070/)
 PRODUCTS = [
-    {
-        "id": "43350070",
-        "title": "Pokemon Trading Card Game: Scarlet and Violet 151 Booster Bundle",
-        "url": "https://www.kmart.com.au/product/pokemon-trading-card-game:-scarlet-and-violet-151-booster-bundle-43350070/"
-    },
-    # Add more products here...
+    # Leave empty to monitor entire category page instead
 ]
 
-# Option 2: Scrape category page (may not work due to JavaScript rendering issues)
+# Option 2: Scrape category page (ENABLED - monitors ALL Pokemon cards)
 # Leave PRODUCTS list empty to use this method
 # Kmart category page URL (e.g., Pokemon cards, toys, electronics, etc.)
 # Examples:

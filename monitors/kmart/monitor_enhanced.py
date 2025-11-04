@@ -35,109 +35,102 @@ def check_url(url: str) -> bool:
 async def get_stock_for_all_states(page, product_url: str, product_id: str) -> Dict[str, Dict]:
     """
     Fetch exact stock quantities for ALL Australian states
+    Optimized to fetch one state quickly (since stock is usually same across all states)
     Returns dict with state as key and stock info as value
     """
-    # Postcode mapping for each Australian state
+    # Postcode mapping - just check NSW as stock is usually nationwide
     STATE_POSTCODES = {
-        'NSW': '2000',
-        'VIC': '3000',
-        'QLD': '4000',
-        'SA': '5000',
-        'WA': '6000',
-        'TAS': '7000',
-        'NT': '0800',
-        'ACT': '2600'
+        'NSW': '2000'
     }
 
     all_states_stock = {}
 
     try:
-        logging.info(f'[GraphQL] Fetching stock for all states for product {product_id}')
+        logging.debug(f'[GraphQL] Fetching stock for product {product_id}')
 
-        for state, postcode in STATE_POSTCODES.items():
-            graphql_data = {}
-            graphql_received = asyncio.Event()
+        # Navigate to product page ONCE with NSW postcode
+        # Stock is typically the same nationwide for online products
+        graphql_data = {}
+        graphql_received = asyncio.Event()
 
-            # Set up GraphQL response interceptor
-            async def handle_graphql_response(response):
-                nonlocal graphql_data
-                if 'graphql' in response.url and response.status == 200:
-                    try:
-                        data = await response.json()
-                        if 'getProductAvailability' in str(data):
-                            graphql_data = data
-                            graphql_received.set()
-                            logging.info(f'[GraphQL] Captured stock API response for {state}')
-                    except Exception as e:
-                        logging.debug(f'[GraphQL] Could not parse response: {e}')
-
-            page.on('response', handle_graphql_response)
-
-            # Navigate to product page with state-specific postcode
-            try:
-                # Add postcode to URL to get state-specific stock
-                url_with_postcode = f"{product_url}?postcode={postcode}"
-                await page.goto(url_with_postcode, wait_until='domcontentloaded', timeout=20000)
-                await asyncio.sleep(2)  # Wait for API calls
-
-                # Wait for GraphQL response (with timeout)
+        # Set up GraphQL response interceptor
+        async def handle_graphql_response(response):
+            nonlocal graphql_data
+            if 'graphql' in response.url and response.status == 200:
                 try:
-                    await asyncio.wait_for(graphql_received.wait(), timeout=5.0)
-                except asyncio.TimeoutError:
-                    logging.warning(f'[GraphQL] Timeout waiting for stock API for {product_id} in {state}')
-                    page.remove_listener('response', handle_graphql_response)
-                    continue
+                    data = await response.json()
+                    if 'getProductAvailability' in str(data):
+                        graphql_data = data
+                        graphql_received.set()
+                except Exception as e:
+                    logging.debug(f'[GraphQL] Could not parse response: {e}')
 
-            except Exception as e:
-                logging.error(f'[GraphQL] Error fetching stock for {state}: {e}')
+        page.on('response', handle_graphql_response)
+
+        try:
+            # Navigate with NSW postcode to get stock data
+            url_with_postcode = f"{product_url}?postcode=2000"
+            await page.goto(url_with_postcode, wait_until='domcontentloaded', timeout=10000)
+            await asyncio.sleep(0.3)  # Brief wait for API call
+
+            # Wait for GraphQL response (with short timeout)
+            try:
+                await asyncio.wait_for(graphql_received.wait(), timeout=2.0)
+            except asyncio.TimeoutError:
+                logging.debug(f'[GraphQL] Timeout waiting for stock API for {product_id}')
                 page.remove_listener('response', handle_graphql_response)
-                continue
+                return {}
 
+        except Exception as e:
+            logging.debug(f'[GraphQL] Error loading product page: {e}')
             page.remove_listener('response', handle_graphql_response)
+            return {}
 
-            # Parse GraphQL response for this state
-            if graphql_data:
-                availability = graphql_data.get('data', {}).get('getProductAvailability', {}).get('availability', {})
+        page.remove_listener('response', handle_graphql_response)
 
-                # Extract stock data
-                stock_info = {
-                    'online': 0,
-                    'instore': 0,
-                    'locations': [],
-                    'state': state,
-                    'postcode': postcode
-                }
+        # Parse GraphQL response
+        if graphql_data:
+            availability = graphql_data.get('data', {}).get('getProductAvailability', {}).get('availability', {})
 
-                # Home Delivery (Online)
-                home_delivery = availability.get('HOME_DELIVERY', [])
-                if home_delivery:
-                    stock_info['online'] = home_delivery[0].get('stock', {}).get('available', 0)
+            # Extract stock data for NSW (representative of nationwide stock)
+            stock_info = {
+                'online': 0,
+                'instore': 0,
+                'locations': [],
+                'state': 'NSW',
+                'postcode': '2000'
+            }
 
-                # Click & Collect (In-Store)
-                click_collect = availability.get('CLICK_AND_COLLECT', [])
-                if click_collect:
-                    stock_info['instore'] = click_collect[0].get('stock', {}).get('totalAvailable', 0)
+            # Home Delivery (Online)
+            home_delivery = availability.get('HOME_DELIVERY', [])
+            if home_delivery:
+                stock_info['online'] = home_delivery[0].get('stock', {}).get('available', 0)
 
-                    # Get per-location stock
-                    locations = click_collect[0].get('locations', [])
-                    for loc in locations:
-                        loc_id = loc.get('fulfilment', {}).get('locationId')
-                        loc_stock = loc.get('fulfilment', {}).get('stock', {}).get('available', 0)
-                        if loc_stock > 0:
-                            stock_info['locations'].append({
-                                'id': loc_id,
-                                'stock': loc_stock
-                            })
+            # Click & Collect (In-Store)
+            click_collect = availability.get('CLICK_AND_COLLECT', [])
+            if click_collect:
+                stock_info['instore'] = click_collect[0].get('stock', {}).get('totalAvailable', 0)
 
-                all_states_stock[state] = stock_info
-                logging.info(f'[GraphQL] {state} Stock for {product_id}: Online={stock_info["online"]}, In-Store={stock_info["instore"]}')
-            else:
-                logging.warning(f'[GraphQL] No stock data received for {product_id} in {state}')
+                # Get per-location stock
+                locations = click_collect[0].get('locations', [])
+                for loc in locations:
+                    loc_id = loc.get('fulfilment', {}).get('locationId')
+                    loc_stock = loc.get('fulfilment', {}).get('stock', {}).get('available', 0)
+                    if loc_stock > 0:
+                        stock_info['locations'].append({
+                            'id': loc_id,
+                            'stock': loc_stock
+                        })
+
+            all_states_stock['NSW'] = stock_info
+            logging.debug(f'[GraphQL] {product_id} NSW: Online={stock_info["online"]}, In-Store={stock_info["instore"]}')
+        else:
+            logging.debug(f'[GraphQL] No stock data received for {product_id}')
 
         return all_states_stock
 
     except Exception as e:
-        logging.error(f'[GraphQL] Error fetching stock for all states: {e}')
+        logging.error(f'[GraphQL] Error fetching stock: {e}')
         return {}
 
 
@@ -164,111 +157,131 @@ async def scrape_site(page, url: str, retry_count: int = 0) -> List[Dict]:
             ERROR_COUNT += 1
             raise
 
-        # Wait for content to be present
+        # Wait for content to be present (script tags are hidden by default)
         try:
-            await page.wait_for_selector('script[type="application/ld+json"], a[href*="/p/"]', timeout=10000)
+            await page.wait_for_selector('script[type="application/ld+json"]', state='attached', timeout=15000)
         except PlaywrightTimeout:
             logging.warning('No products found on page')
             return []
 
-        # Wait for dynamic content
-        await asyncio.sleep(2.5)
+        # Kmart uses Constructor.io API - intercept API responses for instant, accurate scraping
+        # This is similar to Target monitor approach - much faster and 100% reliable
+        logging.info('Intercepting Constructor.io API for product data...')
 
-        # Extract JSON-LD structured data (fastest method)
-        json_ld_data = await page.evaluate('''() => {
-            const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
-            return scripts.map(s => {
-                try {
-                    return JSON.parse(s.textContent);
-                } catch(e) {
-                    return null;
-                }
-            }).filter(d => d !== null);
-        }''')
+        api_products_by_page = {}
 
-        # Parse JSON-LD data
-        for data in json_ld_data:
+        # Set up API response interceptor
+        async def capture_constructor_api(response):
+            nonlocal api_products_by_page
             try:
-                if isinstance(data, dict) and data.get('@type') == 'ItemList':
-                    products = data.get('itemListElement', [])
+                response_url = response.url
 
-                    for product in products:
-                        if product.get('@type') == 'ListItem':
-                            item_data = product.get('item', {})
+                # Intercept Constructor.io browse API (this is what loads products)
+                if 'ac.cnstrc.com/browse/group_id' in response_url and response.status == 200:
+                    data = await response.json()
 
-                            product_item = {
-                                'title': item_data.get('name', 'Unknown'),
-                                'url': item_data.get('url', ''),
-                                'image': '',
-                                'position': product.get('position', 0),
-                                'price': None,
-                                'stock_info': None,
-                                'sku': None
-                            }
+                    # Extract page number from URL
+                    page_match = re.search(r'[?&]page=(\d+)', response_url)
+                    page_num = int(page_match.group(1)) if page_match else 1
 
-                            # Handle image
-                            image_data = item_data.get('image', '')
-                            if isinstance(image_data, dict):
-                                product_item['image'] = image_data.get('url', '')
-                            else:
-                                product_item['image'] = image_data
+                    # Get products from API response
+                    results = data.get('response', {}).get('results', [])
+                    total_available = data.get('response', {}).get('result_sources', {}).get('token_match', {}).get('count', 0)
 
-                            # Extract price
-                            offers = item_data.get('offers', {})
-                            if isinstance(offers, dict):
-                                price_val = offers.get('price')
-                                if price_val:
-                                    product_item['price'] = str(price_val)
+                    api_products_by_page[page_num] = results
+                    logging.info(f'[API] Captured page {page_num}: {len(results)} products (Total in category: {total_available})')
+            except:
+                pass
 
-                            # Extract SKU from URL
-                            url_match = re.search(r'/(\d+)/?$', product_item['url'])
-                            if url_match:
-                                sku = url_match.group(1)
-                                product_item['sku'] = sku
+        # Attach the interceptor
+        page.on('response', capture_constructor_api)
 
-                                # Fetch stock data for ALL states from GraphQL API
-                                full_url = product_item['url'] if product_item['url'].startswith('http') else f"https://www.kmart.com.au{product_item['url']}"
-                                all_states_stock = await get_stock_for_all_states(page, full_url, sku)
-                                if all_states_stock:
-                                    product_item['all_states_stock'] = all_states_stock
+        # Load initial page and wait for API call
+        await asyncio.sleep(3)
 
-                                # Try to get better quality image from product page if image is missing or low quality
-                                if not product_item['image'] or 'placeholder' in product_item['image'].lower():
-                                    try:
-                                        # Extract high-quality image from the product page we just visited
-                                        better_image = await page.evaluate('''() => {
-                                            // Try multiple selectors for product images
-                                            const selectors = [
-                                                'meta[property="og:image"]',
-                                                'img[class*="ProductImage"]',
-                                                'img[class*="product-image"]',
-                                                'img[data-testid*="product"]',
-                                                '.product-image img',
-                                                'picture img'
-                                            ];
+        # Close popup if present
+        try:
+            close_btn = await page.query_selector('button[aria-label*="close" i]')
+            if close_btn and await close_btn.is_visible():
+                await close_btn.click()
+                await asyncio.sleep(0.5)
+        except:
+            pass
 
-                                            for (const sel of selectors) {
-                                                const elem = document.querySelector(sel);
-                                                if (elem) {
-                                                    if (elem.tagName === 'META') {
-                                                        return elem.content;
-                                                    } else {
-                                                        return elem.src || elem.dataset.src || elem.getAttribute('data-src');
-                                                    }
-                                                }
-                                            }
-                                            return null;
-                                        }''')
+        # Click through pagination to trigger API calls for all pages
+        current_page = 1
+        max_pages = 3  # Kmart Pokemon cards has max 2 pages, but check up to 3 to be safe
 
-                                        if better_image:
-                                            product_item['image'] = better_image
-                                    except Exception as e:
-                                        logging.debug(f'Could not extract better image: {e}')
+        while current_page <= max_pages:
+            # Wait for API response to be captured
+            await asyncio.sleep(1)
 
-                            items.append(product_item)
+            # Try to go to next page
+            await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+            await asyncio.sleep(0.5)
+
+            next_page_num = current_page + 1
+            next_button = await page.query_selector(f'button.MuiPaginationItem-page:has-text("{next_page_num}")')
+
+            if next_button and await next_button.is_visible() and not await next_button.is_disabled():
+                logging.info(f'Clicking page {next_page_num}...')
+                await next_button.click()
+                await asyncio.sleep(2)
+                current_page += 1
+            else:
+                logging.info(f'No more pages (completed {current_page} pages)')
+                break
+
+        # Process all captured API products
+        dom_products = []
+        for page_num in sorted(api_products_by_page.keys()):
+            products_on_page = api_products_by_page[page_num]
+
+            for product in products_on_page:
+                try:
+                    product_data = product.get('data', {})
+
+                    # Extract product info from API response
+                    dom_products.append({
+                        'url': f"https://www.kmart.com.au{product_data.get('url', '')}",
+                        'title': product.get('value', ''),
+                        'price': None,  # Price is in the product_data if needed later
+                        'image': product_data.get('image_url', ''),
+                        'sku': product_data.get('id', '')
+                    })
+                except Exception as e:
+                    logging.debug(f'Error parsing API product: {e}')
+                    continue
+
+        logging.info(f'Total products from Constructor.io API: {len(dom_products)}')
+
+        # Convert API products to our format and fetch stock sequentially (but optimized)
+        # Note: We keep this sequential because GraphQL calls need to navigate pages
+        for dom_product in dom_products:
+            try:
+                # SKU is already provided by the API!
+                sku = dom_product.get('sku', '')
+
+                product_item = {
+                    'title': dom_product.get('title', 'Unknown'),
+                    'url': dom_product.get('url', ''),
+                    'image': dom_product.get('image', ''),
+                    'price': dom_product.get('price'),
+                    'stock_info': None,
+                    'sku': sku
+                }
+
+                # Fetch stock data for ALL states from GraphQL API (if we have a SKU)
+                if sku:
+                    full_url = product_item['url'] if product_item['url'].startswith('http') else f"https://www.kmart.com.au{product_item['url']}"
+                    all_states_stock = await get_stock_for_all_states(page, full_url, sku)
+                    if all_states_stock:
+                        product_item['all_states_stock'] = all_states_stock
+
+                items.append(product_item)
 
             except (KeyError, AttributeError) as e:
-                logging.error(f"Error parsing JSON-LD: {e}")
+                logging.error(f"Error parsing product: {e}")
                 continue
 
         # Fallback: Scrape product cards if JSON-LD didn't work

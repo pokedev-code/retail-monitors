@@ -57,7 +57,18 @@ CARD_INCLUDE_KEYWORDS = ['tcg', 'booster', 'pack', 'card', 'deck', 'tin', 'box',
 
 # Products containing these keywords will be EXCLUDED from notifications
 # These filter out non-card Pokemon products like toys, clothing, etc
-CARD_EXCLUDE_KEYWORDS = ['plush', 'toy', 'figure', 'figurine', 'book', 'dvd', 'blu-ray', 'clothing', 'shirt', 't-shirt', 'hoodie', 'backpack', 'bag', 'lunchbox', 'bottle', 'cup', 'mug', 'poster', 'sticker', 'puzzle', 'game', 'switch', 'console', 'controller']
+# Also excludes other trading card games (Yu-Gi-Oh!, NBA, FIFA, etc.)
+CARD_EXCLUDE_KEYWORDS = [
+    # Non-card Pokemon products
+    'plush', 'toy', 'figure', 'figurine', 'book', 'dvd', 'blu-ray', 'clothing', 'shirt', 't-shirt',
+    'hoodie', 'backpack', 'bag', 'lunchbox', 'bottle', 'cup', 'mug', 'poster', 'sticker', 'puzzle',
+    'game', 'switch', 'console', 'controller',
+    # Other trading card games (NOT Pokemon)
+    'yu-gi-oh', 'yugioh', 'nba', 'basketball', 'soccer', 'football', 'fifa', 'premier league',
+    'panini', 'donruss', 'prizm', 'topps', 'adrenalyn', 'cricket', 'baseball', 'hockey', 'nfl',
+    'nrl', 'afl', 'formula 1', 'f1', 'wwe', 'ufc', 'one piece', 'dragon ball', 'magic the gathering',
+    'mtg', 'flesh and blood', 'fab', 'marvel', 'digimon', 'lorcana'
+]
 
 # --------------------- EBAY LINKS ---------------------
 # Enable eBay links in Discord notifications (like Kmart bot)

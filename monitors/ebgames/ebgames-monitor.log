@@ -24,3 +24,7 @@
 2025-10-21 05:39:14,301 - INFO - [SCRAPE] Found 32 products
 2025-10-21 05:39:14,305 - INFO - [FILTER] 31 products after filtering
 2025-10-21 05:39:15,403 - INFO - [SUCCESS] Sent Discord notification for: Pokemon - TCG - Dec 25 Collectors Chest
+2025-10-22 14:43:08,251 - INFO - [SCRAPE] Loading https://www.ebgames.com.au/search?category=toys-hobbies&subcategory=toys-hobbies-trading-cards&attributes=franchise%3Apokemon
+2025-10-22 14:43:12,148 - INFO - [SCRAPE] Found 32 products
+2025-10-22 14:43:12,148 - INFO - [FILTER] 31 products after filtering
+2025-10-22 14:43:12,750 - INFO - [SUCCESS] Sent Discord notification for: Pokemon - TCG - Dec 25 Collectors Chest

@@ -1,0 +1,417 @@
+[
+  {
+    "url": "https://rapid-cdn.yottaa.com/rapid/lib/E7xJkYsItQOtOw.js",
+    "method": "GET",
+    "resource_type": "script"
+  },
+  {
+    "url": "https://rapid-1.yottaa.net/api/v1/configure.rapid.js?key=E7xJkYsItQOtOw&ul=en-GB&dl=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&dt=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&sd=24&sr=1280,720&vp=1280,720&ct=4g&rtt=100",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://ac.cnstrc.com/recommendations/v1/pods/bestsellers_products?c=cio-ui-autocomplete-1.23.31&key=key_GZTqlLr41FS2p7AY&i=bc394b56-5dca-4707-9eef-a4d0d550a6e6&s=1&num_results=6&section=Products&filters%5BAvailable%20in%20%5D=True",
+    "method": "GET",
+    "resource_type": "fetch"
+  },
+  {
+    "url": "https://ac.cnstrc.com/recommendations/v1/pods/bestsellers_search_suggestions?c=cio-ui-autocomplete-1.23.31&key=key_GZTqlLr41FS2p7AY&i=bc394b56-5dca-4707-9eef-a4d0d550a6e6&s=1&num_results=6&section=Search%20Suggestions",
+    "method": "GET",
+    "resource_type": "fetch"
+  },
+  {
+    "url": "https://ac.cnstrc.com/recommendations/v1/pods/bestsellers_products?c=cio-ui-autocomplete-1.23.31&key=key_GZTqlLr41FS2p7AY&i=bc394b56-5dca-4707-9eef-a4d0d550a6e6&s=1&num_results=6&section=Products&filters%5BAvailable%20in%20NSW%5D=True",
+    "method": "GET",
+    "resource_type": "fetch"
+  },
+  {
+    "url": "https://ac.cnstrc.com/recommendations/v1/pods/bestsellers_search_suggestions?c=cio-ui-autocomplete-1.23.31&key=key_GZTqlLr41FS2p7AY&i=bc394b56-5dca-4707-9eef-a4d0d550a6e6&s=1&num_results=6&section=Search%20Suggestions",
+    "method": "GET",
+    "resource_type": "fetch"
+  },
+  {
+    "url": "https://www.kmart.com.au/product-discovery/api/contentful/advantage-promo",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43612208/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43615735/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43601165/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43615667/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://www.kmart.com.au/product-discovery/api/contentful/advantage-promo",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://www.kmart.com.au/product-discovery/api/contentful/advantage-promo/",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-CXF7KQVQ46&gtm=45je5al0v870173949z86145416za200zb6145416zd6145416&_p=1761153335185&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1537150753.1761153336&ul=en-gb&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115616986~115938466~115938469~116110425~116110427&uid=&sid=1761153336&sct=1&seg=0&dl=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&dt=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&en=page_view&_fv=1&_nsi=1&_ss=1&ep.mod_page=%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&ep.login_status=Logged%20Out&ep.nav_tracking_page_section=&ep.nav_tracking_site_section=&ep.tealium_id=&ep.tealium_perso=&ep.dark_mode_requested=false&ep.static_user_id_email_sha256=&ep.yottaa=active&ep.category_level_1=toys&ep.category_level_2=No%20Category&ep.category_level_3=No%20Category&ep.category_level_4=No%20Category&ep.user_agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F140.0.0.0%20Safari%2F537.36&ep.onepass_subscription_status=Inactive&ep.constructor_feature_name=&ep.constructor_feature_enabled=&ep.login_action=&ep.platform_type=Web&tfd=1601",
+    "method": "POST",
+    "resource_type": "fetch"
+  },
+  {
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-CXF7KQVQ46&gtm=45je5al0v870173949z86145416za200zb6145416zd6145416&_p=1761153335185&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1537150753.1761153336&ul=en-gb&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=IAAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115616986~115938466~115938469~116110425~116110427&uid=&sid=1761153336&sct=1&seg=0&dl=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&dt=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&_tu=KA&tfd=1628",
+    "method": "POST",
+    "resource_type": "fetch"
+  },
+  {
+    "url": "https://www.kmart.com.au/product-discovery/api/contentful/advantage-promo/",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43350230/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43519750/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43350223/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://ad.doubleclick.net/activity;src=8065076;type=landp;cat=kmart00k;ord=9108493936092;match_id=1761153335214_019a0ceb3fa1000c8e2ab425561d0506f003d067007e8;npa=0;auiddc=1726691696.1761153336;u23=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F;uaa=x86;uab=64;uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=15.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe5al0v9184421935z86145416za200zb6145416zd6145416xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480709~115938466~115938469~116110425~116110427;epver=2;dc_random=1761153336_Nq-I2isyBW2txKKOs1xnqiO_VtCdv8oSKA;~oref=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F?",
+    "method": "POST",
+    "resource_type": "fetch"
+  },
+  {
+    "url": "https://www.googleadservices.com/pagead/conversion/1042281642/?random=1761153336704&cv=11&fst=1761153336704&bg=ffffff&guid=ON&async=1&en=purchase&gtm=45be5al0v890908810z86145416za200zb6145416zd6145416xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~102015666~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115938466~115938469~116110425~116110427&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&label=FuhMCNuu4tYDEKrp__AD&frm=0&tiba=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&bttype=purchase&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1726691696.1761153336&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&capi=1&_tu=CA&gcl_ctr=1~0&fmt=7",
+    "method": "GET",
+    "resource_type": "fetch"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/js?key=AIzaSyBUbXWTugEFKIsopK8EWo9oVycZf2pJUqU&loading=defer&v=weekly&loading=async&callback=initMap",
+    "method": "GET",
+    "resource_type": "script"
+  },
+  {
+    "url": "https://www.youtube.com/iframe_api",
+    "method": "GET",
+    "resource_type": "script"
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1042281642/?random=1752152135&cv=11&fst=1761153336704&bg=ffffff&guid=ON&async=1&en=purchase&gtm=45be5al0v890908810z86145416za200zb6145416zd6145416xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~102015666~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115938466~115938469~116110425~116110427&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&label=FuhMCNuu4tYDEKrp__AD&frm=0&tiba=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1726691696.1761153336&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&capi=1&_tu=CA&gcl_ctr=1~0&fmt=3&ct_cookie_present=false&crd=CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgim2bECCPvYsQII2dexAgjY17ECCMLPsQII_tWxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII7tCxAgiX1LECCMjbsQIIyduxAgjK2bECShl0cmlnZ2VyPW5hdmlnYXRpb24tc291cmNlWgMKAQFiAwoBAw&cerd=CgEA&eitems=ChEI8IHixwYQ1t2DgaWip_yIARIdAGtDOAqOgDReg_gL_8SUFd90Fq_UauHB6al1L6k&fsk=ChAI8IHixwYQws-WntutlZFCEiwA56kaFo3opAaqvwBYM-VssKtKbAX3nilu6dzEklyKiLTGrZZIOsx7b9WTQxoCT4k&pscrd=IhMI1POUuKe4kAMV3EEqCR0juzflMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhlodHRwczovL3d3dy5rbWFydC5jb20uYXUvQldDaEVJOElIaXh3WVFzYnlkcjZpMXk5LTRBUklzQUNCWFFtazQxTkk2dXZCUE95RkFRWG0xTkhheW5pclpsNWpTdS14ZlZhczJ1dnp4V0Y0TmpHNHZXOUl6DAgJYggIABAAGAAgAA",
+    "method": "GET",
+    "resource_type": "image"
+  },
+  {
+    "url": "https://8065076.fls.doubleclick.net/activityi;src=8065076;type=landp;cat=kmart00k;ord=9108493936092;match_id=1761153335214_019a0ceb3fa1000c8e2ab425561d0506f003d067007e8;npa=0;auiddc=1726691696.1761153336;u23=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F;uaa=x86;uab=64;uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=15.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe5al0v9184421935z86145416za200zb6145416zd6145416xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480709~115938466~115938469~116110425~116110427;epver=2;dc_random=1761153336_Nq-I2isyBW2txKKOs1xnqiO_VtCdv8oSKA;_dc_test=1;~oref=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F?",
+    "method": "GET",
+    "resource_type": "document"
+  },
+  {
+    "url": "https://www.youtube.com/s/player/27422632/www-widgetapi.vflset/www-widgetapi.js",
+    "method": "GET",
+    "resource_type": "script"
+  },
+  {
+    "url": "https://ad.doubleclick.net/activity;dc_pre=CJjAkrinuJADFQHmFgUde-wR0A;src=8065076;type=landp;cat=kmart00k;ord=9108493936092;match_id=1761153335214_019a0ceb3fa1000c8e2ab425561d0506f003d067007e8;npa=0;auiddc=1726691696.1761153336;u23=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F;uaa=x86;uab=64;uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=15.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe5al0v9184421935z86145416za200zb6145416zd6145416xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480709~115938466~115938469~116110425~116110427;epver=2;dc_random=1761153336_Nq-I2isyBW2txKKOs1xnqiO_VtCdv8oSKA;~oref=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F?",
+    "method": "GET",
+    "resource_type": "fetch"
+  },
+  {
+    "url": "https://www.google.com/pagead/1p-conversion/1042281642/?random=1752152135&cv=11&fst=1761153336704&bg=ffffff&guid=ON&async=1&en=purchase&gtm=45be5al0v890908810z86145416za200zb6145416zd6145416xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~102015666~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115938466~115938469~116110425~116110427&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&label=FuhMCNuu4tYDEKrp__AD&frm=0&tiba=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1726691696.1761153336&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&capi=1&_tu=CA&gcl_ctr=1~0&fmt=3&ct_cookie_present=false&crd=CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgim2bECCPvYsQII2dexAgjY17ECCMLPsQII_tWxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII7tCxAgiX1LECCMjbsQIIyduxAgjK2bECShl0cmlnZ2VyPW5hdmlnYXRpb24tc291cmNlWgMKAQFiAwoBAw&cerd=CgEA&fsk=ChAI8IHixwYQws-WntutlZFCEiwA56kaFo3opAaqvwBYM-VssKtKbAX3nilu6dzEklyKiLTGrZZIOsx7b9WTQxoCT4k&pscrd=IhMI1POUuKe4kAMV3EEqCR0juzflMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhlodHRwczovL3d3dy5rbWFydC5jb20uYXUvQldDaEVJOElIaXh3WVFzYnlkcjZpMXk5LTRBUklzQUNCWFFtazQxTkk2dXZCUE95RkFRWG0xTkhheW5pclpsNWpTdS14ZlZhczJ1dnp4V0Y0TmpHNHZXOUl6DAgJYggIABAAGAAgAA&is_vtc=1&cid=CAQSjQEAwksa0Y5JyMqK-zFlYaj3Yj1OGzYsRiZA973u1XJ9ovWzWURfGuNH8JBUNF2Sh5jPSrOIHyGl6EuoIiuabdlj1gmG_keVknVNHYdgktR7ULKEjLfI4gmOkDkWuTa7hcdIOqJDhrgnXGj7WlzaY5XQxwMXHubZNLNAJCc1yO-iTbUdvKprOIJF3AE-eiI&eitems=ChEI8IHixwYQ1t2DgaWip_yIARIdAGtDOAoC6kWsz31d-xK0RFisK2La3HobunNH_nI&random=1700533635",
+    "method": "GET",
+    "resource_type": "image"
+  },
+  {
+    "url": "https://ixfd2-api.bc0a.com/api/ixf/1.0.0/get_capsule/f00000000238933/2143137622?client=js_sdk&client_version=1.5.13",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://8065076.fls.doubleclick.net/activityi;dc_pre=CKC_qrinuJADFQy_YwYdNEYOWQ;src=8065076;type=landp;cat=kmart00k;ord=9108493936092;match_id=1761153335214_019a0ceb3fa1000c8e2ab425561d0506f003d067007e8;npa=0;auiddc=1726691696.1761153336;u23=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F;uaa=x86;uab=64;uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=15.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe5al0v9184421935z86145416za200zb6145416zd6145416xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480709~115938466~115938469~116110425~116110427;epver=2;dc_random=1761153336_Nq-I2isyBW2txKKOs1xnqiO_VtCdv8oSKA;_dc_test=1;~oref=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F?",
+    "method": "GET",
+    "resource_type": "document"
+  },
+  {
+    "url": "https://sdk.iad-05.braze.com/api/v3/data/",
+    "method": "POST",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps-api-v3/api/js/62/11d/intl/en_gb/main.js",
+    "method": "GET",
+    "resource_type": "script"
+  },
+  {
+    "url": "https://analytics.tiktok.com/api/v2/pixel",
+    "method": "POST",
+    "resource_type": "ping"
+  },
+  {
+    "url": "https://www.google.com.au/pagead/1p-conversion/1042281642/?random=1752152135&cv=11&fst=1761153336704&bg=ffffff&guid=ON&async=1&en=purchase&gtm=45be5al0v890908810z86145416za200zb6145416zd6145416xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~102015666~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115938466~115938469~116110425~116110427&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&label=FuhMCNuu4tYDEKrp__AD&frm=0&tiba=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1726691696.1761153336&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&capi=1&_tu=CA&gcl_ctr=1~0&fmt=3&ct_cookie_present=false&crd=CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgim2bECCPvYsQII2dexAgjY17ECCMLPsQII_tWxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII7tCxAgiX1LECCMjbsQIIyduxAgjK2bECShl0cmlnZ2VyPW5hdmlnYXRpb24tc291cmNlWgMKAQFiAwoBAw&cerd=CgEA&fsk=ChAI8IHixwYQws-WntutlZFCEiwA56kaFo3opAaqvwBYM-VssKtKbAX3nilu6dzEklyKiLTGrZZIOsx7b9WTQxoCT4k&is_vtc=1&cid=CAQSjQEAwksa0Y5JyMqK-zFlYaj3Yj1OGzYsRiZA973u1XJ9ovWzWURfGuNH8JBUNF2Sh5jPSrOIHyGl6EuoIiuabdlj1gmG_keVknVNHYdgktR7ULKEjLfI4gmOkDkWuTa7hcdIOqJDhrgnXGj7WlzaY5XQxwMXHubZNLNAJCc1yO-iTbUdvKprOIJF3AE-eiI&eitems=ChEI8IHixwYQ1t2DgaWip_yIARIdAGtDOAoC6kWsz31d-xK0RFisK2La3HobunNH_nI&random=1700533635&ipr=y&pscrd=IhMI1POUuKe4kAMV3EEqCR0juzflMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhlodHRwczovL3d3dy5rbWFydC5jb20uYXUvQldDaEVJOElIaXh3WVFzYnlkcjZpMXk5LTRBUklzQUNCWFFtazQxTkk2dXZCUE95RkFRWG0xTkhheW5pclpsNWpTdS14ZlZhczJ1dnp4V0Y0TmpHNHZXOUl6DAgJYggIABAAGAAgAIIBBXABiAEB",
+    "method": "GET",
+    "resource_type": "image"
+  },
+  {
+    "url": "https://www.facebook.com/tr/?id=2832644936796721&ev=PageView&dl=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&rl=&if=false&ts=1761153337503&sw=1280&sh=720&cud[external_id]=%23%23%23*%23***%23**%23%23%23%23*%23*%23**%23%23%23%23%23%23*%23%23%23%23*%23%23%23*%23%23%23%23%23%23*%23&ncud[external_id]=%23%23%23*%23***%23**%23%23%23%23*%23*%23**%23%23%23%23%23%23*%23%23%23%23*%23%23%23*%23%23%23%23%23%23*%23&ud[external_id]=d4c9220f18419f8cc6421dd6e4d588dde826075c74314bd97a72932f9e38643d&aud[external_id]=d4c9220f18419f8cc6421dd6e4d588dde826075c74314bd97a72932f9e38643d&v=2.9.237&r=stable&ec=0&o=4126&fbp=fb.2.1761153337498.738455433498445500&ler=empty&cdl=API_unavailable&pmd[title]=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart%20&pmd[description]=Explore%20Kmart%27s%20range%20of%20Pokemon%20Trading%20Cards%20at%20famously%20low%20prices.%20Delivery%20or%20click%20%26%20collect%20on%20selected%20items.&pmd[contents]=%5B%5D&plt=885.2000000476837&it=1761153337280&coo=false&eid=1761153335214_019a0ceb3fa1000c8e2ab425561d0506f003d067007e8&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&rqm=GET",
+    "method": "GET",
+    "resource_type": "image"
+  },
+  {
+    "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=2832644936796721&ev=PageView&dl=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&rl=&if=false&ts=1761153337503&sw=1280&sh=720&cud[external_id]=%23%23%23*%23***%23**%23%23%23%23*%23*%23**%23%23%23%23%23%23*%23%23%23%23*%23%23%23*%23%23%23%23%23%23*%23&ncud[external_id]=%23%23%23*%23***%23**%23%23%23%23*%23*%23**%23%23%23%23%23%23*%23%23%23%23*%23%23%23*%23%23%23%23%23%23*%23&ud[external_id]=d4c9220f18419f8cc6421dd6e4d588dde826075c74314bd97a72932f9e38643d&aud[external_id]=d4c9220f18419f8cc6421dd6e4d588dde826075c74314bd97a72932f9e38643d&v=2.9.237&r=stable&ec=0&o=4126&fbp=fb.2.1761153337498.738455433498445500&ler=empty&cdl=API_unavailable&pmd[title]=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart%20&pmd[description]=Explore%20Kmart%27s%20range%20of%20Pokemon%20Trading%20Cards%20at%20famously%20low%20prices.%20Delivery%20or%20click%20%26%20collect%20on%20selected%20items.&pmd[contents]=%5B%5D&plt=885.2000000476837&it=1761153337280&coo=false&eid=1761153335214_019a0ceb3fa1000c8e2ab425561d0506f003d067007e8&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&rqm=FGET",
+    "method": "GET",
+    "resource_type": "image"
+  },
+  {
+    "url": "https://adservice.google.com/ddm/fls/z/dc_pre=CKC_qrinuJADFQy_YwYdNEYOWQ;src=8065076;type=landp;cat=kmart00k;ord=9108493936092;match_id=1761153335214_019a0ceb3fa1000c8e2ab425561d0506f003d067007e8;npa=0;auiddc=*;u23=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F;uaa=x86;uab=64;uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16;uamb=0;uam=;uap=Windows;uapv=15.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe5al0v9184421935z86145416za200zb6145416zd6145416xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480709~115938466~115938469~116110425~116110427;epver=2;dc_random=1761153336_Nq-I2isyBW2txKKOs1xnqiO_VtCdv8oSKA;_dc_test=1;~oref=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F",
+    "method": "GET",
+    "resource_type": "image"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://analytics.tiktok.com/api/v2/pixel/act",
+    "method": "POST",
+    "resource_type": "ping"
+  },
+  {
+    "url": "https://sdk.iad-05.braze.com/api/v3/content_cards/sync",
+    "method": "POST",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-CXF7KQVQ46&gtm=45je5al0v870173949z86145416za200zb6145416zd6145416&_p=1761153335185&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1537150753.1761153336&ul=en-gb&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=IAAAAAQ&_s=3&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115616986~115938466~115938469~116110425~116110427&uid=&sid=1761153336&sct=1&seg=0&dl=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&dt=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&tfd=6641",
+    "method": "POST",
+    "resource_type": "fetch"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps-api-v3/api/js/62/11d/intl/en_gb/common.js",
+    "method": "GET",
+    "resource_type": "script"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps-api-v3/api/js/62/11d/intl/en_gb/util.js",
+    "method": "GET",
+    "resource_type": "script"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43485178/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43664849/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43647255/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43350254/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43648146/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43647248/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43615728/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43350070/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://analytics.tiktok.com/api/v2/pixel/inter",
+    "method": "POST",
+    "resource_type": "ping"
+  },
+  {
+    "url": "https://analytics.tiktok.com/api/v2/pixel/act",
+    "method": "POST",
+    "resource_type": "ping"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43556632/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://www.facebook.com/tr/?id=2832644936796721&ev=PageView&dl=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F%3Fpage%3D2&rl=&if=false&ts=1761153347668&sw=1280&sh=720&cud[external_id]=%23%23%23*%23***%23**%23%23%23%23*%23*%23**%23%23%23%23%23%23*%23%23%23%23*%23%23%23*%23%23%23%23%23%23*%23&ncud[external_id]=%23%23%23*%23***%23**%23%23%23%23*%23*%23**%23%23%23%23%23%23*%23%23%23%23*%23%23%23*%23%23%23%23%23%23*%23&ud[external_id]=d4c9220f18419f8cc6421dd6e4d588dde826075c74314bd97a72932f9e38643d&aud[external_id]=d4c9220f18419f8cc6421dd6e4d588dde826075c74314bd97a72932f9e38643d&v=2.9.237&r=stable&ec=1&o=4126&fbp=fb.2.1761153337498.738455433498445500&ler=empty&cdl=API_unavailable&pmd[title]=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart%20&pmd[description]=Explore%20Kmart%27s%20range%20of%20Pokemon%20Trading%20Cards%20at%20famously%20low%20prices.%20Delivery%20or%20click%20%26%20collect%20on%20selected%20items.&pmd[contents]=%5B%5D&plt=885.2000000476837&it=1761153347664&coo=false&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&rqm=GET",
+    "method": "GET",
+    "resource_type": "image"
+  },
+  {
+    "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=2832644936796721&ev=PageView&dl=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F%3Fpage%3D2&rl=&if=false&ts=1761153347668&sw=1280&sh=720&cud[external_id]=%23%23%23*%23***%23**%23%23%23%23*%23*%23**%23%23%23%23%23%23*%23%23%23%23*%23%23%23*%23%23%23%23%23%23*%23&ncud[external_id]=%23%23%23*%23***%23**%23%23%23%23*%23*%23**%23%23%23%23%23%23*%23%23%23%23*%23%23%23*%23%23%23%23%23%23*%23&ud[external_id]=d4c9220f18419f8cc6421dd6e4d588dde826075c74314bd97a72932f9e38643d&aud[external_id]=d4c9220f18419f8cc6421dd6e4d588dde826075c74314bd97a72932f9e38643d&v=2.9.237&r=stable&ec=1&o=4126&fbp=fb.2.1761153337498.738455433498445500&ler=empty&cdl=API_unavailable&pmd[title]=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart%20&pmd[description]=Explore%20Kmart%27s%20range%20of%20Pokemon%20Trading%20Cards%20at%20famously%20low%20prices.%20Delivery%20or%20click%20%26%20collect%20on%20selected%20items.&pmd[contents]=%5B%5D&plt=885.2000000476837&it=1761153347664&coo=false&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&rqm=FGET",
+    "method": "GET",
+    "resource_type": "image"
+  },
+  {
+    "url": "https://analytics.tiktok.com/api/v2/pixel",
+    "method": "POST",
+    "resource_type": "ping"
+  },
+  {
+    "url": "https://www.kmart.com.au/product-discovery/api/contentful/advantage-promo",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://www.kmart.com.au/product-discovery/api/contentful/advantage-promo",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://www.kmart.com.au/product-discovery/api/contentful/advantage-promo/",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://analytics.tiktok.com/api/v2/pixel/act",
+    "method": "POST",
+    "resource_type": "ping"
+  },
+  {
+    "url": "https://www.kmart.com.au/product-discovery/api/contentful/advantage-promo/",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://www.kmart.com.au/product-discovery/api/contentful/advantage-promo",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43580651/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43580675/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43664801/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://api-cdn.yotpo.com/v1/widget/SzVy7lws56AxMwq47Ufx69XAHnIA3zd0fBJNcbBG/products/43580606/reviews.json?per_page=0",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://www.kmart.com.au/product-discovery/api/contentful/advantage-promo",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://www.kmart.com.au/product-discovery/api/contentful/advantage-promo/",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://www.kmart.com.au/product-discovery/api/contentful/advantage-promo/",
+    "method": "GET",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://sdk.iad-05.braze.com/api/v3/data/",
+    "method": "POST",
+    "resource_type": "xhr"
+  },
+  {
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-CXF7KQVQ46&gtm=45je5al0v870173949z86145416za200zb6145416zd6145416&_p=1761153335185&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1537150753.1761153336&ul=en-gb&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=IAAAAAQ&_s=4&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115616986~115938466~115938469~116110425~116110427&uid=&sid=1761153336&sct=1&seg=1&dl=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F%3Fpage%3D2&dt=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&tfd=13983",
+    "method": "POST",
+    "resource_type": "fetch"
+  },
+  {
+    "url": "https://www.google.com/pagead/form-data/1042281642?gtm=45be5al0v890908810za200zb6145416zd6145416xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~102015666~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115938466~115938469~116110425~116110427&npa=0&frm=0&pscdl=noapi&auid=1726691696.1761153336&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&_tu=KA",
+    "method": "POST",
+    "resource_type": "ping"
+  },
+  {
+    "url": "https://www.google.com/ccm/form-data/1042281642?gtm=45be5al0v890908810za200zb6145416zd6145416xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~102015666~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115938466~115938469~116110425~116110427&npa=0&frm=0&pscdl=noapi&auid=1726691696.1761153336&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0",
+    "method": "POST",
+    "resource_type": "ping"
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1042281642/?random=1761153348686&cv=11&fst=1761153348686&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be5al0v890908810za200zb6145416zd6145416xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~102015666~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115938466~115938469~116110425~116110427&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F%3Fpage%3D2&ref=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&frm=0&tiba=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1726691696.1761153336&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&data=event%3Dpage_view&rfmt=3&fmt=4",
+    "method": "GET",
+    "resource_type": "script"
+  },
+  {
+    "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-RVE70SZBL5&gtm=45be5al0v890908810za200zb6145416zd6145416&_p=1761153335185&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1537150753.1761153336&ul=en-gb&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAE&_s=1&tag_exp=101509157~102015666~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115938466~115938469~116110425~116110427&dl=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F%3Fpage%3D2&dr=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&sid=1761153348&sct=1&seg=0&dt=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&en=page_view&_fv=1&_ss=1&tfd=14002",
+    "method": "POST",
+    "resource_type": "fetch"
+  },
+  {
+    "url": "https://www.googleadservices.com/pagead/conversion/1042281642/?random=1761153348704&cv=11&fst=1761153348704&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be5al0v890908810za200zb6145416zd6145416xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~102015666~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115938466~115938469~116110425~116110427&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F%3Fpage%3D2&ref=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&frm=0&tiba=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1726691696.1761153336&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&label=X00xCKTl49QDEKrp__AD&capi=1&gcl_ctr=2~0&data=event%3Dpage_view&fmt=7",
+    "method": "GET",
+    "resource_type": "fetch"
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1042281642/?random=1743334385&cv=11&fst=1761153348704&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be5al0v890908810za200zb6145416zd6145416xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~102015666~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115938466~115938469~116110425~116110427&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F%3Fpage%3D2&ref=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&frm=0&tiba=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1726691696.1761153336&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&label=X00xCKTl49QDEKrp__AD&capi=1&gcl_ctr=2~0&data=event%3Dpage_view&fmt=3&ct_cookie_present=false&crd=CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgim2bECCPvYsQII2dexAgjY17ECCMLPsQII_tWxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII7tCxAgiX1LECCJ7YsQIIyduxAgjK2bECCMbcsQJKGXRyaWdnZXI7bmF2aWdhdGlvbi1zb3VyY2VaAwoBAWIDCgED&cerd=CgEA&fsk=ChAI8IHixwYQws-WntutlZFCEiwA56kaFmpnM5y3U1xHfAL4c6njnUpEpj8oN-noeWZAbUy9rtxic7A4XnKJ8xoC01Y&pscrd=IhMIgfLmvae4kAMVi8E4Bh2diiUYMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhlodHRwczovL3d3dy5rbWFydC5jb20uYXUvQldDaEVJOElIaXh3WVFzYnlkcjZpMXk5LTRBUklzQUNCWFFtbnlrZ0hpN2JxUUFDeWdaWEMzSUVfcm9wTTU5Y0UxbkxFVkxwX0dCZEJHUVdIYmtKdTRiM0F6DAgJYggIABAAGAAgAA",
+    "method": "GET",
+    "resource_type": "image"
+  },
+  {
+    "url": "https://www.google.com/pagead/1p-user-list/1042281642/?random=1761153348686&cv=11&fst=1761152400000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be5al0v890908810za200zb6145416zd6145416xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~102015666~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115938466~115938469~116110425~116110427&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F%3Fpage%3D2&ref=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&frm=0&tiba=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1726691696.1761153336&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&data=event%3Dpage_view&rfmt=3&fmt=3&is_vtc=1&cid=CAQSjQEAwksa0UheVZ7-aKhC_0_rP5WFka8gy8jRhBf7uZP6vZNwsVfUuU0IuohYvuteySwHefs3_f3_b0zWfqr7a6akmLOazs8Z6TyYYY78nIlcowtxnOcTR183mq-cM0L1Og1mQoRTrIvcdsuAYsiPnccrD3Xk46gQ-KYh5vRdDt7BVxTvS3AJLeu6Lt_V79c&random=2640493185&rmt_tld=0&ipr=y",
+    "method": "GET",
+    "resource_type": "image"
+  },
+  {
+    "url": "https://www.google.com.au/pagead/1p-user-list/1042281642/?random=1761153348686&cv=11&fst=1761152400000&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be5al0v890908810za200zb6145416zd6145416xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~102015666~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115938466~115938469~116110425~116110427&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F%3Fpage%3D2&ref=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&frm=0&tiba=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1726691696.1761153336&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&data=event%3Dpage_view&rfmt=3&fmt=3&is_vtc=1&cid=CAQSjQEAwksa0UheVZ7-aKhC_0_rP5WFka8gy8jRhBf7uZP6vZNwsVfUuU0IuohYvuteySwHefs3_f3_b0zWfqr7a6akmLOazs8Z6TyYYY78nIlcowtxnOcTR183mq-cM0L1Og1mQoRTrIvcdsuAYsiPnccrD3Xk46gQ-KYh5vRdDt7BVxTvS3AJLeu6Lt_V79c&random=2640493185&rmt_tld=1&ipr=y",
+    "method": "GET",
+    "resource_type": "image"
+  },
+  {
+    "url": "https://www.google.com/pagead/1p-conversion/1042281642/?random=1743334385&cv=11&fst=1761153348704&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be5al0v890908810za200zb6145416zd6145416xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~102015666~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115938466~115938469~116110425~116110427&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F%3Fpage%3D2&ref=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&frm=0&tiba=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1726691696.1761153336&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&label=X00xCKTl49QDEKrp__AD&capi=1&gcl_ctr=2~0&data=event%3Dpage_view&fmt=3&ct_cookie_present=false&crd=CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgim2bECCPvYsQII2dexAgjY17ECCMLPsQII_tWxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII7tCxAgiX1LECCJ7YsQIIyduxAgjK2bECCMbcsQJKGXRyaWdnZXI7bmF2aWdhdGlvbi1zb3VyY2VaAwoBAWIDCgED&cerd=CgEA&fsk=ChAI8IHixwYQws-WntutlZFCEiwA56kaFmpnM5y3U1xHfAL4c6njnUpEpj8oN-noeWZAbUy9rtxic7A4XnKJ8xoC01Y&pscrd=IhMIgfLmvae4kAMVi8E4Bh2diiUYMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhlodHRwczovL3d3dy5rbWFydC5jb20uYXUvQldDaEVJOElIaXh3WVFzYnlkcjZpMXk5LTRBUklzQUNCWFFtbnlrZ0hpN2JxUUFDeWdaWEMzSUVfcm9wTTU5Y0UxbkxFVkxwX0dCZEJHUVdIYmtKdTRiM0F6DAgJYggIABAAGAAgAA&is_vtc=1&cid=CAQSjQEAwksa0USP-MXxxEM5phjB_PuATXXaVw2XH4WudAHKIgeS9e1MAn5fv5yE3hrIBv5Iq6lPI0OuD1qHgOS8rZS0sKeJ9n70PwKGe0_6uYmqPoQ70o_h6q9oZVezb0pXj_5JPqeFdBcMCO-pKL7d1_6BKUA8W8J4Ai43A8u67vR8NVykpm4tTTTnL3HTYRg&random=595478034",
+    "method": "GET",
+    "resource_type": "image"
+  },
+  {
+    "url": "https://www.google.com.au/pagead/1p-conversion/1042281642/?random=1743334385&cv=11&fst=1761153348704&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be5al0v890908810za200zb6145416zd6145416xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~102015666~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115938466~115938469~116110425~116110427&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F%3Fpage%3D2&ref=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&frm=0&tiba=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1726691696.1761153336&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&label=X00xCKTl49QDEKrp__AD&capi=1&gcl_ctr=2~0&data=event%3Dpage_view&fmt=3&ct_cookie_present=false&crd=CPLOsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIItMaxAgim2bECCPvYsQII2dexAgjY17ECCMLPsQII_tWxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII7tCxAgiX1LECCJ7YsQIIyduxAgjK2bECCMbcsQJKGXRyaWdnZXI7bmF2aWdhdGlvbi1zb3VyY2VaAwoBAWIDCgED&cerd=CgEA&fsk=ChAI8IHixwYQws-WntutlZFCEiwA56kaFmpnM5y3U1xHfAL4c6njnUpEpj8oN-noeWZAbUy9rtxic7A4XnKJ8xoC01Y&is_vtc=1&cid=CAQSjQEAwksa0USP-MXxxEM5phjB_PuATXXaVw2XH4WudAHKIgeS9e1MAn5fv5yE3hrIBv5Iq6lPI0OuD1qHgOS8rZS0sKeJ9n70PwKGe0_6uYmqPoQ70o_h6q9oZVezb0pXj_5JPqeFdBcMCO-pKL7d1_6BKUA8W8J4Ai43A8u67vR8NVykpm4tTTTnL3HTYRg&random=595478034&ipr=y&pscrd=IhMIgfLmvae4kAMVi8E4Bh2diiUYMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhlodHRwczovL3d3dy5rbWFydC5jb20uYXUvQldDaEVJOElIaXh3WVFzYnlkcjZpMXk5LTRBUklzQUNCWFFtbnlrZ0hpN2JxUUFDeWdaWEMzSUVfcm9wTTU5Y0UxbkxFVkxwX0dCZEJHUVdIYmtKdTRiM0F6DAgJYggIABAAGAAgAIIBBXABiAEB",
+    "method": "GET",
+    "resource_type": "image"
+  },
+  {
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-CXF7KQVQ46&gtm=45je5al0v870173949za200zb6145416zd6145416&_p=1761153335185&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1537150753.1761153336&ul=en-gb&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=5&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480710~115616986~115938466~115938469~116110425~116110427&uid=&dl=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F%3Fpage%3D2&dr=https%3A%2F%2Fwww.kmart.com.au%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&sid=1761153336&sct=1&seg=1&dt=Shop%20Pokemon%20Trading%20Cards%20-%20Kmart&en=page_view&ep.mod_page=%2Fcategory%2Ftoys%2Fpokemon-trading-cards%2F&ep.login_status=Logged%20Out&ep.nav_tracking_page_section=&ep.nav_tracking_site_section=&ep.tealium_id=&ep.tealium_perso=&ep.dark_mode_requested=false&ep.static_user_id_email_sha256=&ep.yottaa=active&ep.category_level_1=toys&ep.category_level_2=No%20Category&ep.category_level_3=No%20Category&ep.category_level_4=No%20Category&ep.user_agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F140.0.0.0%20Safari%2F537.36&ep.onepass_subscription_status=Inactive&ep.constructor_feature_name=&ep.constructor_feature_enabled=&ep.login_action=&ep.platform_type=Web&_et=666&tfd=18999",
+    "method": "POST",
+    "resource_type": "fetch"
+  }
+]

@@ -1,17 +1,16 @@
-# Big W Stock Monitor
+# Big W Stock Monitor - Playwright Enhanced
 
 Monitors Big W product categories for new restocks and sends Discord notifications.
 
 ## ⚠️ Important Note - Bot Detection
 
-**Big W has strong bot detection** that actively blocks automated requests (both Playwright and requests library). You may experience:
-- `ERR_HTTP2_PROTOCOL_ERROR` with Playwright
-- `ConnectionResetError` with requests library
+**Big W has VERY strong bot detection** that actively blocks automated requests. This monitor now uses:
+- ✅ **Playwright** with anti-detection features
+- ✅ **HTTP/2 disabled** to avoid protocol errors
+- ✅ **Browser fingerprint masking** (webdriver, plugins, languages)
+- ✅ **Proxy support** with automatic rotation
 
-This monitor is provided as a **starting point** for when:
-1. Big W's bot detection eases
-2. You find workarounds (residential proxies, session management, etc.)
-3. You adapt the code for your specific use case
+**However**, Big W may still block you without residential proxies. This monitor provides the foundation - you'll likely need to add proxies to use it reliably
 
 ## How It Works
 
@@ -26,6 +25,8 @@ Big W uses Next.js and embeds product data directly in the HTML within a `<scrip
 ## Configuration
 
 Edit `config.py`:
+
+### Basic Settings
 
 ```python
 # Your Discord webhook URL
@@ -43,6 +44,39 @@ KEYWORDS = []
 # Product filters
 INCLUDE_KEYWORDS = ['tcg', 'booster', 'pack', 'card', ...]
 EXCLUDE_KEYWORDS = ['plush', 'toy', 'figure', ...]
+```
+
+### Proxy Configuration (Recommended)
+
+To bypass Big W's bot detection, you'll need residential proxies. Edit `config.py`:
+
+```python
+# Enable proxy support
+PROXY_ENABLED = True
+
+# Option 1: Use a single proxy
+SINGLE_PROXY = "http://username:password@proxy.example.com:8080"
+
+# Option 2: Use multiple proxies (will rotate)
+PROXY_LIST = [
+    "http://user:pass@proxy1.example.com:8080",
+    "http://user:pass@proxy2.example.com:8080",
+    "http://user:pass@proxy3.example.com:8080",
+]
+
+# Proxy settings
+ROTATE_PROXY_ON_ERROR = True  # Auto-rotate if proxy fails
+PROXY_RETRY_LIMIT = 3  # Try 3 different proxies before giving up
+```
+
+### Browser Settings
+
+```python
+# Show browser window (useful for debugging/CAPTCHA solving)
+HEADLESS = False  # Set to True to hide browser
+
+# Logging
+LOG_FILE = "bigw-monitor.log"
 ```
 
 ## Running the Monitor
@@ -96,14 +130,73 @@ Products in `__NEXT_DATA__` are structured as:
 }
 ```
 
-## Potential Workarounds for Bot Detection
+## Proxy Setup Guide
 
-1. **Use residential proxies** - Rotate through residential IP addresses
-2. **Add delays and randomization** - Mimic human behavior
-3. **Session management** - Maintain cookies and sessions
-4. **Browser fingerprinting** - Use libraries like undetected-chromedriver
-5. **Run less frequently** - Monitor every few minutes instead of 30 seconds
-6. **Use VPN** - Change your IP address
+### Recommended Proxy Providers (Residential)
+
+Big W's bot detection requires **residential proxies** (not datacenter). Here are some options:
+
+1. **Bright Data** (formerly Luminati)
+   - https://brightdata.com
+   - Cost: ~$8.40/GB for residential
+   - Format: `http://username-session-[random]:password@brd.superproxy.io:22225`
+
+2. **Smartproxy**
+   - https://smartproxy.com
+   - Cost: ~$8/GB for residential
+   - Format: `http://user:pass@gate.smartproxy.com:7000`
+
+3. **Oxylabs**
+   - https://oxylabs.io
+   - Cost: ~$15/GB for residential
+   - Format: `http://customer-user:pass@pr.oxylabs.io:7777`
+
+4. **IPRoyal**
+   - https://iproyal.com
+   - Cost: ~$1.75/GB for residential (cheaper!)
+   - Format: `http://user:pass@geo.iproyal.com:12321`
+
+### Proxy Format Examples
+
+The monitor supports multiple proxy formats:
+
+```python
+# HTTP proxy with authentication
+"http://username:password@proxy.example.com:8080"
+
+# SOCKS5 proxy with authentication
+"socks5://username:password@proxy.example.com:1080"
+
+# HTTP proxy without authentication
+"http://proxy.example.com:8080"
+```
+
+### Testing Your Proxies
+
+Before running the monitor, test your proxies:
+
+```python
+# config.py
+PROXY_ENABLED = True
+SINGLE_PROXY = "http://your-user:your-pass@proxy.example.com:8080"
+HEADLESS = False  # Watch it work
+DELAY = 60  # Slow it down for testing
+```
+
+Then run `python monitor.py` and watch the browser window to see if it loads Big W successfully.
+
+### Free Proxies (Not Recommended)
+
+Free proxies typically don't work with Big W because:
+- They're datacenter IPs (easily detected)
+- They're slow and unreliable
+- They're often already blacklisted
+
+If you want to try anyway, use services like:
+- https://www.proxy-list.download/
+- https://free-proxy-list.net/
+
+But expect high failure rates.
 
 ## Files
 
@@ -117,23 +210,67 @@ Products in `__NEXT_DATA__` are structured as:
 
 - Big W doesn't provide per-state stock information like Kmart
 - Stock is binary: in-stock or out-of-stock
-- The monitor uses simple HTTP requests (no Playwright) to reduce detection footprint
+- The monitor now uses **Playwright** (not simple requests) for better anti-detection
 - Product URLs are generated as: `/product/{name-slug}/p/{code}`
+- HTTP/2 is **disabled** to avoid protocol errors with Big W's servers
 
 ## Troubleshooting
 
-**ConnectionResetError / ERR_HTTP2_PROTOCOL_ERROR**
-- This is Big W actively blocking your requests
-- Try using a VPN or residential proxy
-- Increase the DELAY between requests
-- Consider running the monitor from a different network
+### Page Load Timeout / ERR_HTTP2_PROTOCOL_ERROR
+**Cause:** Big W is blocking your requests with bot detection.
 
-**No products found**
-- Check that CATEGORY_URL is correct
-- Verify the Next.js data structure hasn't changed
-- Try accessing the URL in a regular browser first
+**Solutions:**
+1. ✅ **Add residential proxies** (see Proxy Setup Guide above)
+2. Set `HEADLESS = False` to watch what's happening
+3. Increase `DELAY` to 60+ seconds between requests
+4. Check if you need to solve a CAPTCHA manually (when headless=False)
 
-**Webhook not sending**
-- Verify your WEBHOOK URL is correct
-- Check Discord server permissions
-- Review the log file: `bigw-monitor.log`
+### No products found / Empty scrape
+**Possible causes:**
+- Bot detection is blocking the page load
+- The CATEGORY_URL is incorrect
+- Next.js data structure changed (rare)
+
+**Solutions:**
+1. Open the URL in a regular browser and check if products load
+2. Try with `HEADLESS = False` to see the actual page
+3. Check `bigw-monitor.log` for detailed error messages
+4. Add proxies if you haven't already
+
+### Proxy errors
+**`[PROXY] Failed after 3 attempts`**
+- Your proxies aren't working or are blocked
+- Try different proxy provider
+- Make sure proxies are **residential** (not datacenter)
+- Check proxy credentials are correct
+
+### Webhook not sending
+**Possible causes:**
+- Webhook URL is incorrect
+- Discord server permissions
+- Monitor not detecting new products
+
+**Solutions:**
+1. Verify your webhook URL in config.py
+2. Check Discord channel settings → Integrations → Webhooks
+3. Review `bigw-monitor.log` for webhook errors
+4. Test with a product you know is in stock
+
+## Cost Estimates (with Proxies)
+
+Assuming you use residential proxies:
+
+- **Light monitoring** (every 60 seconds): ~500MB-1GB/day = **$1.75-$8/day**
+- **Normal monitoring** (every 30 seconds): ~1-2GB/day = **$3.50-$17/day**
+- **Aggressive monitoring** (every 10 seconds): ~3-6GB/day = **$10-$50/day**
+
+Costs vary by proxy provider. IPRoyal is cheapest (~$1.75/GB), while Oxylabs is most expensive (~$15/GB).
+
+## Alternative: Use Bright Data MCP for Manual Checks
+
+If continuous monitoring is too expensive, you can:
+1. Keep this monitor code as-is (without proxies)
+2. When it gets blocked, ask Claude (with Bright Data MCP) to scrape the page manually
+3. Cost: ~$0.0015 per manual check (practically free)
+
+This is best for occasional checking rather than 24/7 monitoring.

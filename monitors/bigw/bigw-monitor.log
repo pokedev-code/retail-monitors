@@ -21,3 +21,2212 @@ Call log:
 2025-10-21 02:33:34,961 - INFO - [DEBUG] Downloaded image for attachment
 2025-10-21 02:33:36,725 - INFO - [SUCCESS] Sent Discord notification for: Pokemon TCG: Triple Whammy Tin
 2025-10-21 02:37:09,749 - INFO - [SUCCESS] Sent Discord notification for: Pokemon TCG: Triple Whammy Tin
+2025-10-22 14:41:19,231 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 14:41:40,995 - ERROR - [ERROR] Scraping failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-22 21:11:29,721 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 21:11:29,770 - ERROR - [ERROR] Scraping failed: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+Call log:
+  - navigating to "https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201", waiting until "domcontentloaded"
+
+2025-10-22 21:11:29,771 - WARNING - [WARNING] No products found in scrape
+2025-10-22 21:11:59,775 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 21:11:59,812 - ERROR - [ERROR] Scraping failed: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+Call log:
+  - navigating to "https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201", waiting until "domcontentloaded"
+
+2025-10-22 21:11:59,813 - WARNING - [WARNING] No products found in scrape
+2025-10-22 21:12:29,815 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 21:12:29,842 - ERROR - [ERROR] Scraping failed: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+Call log:
+  - navigating to "https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201", waiting until "domcontentloaded"
+
+2025-10-22 21:12:29,843 - WARNING - [WARNING] No products found in scrape
+2025-10-22 21:13:22,777 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 21:13:52,786 - ERROR - [ERROR] Page load timeout
+2025-10-22 21:13:52,787 - WARNING - [WARNING] No products found in scrape
+2025-10-22 21:14:22,800 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 21:15:27,027 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 21:16:27,043 - ERROR - [ERROR] Page load timeout
+2025-10-22 21:16:27,043 - WARNING - [WARNING] No products found in scrape
+2025-10-22 21:16:57,049 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:42:05,051 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:42:17,887 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:42:21,010 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:42:21,010 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:42:21,010 - INFO - [INITIAL] Tracking: Pokemon 250 Assorted Pokemon Cards with guaranteed 10 Rare and 5 Foil Cards
+2025-10-22 23:42:21,010 - INFO - [INITIAL] Tracking: White Flare Booster Box - Japanese Pokemon TCG
+2025-10-22 23:42:21,011 - INFO - [INITIAL] Tracking: Pokemon 151 Booster Box - Korean Pokemon TCG
+2025-10-22 23:42:21,011 - INFO - [INITIAL] Tracking: Mega Symphonia Booster Box - Japanese Pokemon TCG
+2025-10-22 23:42:21,011 - INFO - [INITIAL] Tracking: Pokemon TCG Battle Academy (2024)
+2025-10-22 23:42:21,011 - INFO - [INITIAL] Tracking: Pokemon TCG Sword and Shield 4 Vivid Voltage Booster Blister
+2025-10-22 23:42:21,011 - INFO - [INITIAL] Tracking: Pokemon TCG 20 Rare Pokemon Cards - All Genuine Rare Cards
+2025-10-22 23:42:21,011 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet Obsidian Flames Single Booster Pack
+2025-10-22 23:42:21,011 - INFO - [INITIAL] Tracking: Night Wanderer Booster Box sv6a Booster Pack - Japanese Pokemon TCG
+2025-10-22 23:42:21,011 - INFO - [INITIAL] Tracking: Raging Surf SV3A Booster Pack - Japanese Pokemon TCG
+2025-10-22 23:42:21,011 - INFO - [INITIAL] Tracking: Scarlet & Violet Stellar Crown Elite Trainer Box POKEMON TCG
+2025-10-22 23:42:21,011 - INFO - [INITIAL] Tracking: Scarlet & Violet Shrouded Fable 3 Pack Blister POKEMON TCG
+2025-10-22 23:42:21,011 - INFO - [INITIAL] Tracking: Pokemon Gem Pack Volume 2 Booster Box - Simplified Chinese Pokemon TCG
+2025-10-22 23:42:21,012 - INFO - [INITIAL] Tracking: Charizard Gift Box - Simplified Chinese Pokemon TCG
+2025-10-22 23:42:21,012 - INFO - [INITIAL] Tracking: Mega Brave Booster Box - Japanese Pokemon TCG
+2025-10-22 23:42:21,012 - INFO - [INITIAL] Tracking: Black Bolt Booster Box - Japanese Pokemon TCG
+2025-10-22 23:42:21,012 - INFO - [INITIAL] Tracking: Black Bolt Booster Box - Korean Pokemon TCG
+2025-10-22 23:42:21,012 - INFO - [INITIAL] Tracking: Gardevoir ex League Battle Deck - Pokemon TCG
+2025-10-22 23:42:21,012 - INFO - [INITIAL] Tracking: POKEMON TCG Charizard ex Premium Collection
+2025-10-22 23:42:21,012 - INFO - [INITIAL] Tracking: Inferno X M2 Booster Box - Japanese Pokemon TCG
+2025-10-22 23:42:21,012 - INFO - [INITIAL] Tracking: Inferno X M2 Booster Pack - Japanese Pokemon TCG
+2025-10-22 23:42:21,012 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet Temporal Forces Single Booster Pack
+2025-10-22 23:42:21,012 - INFO - [INITIAL] Tracking: Scarlet & Violet 1 Build & Battle Box Pokemon TCG
+2025-10-22 23:42:21,012 - INFO - [INITIAL] Tracking: Pokemon TCG Sword and Shield Lost Origin Booster Blister
+2025-10-22 23:42:21,012 - INFO - [INITIAL] Tracking: Pokemon TCG Sword and Shield 10- Astral Radiance Booster Blister
+2025-10-22 23:42:21,012 - INFO - [INITIAL] Tracking: Scarlet & Violet Stellar Crown Single Booster Pack POKEMON TCG
+2025-10-22 23:42:21,012 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet and Violet 1 Single Booster Pack
+2025-10-22 23:42:21,013 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet Twilight Masquerade Single Booster Pack
+2025-10-22 23:42:21,013 - INFO - [INITIAL] Tracking: POKEMON TCG Silver Tempest Single Booster Pack
+2025-10-22 23:42:21,013 - INFO - [INITIAL] Tracking: The Glory of Team Rocket SV10 Booster Pack - Japanese Pokemon TCG
+2025-10-22 23:42:21,013 - INFO - [INITIAL] Tracking: Scarlet & Violet Shrouded Fable Elite Trainer Box POKEMON TCG
+2025-10-22 23:42:21,013 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet Twilight Masquerade Elite Trainer Box
+2025-10-22 23:42:21,013 - INFO - [INITIAL] Tracking: Gengar Gift Box - Simplified Chinese Pokemon TCG
+2025-10-22 23:42:21,013 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet Paldea Evolved Single Booster Pack
+2025-10-22 23:42:21,013 - INFO - [INITIAL] Tracking: Eevee Gift Box - Simplified Chinese Pokemon TCG
+2025-10-22 23:42:21,013 - INFO - [INITIAL] Tracking: Pokemon GO Elite Trainer Box POKEMON TCG
+2025-10-22 23:42:51,015 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:43:03,490 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:43:06,597 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:43:06,597 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:43:36,608 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:43:49,009 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:43:52,118 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:43:52,118 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:44:22,121 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:44:33,977 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:44:37,084 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:44:37,085 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:45:07,094 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:45:19,176 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:45:22,285 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:45:22,285 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:45:52,302 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:46:04,087 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:46:07,200 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:46:07,201 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:46:37,213 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:46:49,497 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:46:52,608 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:46:52,608 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:47:22,609 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:47:34,466 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:47:37,571 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:47:37,571 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:48:07,580 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:48:19,365 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:48:22,472 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:48:22,473 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:48:52,489 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:49:04,314 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:49:07,416 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:49:07,417 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:49:37,430 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:49:49,790 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:49:52,917 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:49:52,918 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:50:22,932 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:50:34,721 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:50:37,826 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:50:37,826 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:51:07,843 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:51:20,095 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:51:23,211 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:51:23,211 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:51:53,215 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:52:05,017 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:52:08,121 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:52:08,121 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:52:38,126 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:52:50,383 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:52:53,503 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:52:53,504 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:53:23,507 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:53:35,832 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:53:38,948 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:53:38,949 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:54:08,956 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:54:20,833 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:54:23,940 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:54:23,940 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:54:53,944 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:55:05,811 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:55:08,917 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:55:08,918 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:55:38,924 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:55:50,752 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:55:53,860 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:55:53,860 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:56:23,864 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:56:35,633 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:56:38,746 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:56:38,746 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:57:08,750 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:57:20,278 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:57:23,381 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:57:23,382 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:57:53,388 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:58:05,346 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:58:08,461 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:58:08,461 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:58:38,474 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:58:50,463 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:58:53,576 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:58:53,576 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-22 23:59:23,590 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-22 23:59:35,209 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-22 23:59:38,327 - INFO - [SCRAPE] Found 48 products
+2025-10-22 23:59:38,327 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:00:08,334 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:00:20,564 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:00:23,670 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:00:23,670 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:00:53,679 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:01:05,622 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:01:08,728 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:01:08,728 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:01:38,731 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:01:50,427 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:01:53,531 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:01:53,531 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:02:23,545 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:02:35,738 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:02:38,842 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:02:38,842 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:03:08,847 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:03:20,866 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:03:23,973 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:03:23,973 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:03:53,981 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:04:05,659 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:04:08,772 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:04:08,772 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:04:38,783 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:04:50,620 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:04:53,744 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:04:53,745 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:05:23,757 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:05:35,671 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:05:38,777 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:05:38,778 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:06:08,790 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:06:20,653 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:06:23,777 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:06:23,777 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:06:53,789 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:07:05,625 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:07:08,739 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:07:08,739 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:07:38,750 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:07:51,012 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:07:54,145 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:07:54,145 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:08:24,152 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:08:36,080 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:08:39,190 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:08:39,190 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:09:09,198 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:09:21,015 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:09:24,121 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:09:24,122 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:09:54,137 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:10:06,205 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:10:09,322 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:10:09,322 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:10:39,337 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:10:51,150 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:10:54,262 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:10:54,262 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:11:24,268 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:11:36,026 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:11:39,149 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:11:39,150 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:12:09,154 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:12:21,058 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:12:24,162 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:12:24,163 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:12:54,174 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:13:06,679 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:13:09,793 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:13:09,793 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:13:39,810 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:13:51,618 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:13:54,730 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:13:54,730 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:14:24,742 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:14:36,563 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:14:39,679 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:14:39,679 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:15:09,690 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:15:21,412 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:15:24,525 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:15:24,525 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:15:54,535 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:16:06,278 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:16:09,411 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:16:09,411 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:16:39,413 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:16:51,093 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:16:54,224 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:16:54,224 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:17:24,237 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:17:35,843 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:17:38,964 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:17:38,964 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:18:08,970 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:18:20,638 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:18:23,751 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:18:23,751 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:18:53,763 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:19:06,205 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:19:09,325 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:19:09,326 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:19:39,327 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:19:51,303 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:19:54,414 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:19:54,414 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:20:24,428 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:20:36,116 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:20:39,226 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:20:39,227 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:21:09,242 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:21:20,893 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:21:24,005 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:21:24,005 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:21:54,010 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:22:05,804 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:22:08,916 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:22:08,916 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:22:38,933 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:22:50,477 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:22:53,593 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:22:53,594 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:23:23,608 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:23:35,400 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:23:38,516 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:23:38,516 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:24:08,520 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:24:20,500 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:24:23,615 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:24:23,615 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:24:53,623 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:25:05,444 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:25:08,574 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:25:08,574 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:25:38,584 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:25:50,305 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:25:53,423 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:25:53,423 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:26:23,440 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:26:34,958 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:26:38,061 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:26:38,062 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:27:08,077 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:27:19,835 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:27:22,946 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:27:22,946 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:27:52,963 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:28:05,033 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:28:08,139 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:28:08,139 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:28:38,145 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:28:50,304 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:28:53,418 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:28:53,419 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:29:23,431 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:29:35,260 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:29:38,370 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:29:38,370 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:30:08,385 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:30:20,101 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:30:23,219 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:30:23,220 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:30:53,236 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:31:05,686 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:31:08,798 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:31:08,799 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:31:38,810 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:31:50,706 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:31:53,814 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:31:53,815 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:32:23,817 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:32:35,956 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:32:39,060 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:32:39,060 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:33:09,066 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:33:21,125 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:33:24,233 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:33:24,233 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:33:54,246 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:34:05,919 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:34:09,035 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:34:09,035 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:34:39,038 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:34:50,965 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:34:54,073 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:34:54,073 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:35:24,087 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:35:35,866 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:35:38,982 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:35:38,982 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:36:08,986 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:36:20,714 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:36:23,832 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:36:23,833 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:36:53,849 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:37:05,581 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:37:08,702 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:37:08,702 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:37:38,714 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:37:50,691 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:37:53,808 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:37:53,809 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:38:23,816 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:38:35,534 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:38:38,650 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:38:38,650 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:39:08,662 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:39:20,633 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:39:23,748 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:39:23,748 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:39:53,757 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:40:05,646 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:40:08,761 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:40:08,762 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:40:38,763 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:40:50,587 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:40:53,698 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:40:53,698 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:41:23,716 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:41:35,523 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:41:38,627 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:41:38,627 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:42:08,631 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:42:20,300 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:42:23,408 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:42:23,408 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:42:53,419 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:43:05,208 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:43:08,317 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:43:08,317 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:43:38,322 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:43:50,622 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:43:53,728 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:43:53,728 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:44:23,744 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:44:35,438 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:44:38,543 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:44:38,544 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:45:08,549 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:45:20,323 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:45:23,435 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:45:23,435 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:45:53,451 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:46:05,054 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:46:08,172 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:46:08,172 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:46:38,175 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:46:49,762 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:46:52,870 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:46:52,870 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:47:22,886 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:47:34,519 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:47:37,635 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:47:37,635 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:48:07,653 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:48:19,487 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:48:22,599 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:48:22,600 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:48:52,611 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:49:04,476 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:49:07,584 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:49:07,584 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:49:37,587 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:49:49,448 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:49:52,555 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:49:52,555 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:50:22,563 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:50:34,407 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:50:37,517 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:50:37,517 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:51:07,531 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:51:20,992 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:51:24,097 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:51:24,097 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:51:54,102 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:52:06,002 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:52:09,107 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:52:09,107 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:52:39,124 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:52:50,886 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:52:53,998 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:52:53,998 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:53:24,001 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:53:35,794 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:53:38,900 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:53:38,900 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:54:08,909 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:54:20,707 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:54:23,811 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:54:23,812 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:54:53,819 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:55:05,541 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:55:08,658 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:55:08,659 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:55:38,675 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:55:50,470 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:55:53,586 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:55:53,586 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:56:23,597 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:56:35,792 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:56:38,905 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:56:38,905 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:57:08,921 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:57:20,665 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:57:23,782 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:57:23,782 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:57:53,797 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:58:05,564 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:58:08,672 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:58:08,673 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:58:38,680 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:58:50,510 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:58:53,613 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:58:53,613 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 00:59:23,625 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 00:59:35,743 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 00:59:38,859 - INFO - [SCRAPE] Found 48 products
+2025-10-23 00:59:38,860 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:00:08,870 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:00:20,882 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:00:23,990 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:00:23,990 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:00:54,001 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:01:05,820 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:01:09,001 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:01:09,001 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:01:39,013 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:01:51,039 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:01:54,142 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:01:54,143 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:02:24,148 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:02:35,949 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:02:39,060 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:02:39,060 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:03:09,064 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:03:21,008 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:03:24,122 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:03:24,122 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:03:54,130 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:04:06,046 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:04:09,155 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:04:09,156 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:04:39,168 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:04:51,082 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:04:54,188 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:04:54,188 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:05:24,198 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:05:36,192 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:05:39,303 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:05:39,304 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:06:09,314 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:06:21,278 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:06:24,380 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:06:24,380 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:06:54,387 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:07:06,080 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:07:09,192 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:07:09,192 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:07:39,204 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:07:50,887 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:07:53,997 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:07:53,997 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:08:24,000 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:08:35,822 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:08:38,930 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:08:38,930 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:09:08,940 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:09:20,978 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:09:24,081 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:09:24,081 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:09:54,095 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:10:05,835 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:10:08,948 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:10:08,948 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:10:38,951 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:10:50,850 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:10:53,967 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:10:53,967 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:11:23,976 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:11:35,881 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:11:38,996 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:11:38,996 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:12:09,009 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:12:20,826 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:12:23,928 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:12:23,928 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:12:53,944 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:13:05,670 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:13:08,782 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:13:08,782 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:13:38,794 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:13:50,451 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:13:53,564 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:13:53,565 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:14:23,581 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:14:36,026 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:14:39,142 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:14:39,143 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:15:09,158 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:15:20,773 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:15:23,882 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:15:23,883 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:15:53,887 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:16:05,565 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:16:08,687 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:16:08,687 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:16:38,698 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:16:50,323 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:16:53,438 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:16:53,438 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:17:23,454 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:17:35,002 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:17:38,118 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:17:38,118 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:18:08,134 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:18:19,737 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:18:22,850 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:18:22,850 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:18:52,866 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:19:04,851 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:19:07,964 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:19:07,964 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:19:37,981 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:19:49,555 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:19:52,662 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:19:52,662 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:20:22,670 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:20:34,306 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:20:37,409 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:20:37,409 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:21:07,419 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:21:18,916 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:21:22,036 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:21:22,036 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:21:52,049 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:22:03,871 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:22:06,988 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:22:06,989 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:22:36,999 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:22:48,616 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:22:51,727 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:22:51,728 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:23:21,730 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:23:33,477 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:23:36,582 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:23:36,582 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:24:06,588 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:24:18,173 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:24:21,276 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:24:21,277 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:24:51,292 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:25:03,310 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:25:06,418 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:25:06,418 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:25:36,423 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:25:48,090 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:25:51,200 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:25:51,201 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:26:21,217 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:26:33,135 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:26:36,249 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:26:36,249 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:27:06,257 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:27:19,530 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:27:22,638 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:27:22,638 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:27:52,657 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:28:04,486 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:28:07,603 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:28:07,603 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:28:37,611 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:28:49,214 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:28:52,317 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:28:52,317 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:29:22,334 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:29:34,189 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:29:37,300 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:29:37,300 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:30:07,304 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:30:18,902 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:30:22,017 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:30:22,018 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:30:52,027 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:31:04,167 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:31:07,283 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:31:07,283 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:31:37,299 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:31:49,816 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:31:52,932 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:31:52,932 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:32:22,948 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:32:34,865 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:32:37,973 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:32:37,973 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:33:07,990 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:33:19,579 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:33:22,697 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:33:22,698 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:33:52,701 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:34:04,825 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:34:07,942 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:34:07,942 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:34:37,953 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:34:49,809 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:34:52,913 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:34:52,913 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:35:22,921 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:35:34,631 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:35:37,753 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:35:37,754 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:36:07,756 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:36:19,416 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:36:22,531 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:36:22,532 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:36:52,547 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:37:04,508 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:37:07,627 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:37:07,627 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:37:37,641 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:37:49,360 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:37:52,470 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:37:52,470 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:38:22,477 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:38:34,127 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:38:37,241 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:38:37,241 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 01:39:07,256 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 01:39:18,994 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 01:39:22,112 - INFO - [SCRAPE] Found 48 products
+2025-10-23 01:39:22,113 - INFO - [SCRAPE] Extracted 41 in-stock products
+2025-10-23 10:36:25,475 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:36:40,485 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:36:43,616 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:36:43,617 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:36:43,620 - INFO - [NEW] Ancient Roar SV4K Booster Pack - Japanese Pokemon TCG - $5.74
+2025-10-23 10:36:44,251 - INFO - [SUCCESS] Sent Discord notification for: Ancient Roar SV4K Booster Pack - Japanese Pokemon TCG
+2025-10-23 10:36:44,253 - INFO - [NEW] Black Bolt SV11B Booster Pack - Japanese Pokemon TCG - $9.19
+2025-10-23 10:36:44,950 - INFO - [SUCCESS] Sent Discord notification for: Black Bolt SV11B Booster Pack - Japanese Pokemon TCG
+2025-10-23 10:36:44,951 - INFO - [OOS] Product removed from tracking: 9901867565
+2025-10-23 10:36:44,952 - INFO - [OOS] Product removed from tracking: 9901869980
+2025-10-23 10:36:44,952 - INFO - [OOS] Product removed from tracking: 9901240826
+2025-10-23 10:37:14,964 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:37:26,815 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:37:29,953 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:37:29,953 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:37:59,963 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:38:12,838 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:38:15,949 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:38:15,950 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:38:45,956 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:38:58,245 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:39:01,365 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:39:01,365 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:39:31,380 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:39:43,209 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:39:46,339 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:39:46,339 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:40:16,354 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:40:28,550 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:40:31,657 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:40:31,658 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:41:01,672 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:41:14,398 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:41:17,508 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:41:17,508 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:41:47,512 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:42:00,205 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:42:03,320 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:42:03,321 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:42:33,325 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:42:45,148 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:42:48,275 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:42:48,276 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:43:18,287 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:43:30,327 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:43:33,446 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:43:33,447 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:44:03,454 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:44:15,398 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:44:18,539 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:44:18,540 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:44:48,548 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:45:00,845 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:45:03,965 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:45:03,965 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:45:33,974 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:45:46,145 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:45:49,255 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:45:49,255 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:46:19,269 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:46:31,767 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:46:34,883 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:46:34,883 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:47:04,889 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:47:16,506 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:47:19,618 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:47:19,619 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:47:49,625 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:48:02,323 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:48:05,444 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:48:05,444 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:48:35,455 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:48:47,164 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:48:50,290 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:48:50,290 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:49:20,307 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:49:32,649 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:49:35,771 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:49:35,771 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:50:05,783 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:50:18,552 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:50:21,665 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:50:21,666 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:50:51,673 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:51:04,835 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:51:07,953 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:51:07,953 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:51:37,964 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:51:50,534 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:51:53,668 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:51:53,668 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 10:52:23,674 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 10:52:35,267 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 10:52:38,373 - INFO - [SCRAPE] Found 48 products
+2025-10-23 10:52:38,373 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:03:19,681 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:03:32,562 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:03:35,705 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:03:35,705 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:03:35,706 - INFO - [INITIAL] Tracking: Pokemon 250 Assorted Pokemon Cards with guaranteed 10 Rare and 5 Foil Cards
+2025-10-23 12:03:35,706 - INFO - [INITIAL] Tracking: White Flare Booster Box - Japanese Pokemon TCG
+2025-10-23 12:03:35,706 - INFO - [INITIAL] Tracking: Mega Symphonia Booster Box - Japanese Pokemon TCG
+2025-10-23 12:03:35,706 - INFO - [INITIAL] Tracking: Pokemon TCG Sword and Shield 4 Vivid Voltage Booster Blister
+2025-10-23 12:03:35,706 - INFO - [INITIAL] Tracking: Pokemon TCG 20 Rare Pokemon Cards - All Genuine Rare Cards
+2025-10-23 12:03:35,706 - INFO - [INITIAL] Tracking: Pokemon TCG Battle Academy (2024)
+2025-10-23 12:03:35,706 - INFO - [INITIAL] Tracking: Night Wanderer Booster Box sv6a Booster Pack - Japanese Pokemon TCG
+2025-10-23 12:03:35,706 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet Obsidian Flames Single Booster Pack
+2025-10-23 12:03:35,706 - INFO - [INITIAL] Tracking: Raging Surf SV3A Booster Pack - Japanese Pokemon TCG
+2025-10-23 12:03:35,706 - INFO - [INITIAL] Tracking: Pokemon Gem Pack Volume 2 Booster Box - Simplified Chinese Pokemon TCG
+2025-10-23 12:03:35,706 - INFO - [INITIAL] Tracking: Scarlet & Violet Stellar Crown Elite Trainer Box POKEMON TCG
+2025-10-23 12:03:35,707 - INFO - [INITIAL] Tracking: Black Bolt Booster Box - Japanese Pokemon TCG
+2025-10-23 12:03:35,707 - INFO - [INITIAL] Tracking: Mega Brave Booster Box - Japanese Pokemon TCG
+2025-10-23 12:03:35,707 - INFO - [INITIAL] Tracking: Scarlet & Violet Shrouded Fable 3 Pack Blister POKEMON TCG
+2025-10-23 12:03:35,707 - INFO - [INITIAL] Tracking: Gardevoir ex League Battle Deck - Pokemon TCG
+2025-10-23 12:03:35,707 - INFO - [INITIAL] Tracking: POKEMON TCG Charizard ex Premium Collection
+2025-10-23 12:03:35,707 - INFO - [INITIAL] Tracking: Inferno X M2 Booster Box - Japanese Pokemon TCG
+2025-10-23 12:03:35,707 - INFO - [INITIAL] Tracking: Black Bolt Booster Box - Korean Pokemon TCG
+2025-10-23 12:03:35,707 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet Temporal Forces Single Booster Pack
+2025-10-23 12:03:35,708 - INFO - [INITIAL] Tracking: Pokemon TCG Sword and Shield 10- Astral Radiance Booster Blister
+2025-10-23 12:03:35,708 - INFO - [INITIAL] Tracking: Pokemon TCG Sword and Shield Lost Origin Booster Blister
+2025-10-23 12:03:35,708 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet and Violet 1 Single Booster Pack
+2025-10-23 12:03:35,708 - INFO - [INITIAL] Tracking: Scarlet & Violet 1 Build & Battle Box Pokemon TCG
+2025-10-23 12:03:35,708 - INFO - [INITIAL] Tracking: Scarlet & Violet Stellar Crown Single Booster Pack POKEMON TCG
+2025-10-23 12:03:35,708 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet Twilight Masquerade Single Booster Pack
+2025-10-23 12:03:35,708 - INFO - [INITIAL] Tracking: Inferno X M2 Booster Pack - Japanese Pokemon TCG
+2025-10-23 12:03:35,708 - INFO - [INITIAL] Tracking: Ancient Roar SV4K Booster Pack - Japanese Pokemon TCG
+2025-10-23 12:03:35,708 - INFO - [INITIAL] Tracking: The Glory of Team Rocket SV10 Booster Pack - Japanese Pokemon TCG
+2025-10-23 12:03:35,708 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet Paldea Evolved Single Booster Pack
+2025-10-23 12:03:35,708 - INFO - [INITIAL] Tracking: Gengar Gift Box - Simplified Chinese Pokemon TCG
+2025-10-23 12:03:35,709 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet Twilight Masquerade Elite Trainer Box
+2025-10-23 12:03:35,709 - INFO - [INITIAL] Tracking: Eevee Gift Box - Simplified Chinese Pokemon TCG
+2025-10-23 12:03:35,709 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet 1 Checklane Blisters (Pair)
+2025-10-23 12:03:35,709 - INFO - [INITIAL] Tracking: Scarlet & Violet Shrouded Fable Elite Trainer Box POKEMON TCG
+2025-10-23 12:03:35,709 - INFO - [INITIAL] Tracking: Scarlet & Violet Stellar Crown Booster Bundle POKEMON TCG
+2025-10-23 12:04:05,714 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:04:17,647 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:04:20,763 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:04:20,764 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:04:50,777 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:05:02,919 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:05:06,041 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:05:06,042 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:05:36,058 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:05:49,345 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:05:52,474 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:05:52,475 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:06:22,486 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:06:34,826 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:06:37,942 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:06:37,942 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:07:07,959 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:07:20,568 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:07:23,689 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:07:23,690 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:07:53,706 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:08:05,734 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:08:08,839 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:08:08,840 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:08:38,849 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:08:50,586 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:08:53,703 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:08:53,703 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:09:23,705 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:09:36,117 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:09:39,245 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:09:39,245 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:10:09,261 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:10:21,988 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:10:25,093 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:10:25,093 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:10:55,095 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:11:07,255 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:11:10,372 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:11:10,372 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:11:40,379 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:11:53,109 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:11:56,226 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:11:56,226 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:12:26,239 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:12:38,554 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:12:41,670 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:12:41,670 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:13:11,678 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:13:23,169 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:13:26,281 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:13:26,281 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:13:56,292 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:14:08,219 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:14:11,330 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:14:11,330 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:14:41,335 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:14:53,988 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:14:57,090 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:14:57,090 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:15:27,100 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:15:39,817 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:15:42,931 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:15:42,932 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:16:12,938 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:16:24,691 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:16:27,810 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:16:27,810 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:16:57,814 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:17:09,735 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:17:12,857 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:17:12,858 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:17:42,868 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:17:55,413 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:17:58,530 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:17:58,530 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:18:28,544 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:18:40,383 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:18:43,497 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:18:43,497 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:19:13,512 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:19:26,935 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:19:30,073 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:19:30,073 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:20:00,088 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:20:11,660 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:20:14,785 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:20:14,785 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:20:44,791 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:20:56,848 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:20:59,965 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:20:59,965 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:21:29,980 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:21:42,583 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:21:45,694 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:21:45,694 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:22:15,698 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:22:27,838 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:22:30,957 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:22:30,958 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:23:00,973 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:23:13,351 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:23:16,463 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:23:16,463 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:23:46,478 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:23:58,482 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:24:01,601 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:24:01,601 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:24:31,616 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:24:43,490 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:24:46,605 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:24:46,606 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:25:16,616 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:25:28,518 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:25:31,620 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:25:31,621 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:26:01,634 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:26:13,581 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:26:16,696 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:26:16,696 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:26:46,705 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:26:59,167 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:27:02,280 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:27:02,280 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:27:32,292 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:27:44,070 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:27:47,188 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:27:47,188 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:28:17,194 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:28:29,474 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:28:32,579 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:28:32,579 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:29:02,584 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:29:14,508 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:29:17,631 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:29:17,631 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:29:47,644 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:29:59,909 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:30:03,022 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:30:03,022 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:30:33,029 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:30:44,966 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:30:48,069 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:30:48,069 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:31:18,080 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:31:31,343 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:31:34,460 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:31:34,461 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:32:04,472 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:32:17,119 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:32:20,229 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:32:20,229 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:32:50,245 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:33:02,123 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:33:05,239 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:33:05,239 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:33:35,255 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:33:46,960 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:33:50,070 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:33:50,070 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:34:20,075 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:34:31,751 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:34:34,876 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:34:34,877 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:35:04,894 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:35:17,258 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:35:20,380 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:35:20,381 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:35:20,382 - INFO - [NEW] Wild Force SV5K Booster Pack - Japanese Pokemon TCG - $4.59
+2025-10-23 12:35:21,039 - INFO - [SUCCESS] Sent Discord notification for: Wild Force SV5K Booster Pack - Japanese Pokemon TCG
+2025-10-23 12:35:21,040 - INFO - [OOS] Product removed from tracking: 9901870672
+2025-10-23 12:35:51,047 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:36:02,880 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:36:06,001 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:36:06,002 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:36:06,003 - INFO - [NEW] White Flare Booster Box - Japanese Pokemon TCG - $119.00
+2025-10-23 12:36:06,579 - INFO - [SUCCESS] Sent Discord notification for: White Flare Booster Box - Japanese Pokemon TCG
+2025-10-23 12:36:06,580 - INFO - [OOS] Product removed from tracking: 9902369243
+2025-10-23 12:36:36,585 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:36:48,588 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:36:51,695 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:36:51,696 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:36:51,698 - INFO - [NEW] Wild Force SV5K Booster Pack - Japanese Pokemon TCG - $4.59
+2025-10-23 12:36:52,309 - INFO - [SUCCESS] Sent Discord notification for: Wild Force SV5K Booster Pack - Japanese Pokemon TCG
+2025-10-23 12:36:52,310 - INFO - [OOS] Product removed from tracking: 9901870672
+2025-10-23 12:37:22,317 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:37:34,750 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:37:37,860 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:37:37,860 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:38:07,867 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:38:19,609 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:38:22,719 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:38:22,719 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:38:52,729 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:39:04,708 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:39:07,818 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:39:07,818 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:39:37,822 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:39:49,574 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:39:52,685 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:39:52,685 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:40:22,693 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:40:35,119 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:40:38,235 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:40:38,235 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:41:08,243 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:41:20,035 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:41:23,148 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:41:23,148 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:41:53,150 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:42:05,663 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:42:08,772 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:42:08,772 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:42:38,782 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:42:50,618 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:42:53,727 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:42:53,727 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:43:23,742 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:43:36,085 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:43:39,194 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:43:39,195 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:44:09,205 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:44:22,026 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:44:25,126 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:44:25,126 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:44:55,138 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:45:07,127 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:45:10,238 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:45:10,238 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:45:40,255 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:45:52,378 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:45:55,489 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:45:55,489 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:58:45,891 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:58:57,623 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:59:00,737 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:59:00,737 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 12:59:00,740 - INFO - [NEW] Paradise Dragona SV7a Booster Pack - Japanese Pokemon TCG - $5.74
+2025-10-23 12:59:01,358 - INFO - [SUCCESS] Sent Discord notification for: Paradise Dragona SV7a Booster Pack - Japanese Pokemon TCG
+2025-10-23 12:59:01,359 - INFO - [OOS] Product removed from tracking: 9901935322
+2025-10-23 12:59:31,365 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 12:59:43,356 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 12:59:46,472 - INFO - [SCRAPE] Found 48 products
+2025-10-23 12:59:46,472 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:00:16,490 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:00:28,250 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:00:31,375 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:00:31,376 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:01:01,389 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:01:13,787 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:01:16,905 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:01:16,905 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:01:46,921 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:01:58,722 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:02:01,869 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:02:01,870 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:02:31,884 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:02:44,618 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:02:47,740 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:02:47,741 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:03:17,753 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:03:29,280 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:03:32,391 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:03:32,391 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:04:02,401 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:04:14,456 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:04:17,565 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:04:17,565 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:04:47,573 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:04:59,462 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:05:02,592 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:05:02,593 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:05:32,614 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:05:44,461 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:05:47,580 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:05:47,580 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:06:17,590 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:06:29,498 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:06:32,615 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:06:32,615 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:07:02,625 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:07:15,673 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:07:18,795 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:07:18,795 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:07:48,803 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:08:01,415 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:08:04,530 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:08:04,530 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:08:34,545 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:08:47,149 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:08:50,261 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:08:50,262 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:09:20,277 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:09:32,344 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:09:35,462 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:09:35,462 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:10:05,474 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:10:17,938 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:10:21,055 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:10:21,055 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:10:51,067 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:11:03,254 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:11:06,359 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:11:06,359 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:11:36,365 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:11:48,471 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:11:51,595 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:11:51,595 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:12:21,602 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:12:33,385 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:12:36,504 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:12:36,504 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:13:06,522 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:13:19,097 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:13:22,205 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:13:22,205 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:13:52,208 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:14:04,525 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:14:07,635 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:14:07,635 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:14:37,652 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:14:50,619 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:14:53,734 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:14:53,734 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:15:23,744 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:15:35,840 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:15:38,960 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:15:38,960 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:16:08,977 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:16:21,123 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:16:24,246 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:16:24,246 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:16:54,259 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:17:06,267 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:17:09,377 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:17:09,377 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:17:39,392 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:17:51,578 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:17:54,694 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:17:54,695 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:18:24,697 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:18:36,372 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:18:39,484 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:18:39,485 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:19:09,499 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:19:21,302 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:19:24,415 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:19:24,415 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:19:54,417 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:20:06,685 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:20:09,796 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:20:09,796 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:20:39,799 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:20:51,959 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:20:55,082 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:20:55,082 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:21:25,096 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:21:37,202 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:21:40,312 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:21:40,312 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:22:10,316 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:22:21,994 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:22:25,118 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:22:25,119 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:22:55,126 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:23:07,053 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:23:10,173 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:23:10,173 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:23:40,180 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:23:52,530 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:23:55,645 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:23:55,645 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:24:25,662 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:24:37,657 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:24:40,773 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:24:40,774 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:25:10,782 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:25:22,594 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:25:25,717 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:25:25,718 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:25:55,729 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:26:07,838 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:26:10,953 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:26:10,953 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:26:40,963 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:26:52,942 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:26:56,069 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:26:56,070 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:27:26,073 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:27:37,812 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:27:40,915 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:27:40,916 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:28:10,930 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:28:24,377 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:28:27,497 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:28:27,498 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:28:57,514 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:29:09,989 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:29:13,110 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:29:13,111 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:29:43,120 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:29:56,096 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:29:59,206 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:29:59,207 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:30:29,210 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:30:41,290 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:30:44,407 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:30:44,407 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:31:14,417 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:31:26,554 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:31:29,673 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:31:29,674 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:31:59,684 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:32:11,891 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:32:15,002 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:32:15,002 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:32:45,013 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:32:57,985 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:33:01,099 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:33:01,100 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:33:31,114 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:33:43,916 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:33:47,028 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:33:47,029 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:34:17,041 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:34:29,707 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:34:32,826 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:34:32,826 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:35:02,838 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:35:15,077 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:35:18,321 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:35:18,321 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:35:48,334 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:36:00,213 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:36:03,337 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:36:03,338 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:36:33,340 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:36:45,531 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:36:48,664 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:36:48,664 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:37:18,671 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:37:31,034 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:37:34,151 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:37:34,152 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:38:04,159 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:38:15,842 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:38:18,967 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:38:18,967 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:38:48,970 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:39:01,264 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:39:04,374 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:39:04,375 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:39:34,383 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:39:46,255 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:39:49,395 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:39:49,396 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:40:19,409 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:40:31,399 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:40:34,507 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:40:34,508 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:41:04,519 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:41:16,524 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:41:19,653 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:41:19,653 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:41:49,661 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:42:03,053 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:42:06,165 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:42:06,166 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:42:36,170 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:42:48,024 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:42:51,142 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:42:51,143 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:43:21,155 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:43:34,291 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:43:37,409 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:43:37,410 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:44:07,420 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:44:19,630 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:44:22,737 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:44:22,737 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:44:52,740 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:45:04,978 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:45:08,092 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:45:08,092 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:45:38,107 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:45:50,364 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:45:53,482 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:45:53,482 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:46:23,498 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:46:35,421 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:46:38,548 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:46:38,548 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:47:08,558 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:47:20,335 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:47:23,454 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:47:23,455 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:47:53,469 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:48:05,211 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:48:08,318 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:48:08,318 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:48:38,335 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:48:50,125 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:48:53,246 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:48:53,246 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:49:23,257 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:49:35,618 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:49:38,735 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:49:38,735 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:50:08,743 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:50:20,951 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:50:24,069 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:50:24,069 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:50:54,078 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:51:06,028 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:51:09,266 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:51:09,306 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:51:39,355 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:51:52,355 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:51:55,478 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:51:55,478 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:52:25,488 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 13:52:37,207 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout, trying anyway
+2025-10-23 13:52:40,313 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:52:40,313 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:53:25,470 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201?onlyAvailableAtBigW=true
+2025-10-23 13:53:47,746 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 13:53:49,861 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:53:49,861 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:53:49,861 - INFO - [INITIAL] Tracking: Pokemon 250 Assorted Pokemon Cards with guaranteed 10 Rare and 5 Foil Cards
+2025-10-23 13:53:49,861 - INFO - [INITIAL] Tracking: Mega Symphonia Booster Box - Japanese Pokemon TCG
+2025-10-23 13:53:49,861 - INFO - [INITIAL] Tracking: Pokemon TCG Sword and Shield 4 Vivid Voltage Booster Blister
+2025-10-23 13:53:49,861 - INFO - [INITIAL] Tracking: Pokemon TCG 20 Rare Pokemon Cards - All Genuine Rare Cards
+2025-10-23 13:53:49,861 - INFO - [INITIAL] Tracking: Pokemon TCG Battle Academy (2024)
+2025-10-23 13:53:49,861 - INFO - [INITIAL] Tracking: Night Wanderer Booster Box sv6a Booster Pack - Japanese Pokemon TCG
+2025-10-23 13:53:49,862 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet Obsidian Flames Single Booster Pack
+2025-10-23 13:53:49,862 - INFO - [INITIAL] Tracking: Raging Surf SV3A Booster Pack - Japanese Pokemon TCG
+2025-10-23 13:53:49,862 - INFO - [INITIAL] Tracking: Pokemon Gem Pack Volume 2 Booster Box - Simplified Chinese Pokemon TCG
+2025-10-23 13:53:49,862 - INFO - [INITIAL] Tracking: Scarlet & Violet Stellar Crown Elite Trainer Box POKEMON TCG
+2025-10-23 13:53:49,862 - INFO - [INITIAL] Tracking: Black Bolt Booster Box - Japanese Pokemon TCG
+2025-10-23 13:53:49,862 - INFO - [INITIAL] Tracking: Mega Brave Booster Box - Japanese Pokemon TCG
+2025-10-23 13:53:49,862 - INFO - [INITIAL] Tracking: Scarlet & Violet Shrouded Fable 3 Pack Blister POKEMON TCG
+2025-10-23 13:53:49,862 - INFO - [INITIAL] Tracking: Gardevoir ex League Battle Deck - Pokemon TCG
+2025-10-23 13:53:49,862 - INFO - [INITIAL] Tracking: POKEMON TCG Charizard ex Premium Collection
+2025-10-23 13:53:49,863 - INFO - [INITIAL] Tracking: Black Bolt Booster Box - Korean Pokemon TCG
+2025-10-23 13:53:49,863 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet Temporal Forces Single Booster Pack
+2025-10-23 13:53:49,863 - INFO - [INITIAL] Tracking: Pokemon TCG Sword and Shield 10- Astral Radiance Booster Blister
+2025-10-23 13:53:49,863 - INFO - [INITIAL] Tracking: Pokemon TCG Sword and Shield Lost Origin Booster Blister
+2025-10-23 13:53:49,863 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet and Violet 1 Single Booster Pack
+2025-10-23 13:53:49,863 - INFO - [INITIAL] Tracking: Scarlet & Violet 1 Build & Battle Box Pokemon TCG
+2025-10-23 13:53:49,863 - INFO - [INITIAL] Tracking: Scarlet & Violet Stellar Crown Single Booster Pack POKEMON TCG
+2025-10-23 13:53:49,863 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet Twilight Masquerade Single Booster Pack
+2025-10-23 13:53:49,863 - INFO - [INITIAL] Tracking: Inferno X M2 Booster Pack - Japanese Pokemon TCG
+2025-10-23 13:53:49,863 - INFO - [INITIAL] Tracking: Ancient Roar SV4K Booster Pack - Japanese Pokemon TCG
+2025-10-23 13:53:49,863 - INFO - [INITIAL] Tracking: The Glory of Team Rocket SV10 Booster Pack - Japanese Pokemon TCG
+2025-10-23 13:53:49,863 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet Paldea Evolved Single Booster Pack
+2025-10-23 13:53:49,864 - INFO - [INITIAL] Tracking: Gengar Gift Box - Simplified Chinese Pokemon TCG
+2025-10-23 13:53:49,864 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet Twilight Masquerade Elite Trainer Box
+2025-10-23 13:53:49,864 - INFO - [INITIAL] Tracking: Eevee Gift Box - Simplified Chinese Pokemon TCG
+2025-10-23 13:53:49,864 - INFO - [INITIAL] Tracking: POKEMON TCG Scarlet & Violet 1 Checklane Blisters (Pair)
+2025-10-23 13:53:49,864 - INFO - [INITIAL] Tracking: Scarlet & Violet Shrouded Fable Elite Trainer Box POKEMON TCG
+2025-10-23 13:53:49,864 - INFO - [INITIAL] Tracking: Scarlet & Violet Stellar Crown Booster Bundle POKEMON TCG
+2025-10-23 13:53:49,864 - INFO - [INITIAL] Tracking: Wild Force SV5K Booster Pack - Japanese Pokemon TCG
+2025-10-23 13:53:49,864 - INFO - [INITIAL] Tracking: Paradise Dragona SV7a Booster Pack - Japanese Pokemon TCG
+2025-10-23 13:54:19,869 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201?onlyAvailableAtBigW=true
+2025-10-23 13:54:42,321 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 13:54:44,426 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:54:44,426 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:55:14,437 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201?onlyAvailableAtBigW=true
+2025-10-23 13:55:44,250 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 13:55:46,356 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:55:46,356 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:56:16,360 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201?onlyAvailableAtBigW=true
+2025-10-23 13:56:38,380 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 13:56:40,491 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:56:40,491 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:57:10,505 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201?onlyAvailableAtBigW=true
+2025-10-23 13:57:32,698 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 13:57:34,827 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:57:34,828 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 13:58:04,842 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201?onlyAvailableAtBigW=true
+2025-10-23 13:58:27,315 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 13:58:29,433 - INFO - [SCRAPE] Found 48 products
+2025-10-23 13:58:29,434 - INFO - [SCRAPE] Extracted 40 in-stock products
+2025-10-23 14:01:54,521 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 14:02:18,096 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:02:20,210 - INFO - [SCRAPE] Found 48 products
+2025-10-23 14:02:20,210 - INFO - [SCRAPE] Extracted 1 in-stock products
+2025-10-23 14:02:20,210 - INFO - [INITIAL] Tracking: Pokemon TCG Battle Academy (2024)
+2025-10-23 14:02:50,214 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 14:03:12,125 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:03:14,231 - INFO - [SCRAPE] Found 48 products
+2025-10-23 14:03:14,231 - INFO - [SCRAPE] Extracted 1 in-stock products
+2025-10-23 14:03:44,237 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 14:04:06,644 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:04:08,761 - INFO - [SCRAPE] Found 48 products
+2025-10-23 14:04:08,762 - INFO - [SCRAPE] Extracted 1 in-stock products
+2025-10-23 14:04:38,767 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 14:05:01,277 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:05:03,424 - INFO - [SCRAPE] Found 48 products
+2025-10-23 14:05:03,424 - INFO - [SCRAPE] Extracted 1 in-stock products
+2025-10-23 14:05:33,430 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 14:05:55,470 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:05:57,587 - INFO - [SCRAPE] Found 48 products
+2025-10-23 14:05:57,587 - INFO - [SCRAPE] Extracted 1 in-stock products
+2025-10-23 14:06:27,603 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 14:06:49,229 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:06:51,344 - INFO - [SCRAPE] Found 48 products
+2025-10-23 14:06:51,344 - INFO - [SCRAPE] Extracted 1 in-stock products
+2025-10-23 14:07:21,357 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 14:07:43,602 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:07:45,717 - INFO - [SCRAPE] Found 48 products
+2025-10-23 14:07:45,717 - INFO - [SCRAPE] Extracted 1 in-stock products
+2025-10-23 14:08:15,718 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 14:08:37,777 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:08:39,901 - INFO - [SCRAPE] Found 48 products
+2025-10-23 14:08:39,901 - INFO - [SCRAPE] Extracted 1 in-stock products
+2025-10-23 14:09:09,904 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 14:09:32,112 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:09:34,221 - INFO - [SCRAPE] Found 48 products
+2025-10-23 14:09:34,221 - INFO - [SCRAPE] Extracted 1 in-stock products
+2025-10-23 14:10:04,227 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 14:10:10,091 - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed\nCall log:\n  - waiting for locator("script#__NEXT_DATA__") to be visible\n    9 × locator resolved to hidden <script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"$$status":200,"$isomorphi…</script>\n')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("script#__NEXT_DATA__") to be visible
+    9 × locator resolved to hidden <script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"$$status":200,"$isomorphi…</script>
+
+2025-10-23 14:15:26,071 - INFO - [SCRAPE] Loading page 1 to check pagination...
+2025-10-23 14:15:49,099 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:15:51,207 - INFO - [SCRAPE] Found 6 pages with ~283 total products
+2025-10-23 14:15:51,207 - INFO - [SCRAPE] Loading page 1/6...
+2025-10-23 14:15:54,020 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 14:15:54,020 - INFO - [SCRAPE] Loading page 2/6...
+2025-10-23 14:15:57,212 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 14:15:57,213 - INFO - [SCRAPE] Loading page 3/6...
+2025-10-23 14:16:00,387 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 14:16:00,387 - INFO - [SCRAPE] Loading page 4/6...
+2025-10-23 14:16:03,244 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 14:16:03,245 - INFO - [SCRAPE] Loading page 5/6...
+2025-10-23 14:16:06,531 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 14:16:06,531 - INFO - [SCRAPE] Loading page 6/6...
+2025-10-23 14:16:09,449 - INFO - [SCRAPE] Page 6: Found 43 products
+2025-10-23 14:16:09,449 - INFO - [SCRAPE] Extracted 3 in-stock Big W products across all pages
+2025-10-23 14:16:09,449 - INFO - [INITIAL] Tracking: Pokemon TCG Battle Academy (2024)
+2025-10-23 14:16:09,449 - INFO - [INITIAL] Tracking: Ultra Pro 9-Pocket Page For Standard Size Cards 10 Pack
+2025-10-23 14:16:39,459 - INFO - [SCRAPE] Loading page 1 to check pagination...
+2025-10-23 14:17:01,263 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:17:03,378 - INFO - [SCRAPE] Found 1 pages with ~23 total products
+2025-10-23 14:17:03,378 - INFO - [SCRAPE] Loading page 1/1...
+2025-10-23 14:17:05,910 - INFO - [SCRAPE] Page 1: Found 23 products
+2025-10-23 14:17:05,911 - INFO - [SCRAPE] Extracted 3 in-stock Big W products across all pages
+2025-10-23 14:17:35,918 - INFO - [SCRAPE] Loading page 1 to check pagination...
+2025-10-23 14:17:57,809 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:17:59,907 - INFO - [SCRAPE] Found 1 pages with ~23 total products
+2025-10-23 14:17:59,907 - INFO - [SCRAPE] Loading page 1/1...
+2025-10-23 14:18:03,111 - INFO - [SCRAPE] Page 1: Found 23 products
+2025-10-23 14:18:03,111 - INFO - [SCRAPE] Extracted 3 in-stock Big W products across all pages
+2025-10-23 14:18:33,123 - INFO - [SCRAPE] Loading page 1 to check pagination...
+2025-10-23 14:18:54,906 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:18:57,015 - INFO - [SCRAPE] Found 1 pages with ~23 total products
+2025-10-23 14:18:57,015 - INFO - [SCRAPE] Loading page 1/1...
+2025-10-23 14:19:00,744 - INFO - [SCRAPE] Page 1: Found 23 products
+2025-10-23 14:19:00,744 - INFO - [SCRAPE] Extracted 3 in-stock Big W products across all pages
+2025-10-23 14:19:30,754 - INFO - [SCRAPE] Loading page 1 to check pagination...
+2025-10-23 14:19:52,326 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:19:54,439 - INFO - [SCRAPE] Found 1 pages with ~23 total products
+2025-10-23 14:19:54,439 - INFO - [SCRAPE] Loading page 1/1...
+2025-10-23 14:19:57,615 - INFO - [SCRAPE] Page 1: Found 23 products
+2025-10-23 14:19:57,616 - INFO - [SCRAPE] Extracted 3 in-stock Big W products across all pages
+2025-10-23 14:20:27,618 - INFO - [SCRAPE] Loading page 1 to check pagination...
+2025-10-23 14:20:50,044 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:20:52,176 - INFO - [SCRAPE] Found 1 pages with ~23 total products
+2025-10-23 14:20:52,177 - INFO - [SCRAPE] Loading page 1/1...
+2025-10-23 14:20:55,182 - INFO - [SCRAPE] Page 1: Found 23 products
+2025-10-23 14:20:55,183 - INFO - [SCRAPE] Extracted 3 in-stock Big W products across all pages
+2025-10-23 14:21:25,196 - INFO - [SCRAPE] Loading page 1 to check pagination...
+2025-10-23 14:21:47,709 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:21:49,819 - INFO - [SCRAPE] Found 1 pages with ~23 total products
+2025-10-23 14:21:49,820 - INFO - [SCRAPE] Loading page 1/1...
+2025-10-23 14:21:52,783 - INFO - [SCRAPE] Page 1: Found 23 products
+2025-10-23 14:21:52,783 - INFO - [SCRAPE] Extracted 3 in-stock Big W products across all pages
+2025-10-23 14:22:22,786 - INFO - [SCRAPE] Loading page 1 to check pagination...
+2025-10-23 14:22:45,686 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 14:22:47,788 - INFO - [SCRAPE] Found 1 pages with ~23 total products
+2025-10-23 14:22:47,788 - INFO - [SCRAPE] Loading page 1/1...
+2025-10-23 14:22:50,513 - INFO - [SCRAPE] Page 1: Found 23 products
+2025-10-23 14:22:50,513 - INFO - [SCRAPE] Extracted 3 in-stock Big W products across all pages
+2025-10-23 14:23:20,521 - INFO - [SCRAPE] Loading page 1 to check pagination...
+2025-10-23 14:23:31,304 - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed\nCall log:\n  - waiting for locator("script#__NEXT_DATA__") to be visible\n    18 × locator resolved to hidden <script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"$$status":200,"$isomorphi…</script>\n')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("script#__NEXT_DATA__") to be visible
+    18 × locator resolved to hidden <script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"$$status":200,"$isomorphi…</script>
+
+2025-10-23 15:13:58,984 - INFO - Testing Big W marketplace filter...
+2025-10-23 15:13:58,984 - INFO - Category URL: https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 15:13:58,984 - INFO - 
+2025-10-23 15:13:58,984 - INFO - [SCRAPE] Loading https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 15:14:23,422 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout after 20s, trying anyway
+2025-10-23 15:14:25,549 - INFO - [SCRAPE] Found 48 products on page (total pages: 6)
+2025-10-23 15:14:25,549 - INFO - [SCRAPE] Extracted 1 in-stock Big W products (marketplace items filtered)
+2025-10-23 15:14:25,550 - INFO - 
+2025-10-23 15:14:25,550 - INFO - ============================================================
+2025-10-23 15:14:25,550 - INFO - RESULT: Found 1 Big W products
+2025-10-23 15:14:25,550 - INFO - ============================================================
+2025-10-23 15:14:25,550 - INFO - 
+First 5 products:
+2025-10-23 15:14:25,550 - INFO -   1. Pokemon TCG Battle Academy (2024) - $$40.00
+2025-10-23 15:25:07,167 - INFO - Testing Big W marketplace filter...
+2025-10-23 15:25:07,168 - INFO - Category URL: https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 15:25:07,168 - INFO - 
+2025-10-23 15:25:07,168 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 15:25:31,290 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 15:25:31,400 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 15:25:31,400 - INFO - [SCRAPE] Loading page 1/6...
+2025-10-23 15:25:34,382 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 15:25:34,382 - INFO - [SCRAPE] Loading page 2/6...
+2025-10-23 15:25:37,745 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 15:25:37,745 - INFO - [SCRAPE] Loading page 3/6...
+2025-10-23 15:25:40,887 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 15:25:40,887 - INFO - [SCRAPE] Loading page 4/6...
+2025-10-23 15:25:43,878 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 15:25:43,878 - INFO - [SCRAPE] Loading page 5/6...
+2025-10-23 15:25:46,959 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 15:25:46,959 - INFO - [SCRAPE] Loading page 6/6...
+2025-10-23 15:25:49,887 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 15:25:49,887 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 15:25:49,888 - INFO - 
+2025-10-23 15:25:49,889 - INFO - ============================================================
+2025-10-23 15:25:49,889 - INFO - RESULT: Found 3 Big W products
+2025-10-23 15:25:49,889 - INFO - ============================================================
+2025-10-23 15:25:49,889 - INFO - 
+First 5 products:
+2025-10-23 15:25:49,889 - INFO -   1. Pokemon TCG Battle Academy (2024) - $$40.00
+2025-10-23 15:25:49,889 - INFO -   2. Pokemon Card Game 9 Pocket Portfolio - Assorted* - $$20.00
+2025-10-23 15:25:49,889 - INFO -   3. Ultra Pro 9-Pocket Page For Standard Size Cards 10 Pack - $$6.30
+2025-10-23 15:28:33,381 - INFO - Testing Big W marketplace filter...
+2025-10-23 15:28:33,381 - INFO - Category URL: https://www.bigw.com.au/toys/trading-cards/pokemon-trading-cards/c/681510201
+2025-10-23 15:28:33,381 - INFO - 
+2025-10-23 15:28:33,381 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 15:28:58,623 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 15:28:58,729 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 15:28:58,730 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 15:29:01,904 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 15:29:02,152 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 15:29:02,212 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 15:29:02,286 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 15:29:02,607 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 15:29:02,791 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 15:29:02,804 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 15:29:02,805 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 15:29:02,806 - INFO - 
+2025-10-23 15:29:02,806 - INFO - ============================================================
+2025-10-23 15:29:02,806 - INFO - RESULT: Found 3 Big W products
+2025-10-23 15:29:02,806 - INFO - ============================================================
+2025-10-23 15:29:02,806 - INFO - 
+First 5 products:
+2025-10-23 15:29:02,806 - INFO -   1. Pokemon TCG Battle Academy (2024) - $$40.00
+2025-10-23 15:29:02,806 - INFO -   2. Pokemon Card Game 9 Pocket Portfolio - Assorted* - $$20.00
+2025-10-23 15:29:02,806 - INFO -   3. Ultra Pro 9-Pocket Page For Standard Size Cards 10 Pack - $$6.30
+2025-10-23 16:46:57,002 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 16:47:21,829 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 16:47:21,937 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 16:47:21,937 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 16:47:25,787 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 16:47:25,848 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 16:47:25,982 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 16:47:26,039 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 16:47:26,226 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 16:47:26,909 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 16:47:26,978 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 16:47:26,979 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 16:47:26,981 - INFO - [INITIAL] Tracking: Pokemon TCG Battle Academy (2024)
+2025-10-23 16:47:26,981 - INFO - [INITIAL] Tracking: Ultra Pro 9-Pocket Page For Standard Size Cards 10 Pack
+2025-10-23 16:47:56,987 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 16:48:21,787 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 16:48:21,902 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 16:48:21,902 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 16:48:24,708 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 16:48:25,337 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 16:48:25,563 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 16:48:25,758 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 16:48:26,155 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 16:48:26,415 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 16:48:26,477 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 16:48:26,477 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 16:48:56,485 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 16:49:20,486 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 16:49:20,588 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 16:49:20,588 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 16:49:23,549 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 16:49:23,609 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 16:49:23,786 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 16:49:23,917 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 16:49:24,177 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 16:49:24,598 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 16:49:24,673 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 16:49:24,674 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 16:49:54,689 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 16:50:19,489 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 16:50:19,592 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 16:50:19,592 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 16:50:22,856 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 16:50:23,029 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 16:50:23,126 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 16:50:23,178 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 16:50:23,281 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 16:50:23,618 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 16:50:23,631 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 16:50:23,632 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 16:50:53,642 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 16:51:17,724 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 16:51:17,841 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 16:51:17,841 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 16:51:21,300 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 16:51:21,455 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 16:51:21,634 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 16:51:21,684 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 16:51:21,739 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 16:51:21,976 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 16:51:22,013 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 16:51:22,013 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 16:51:52,022 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 16:52:16,501 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 16:52:16,608 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 16:52:16,608 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 16:52:19,544 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 16:52:19,841 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 16:52:20,227 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 16:52:20,420 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 16:52:20,471 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 16:52:20,584 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 16:52:20,597 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 16:52:20,598 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 16:52:50,603 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 16:53:14,845 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 16:53:14,947 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 16:53:14,947 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 16:53:18,140 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 16:53:18,482 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 16:53:18,675 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 16:53:18,776 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 16:53:18,908 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 16:53:18,952 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 16:53:18,973 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 16:53:18,974 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 16:53:48,986 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 16:54:12,760 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 16:54:12,869 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 16:54:12,869 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 16:54:15,850 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 16:54:16,197 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 16:54:16,460 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 16:54:16,621 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 16:54:16,736 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 16:54:16,936 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 16:54:16,960 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 16:54:16,961 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 16:54:46,975 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 16:55:10,939 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 16:55:11,040 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 16:55:11,041 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 16:55:13,850 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 16:55:14,286 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 16:55:14,500 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 16:55:14,556 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 16:55:14,949 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 16:55:15,156 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 16:55:15,182 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 16:55:15,183 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 16:55:45,199 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 16:56:09,886 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 16:56:09,998 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 16:56:09,998 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 16:56:13,186 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 16:56:13,284 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 16:56:13,489 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 16:56:13,538 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 16:56:13,624 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 16:56:13,804 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 16:56:13,849 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 16:56:13,850 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 16:56:43,863 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 16:57:07,953 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 16:57:08,057 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 16:57:08,057 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 16:57:11,052 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 16:57:11,510 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 16:57:11,566 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 16:57:11,652 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 16:57:11,818 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 16:57:12,484 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 16:57:12,500 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 16:57:12,500 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 16:57:42,516 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 16:58:06,588 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 16:58:06,696 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 16:58:06,697 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 16:58:09,959 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 16:58:10,011 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 16:58:10,057 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 16:58:10,114 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 16:58:11,038 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 16:58:11,251 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 16:58:11,271 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 16:58:11,271 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 16:58:41,277 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 16:59:05,086 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 16:59:05,191 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 16:59:05,192 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 16:59:08,245 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 16:59:08,307 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 16:59:08,499 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 16:59:08,562 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 16:59:08,618 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 16:59:09,268 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 16:59:09,320 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 16:59:09,321 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 16:59:39,339 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:00:03,012 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:00:03,116 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:00:03,116 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:00:06,183 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:00:06,261 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:00:06,398 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:00:06,446 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:00:06,856 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:00:07,209 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:00:07,221 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:00:07,222 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:00:37,229 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:01:01,261 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:01:01,366 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:01:01,366 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:01:04,360 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:01:04,695 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:01:04,905 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:01:04,969 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:01:05,032 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:01:06,621 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:01:06,636 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:01:06,637 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:01:36,647 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:02:01,027 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:02:01,133 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:02:01,133 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:02:04,114 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:02:04,343 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:02:04,463 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:02:04,512 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:02:04,570 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:02:04,687 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:02:04,703 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:02:04,703 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:02:34,718 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:02:58,848 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:02:58,950 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:02:58,951 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:03:02,628 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:03:02,704 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:03:02,772 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:03:02,832 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:03:02,999 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:03:03,053 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:03:03,086 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:03:03,087 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:03:33,098 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:03:57,804 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:03:57,906 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:03:57,907 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:04:01,041 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:04:01,096 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:04:01,182 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:04:01,384 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:04:01,593 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:04:02,189 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:04:02,202 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:04:02,203 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:04:32,215 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:04:56,808 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:04:56,919 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:04:56,919 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:05:00,193 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:05:00,439 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:05:00,502 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:05:00,567 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:05:00,749 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:05:00,801 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:05:00,895 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:05:00,895 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:05:30,912 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:05:55,615 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:05:55,771 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:05:55,772 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:05:58,667 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:05:59,069 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:05:59,211 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:06:00,054 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:06:00,109 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:06:00,267 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:06:00,286 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:06:00,286 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:06:30,295 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:06:54,593 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:06:54,703 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:06:54,703 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:06:57,733 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:06:57,823 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:06:58,274 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:06:58,375 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:06:58,508 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:06:58,564 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:06:58,632 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:06:58,633 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:07:28,650 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:07:52,708 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:07:52,814 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:07:52,814 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:07:56,043 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:07:56,120 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:07:56,249 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:07:56,646 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:07:56,707 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:07:56,989 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:07:57,016 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:07:57,017 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:08:27,027 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:08:52,269 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:08:52,380 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:08:52,380 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:08:55,276 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:08:55,670 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:08:55,952 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:08:56,107 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:08:56,549 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:08:56,855 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:08:56,914 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:08:56,915 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:09:26,920 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:09:51,605 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:09:51,714 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:09:51,714 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:09:54,832 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:09:54,898 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:09:54,969 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:09:55,273 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:09:55,417 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:09:56,168 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:09:56,185 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:09:56,186 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:10:26,205 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:10:50,196 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:10:50,300 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:10:50,300 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:10:53,423 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:10:53,486 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:10:53,585 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:10:53,851 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:10:54,061 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:10:54,376 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:10:54,420 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:10:54,420 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:11:24,430 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:11:49,176 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:11:49,288 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:11:49,288 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:11:52,383 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:11:52,469 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:11:52,554 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:11:53,406 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:11:53,456 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:11:53,744 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:11:53,798 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:11:53,798 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:12:23,814 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:12:48,097 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:12:48,200 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:12:48,201 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:12:51,128 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:12:51,305 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:12:51,502 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:12:51,567 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:12:51,766 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:12:52,036 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:12:52,068 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:12:52,068 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:13:22,075 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:13:45,826 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:13:45,937 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:13:45,938 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:13:48,961 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:13:49,085 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:13:49,245 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:13:49,462 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:13:49,992 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:13:50,441 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:13:50,552 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:13:50,552 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:14:20,560 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:14:44,578 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:14:44,689 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:14:44,689 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:14:47,750 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:14:47,850 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:14:47,967 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:14:48,404 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:14:48,626 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:14:49,023 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:14:49,046 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:14:49,047 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:15:19,056 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:15:43,399 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:15:43,511 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:15:43,511 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:15:46,660 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:15:46,726 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:15:46,858 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:15:46,919 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:15:46,978 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:15:47,578 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:15:47,631 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:15:47,632 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:16:17,650 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:16:41,888 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:16:41,997 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:16:41,998 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:16:45,041 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:16:45,143 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:16:45,375 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:16:45,445 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:16:45,629 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:16:45,998 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:16:46,049 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:16:46,049 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:17:16,062 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:17:40,828 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:17:40,931 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:17:40,931 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:17:43,958 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:17:44,171 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:17:44,257 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:17:44,324 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:17:44,389 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:17:44,444 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:17:44,533 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:17:44,534 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:18:14,552 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:18:38,552 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:18:38,688 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:18:38,688 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:18:41,586 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:18:41,774 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:18:41,911 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:18:42,376 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:18:42,423 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:18:42,468 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:18:42,583 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:18:42,583 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:19:12,596 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:19:37,471 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:19:37,573 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:19:37,573 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:19:40,416 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:19:40,868 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:19:40,922 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:19:41,188 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:19:41,238 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:19:41,403 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:19:41,419 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:19:41,420 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:20:11,435 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:20:35,848 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:20:35,962 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:20:35,962 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:20:38,797 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:20:38,958 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:20:39,090 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:20:39,225 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:20:39,434 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:20:40,276 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:20:40,290 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:20:40,290 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:21:10,300 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:21:34,130 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:21:34,237 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:21:34,238 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:21:37,173 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:21:37,275 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:21:37,365 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:21:38,010 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:21:38,156 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:21:38,246 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:21:38,269 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:21:38,270 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:22:08,285 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:22:32,386 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:22:32,491 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:22:32,491 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:22:35,564 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:22:35,625 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:22:35,974 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:22:36,057 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:22:36,193 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:22:36,736 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:22:36,749 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:22:36,750 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:23:06,768 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:23:30,970 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:23:31,078 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:23:31,078 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:23:34,012 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:23:34,414 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:23:34,476 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:23:34,590 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:23:35,136 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:23:35,187 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:23:35,254 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:23:35,254 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:24:05,266 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:24:29,126 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:24:29,234 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:24:29,235 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:24:32,242 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:24:32,812 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:24:32,927 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:24:33,029 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:24:33,111 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:24:33,475 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:24:33,495 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:24:33,495 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:25:03,503 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:25:27,421 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:25:27,524 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:25:27,524 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:25:30,421 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:25:30,707 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:25:30,844 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:25:31,385 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:25:31,451 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:25:31,508 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:25:31,596 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:25:31,597 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:26:01,603 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:26:25,538 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:26:25,648 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:26:25,648 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:26:28,506 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:26:28,707 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:26:28,809 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:26:28,860 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:26:29,092 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:26:29,141 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:26:29,157 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:26:29,157 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:26:59,174 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:27:22,776 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:27:22,898 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:27:22,898 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:27:26,103 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:27:26,202 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:27:26,281 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:27:26,454 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:27:26,651 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:27:26,856 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:27:26,887 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:27:26,887 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:27:56,901 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:28:20,992 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:28:21,094 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:28:21,095 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:28:24,064 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:28:24,182 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:28:24,281 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:28:24,339 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:28:24,484 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:28:24,544 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:28:24,599 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:28:24,600 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:28:54,614 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:29:18,879 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:29:18,991 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:29:18,991 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:29:21,830 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:29:22,210 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:29:22,283 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:29:22,669 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:29:22,739 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:29:22,843 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:29:22,861 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:29:22,862 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:29:52,879 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:30:16,691 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:30:16,795 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:30:16,795 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:30:19,694 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:30:19,773 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:30:19,882 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:30:19,931 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:30:20,420 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:30:21,210 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:30:21,222 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:30:21,222 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:30:51,239 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:31:15,549 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:31:15,656 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:31:15,657 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:31:19,076 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:31:19,140 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:31:19,316 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:31:19,380 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:31:19,476 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:31:19,568 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:31:19,608 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:31:19,609 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:31:49,614 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:32:13,545 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:32:13,655 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:32:13,655 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:32:16,939 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:32:16,987 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:32:17,839 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:32:18,027 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:32:18,093 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:32:18,235 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:32:18,279 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:32:18,279 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:32:48,298 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:33:12,095 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:33:12,199 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:33:12,199 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:33:14,975 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:33:15,399 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:33:15,661 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:33:15,723 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:33:15,840 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:33:16,786 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:33:16,799 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:33:16,800 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:33:46,810 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:34:10,655 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:34:10,760 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:34:10,760 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:34:13,893 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:34:13,990 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:34:14,105 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:34:14,167 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:34:14,574 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:34:14,665 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:34:14,714 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:34:14,715 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:34:44,726 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:35:09,364 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:35:09,501 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:35:09,502 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:35:12,656 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:35:12,714 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:35:13,055 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:35:13,334 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:35:13,423 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:35:14,887 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:35:14,902 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:35:14,902 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:35:44,913 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:36:08,891 - WARNING - [SCRAPE] __NEXT_DATA__ selector timeout
+2025-10-23 17:36:09,019 - INFO - [SCRAPE] Total pages: 6
+2025-10-23 17:36:09,019 - INFO - [SCRAPE] Loading all 6 pages in parallel...
+2025-10-23 17:36:11,933 - INFO - [SCRAPE] Page 5: Found 48 products
+2025-10-23 17:36:12,088 - INFO - [SCRAPE] Page 6: Found 44 products
+2025-10-23 17:36:12,556 - INFO - [SCRAPE] Page 1: Found 48 products
+2025-10-23 17:36:12,713 - INFO - [SCRAPE] Page 4: Found 48 products
+2025-10-23 17:36:12,826 - INFO - [SCRAPE] Page 3: Found 48 products
+2025-10-23 17:36:13,465 - INFO - [SCRAPE] Page 2: Found 48 products
+2025-10-23 17:36:13,529 - INFO - [SCRAPE] Loaded 284 total products from 6 pages
+2025-10-23 17:36:13,530 - INFO - [SCRAPE] Extracted 3 in-stock Big W products (marketplace items filtered)
+2025-10-23 17:36:43,537 - INFO - [SCRAPE] Loading page 1 to get page count...
+2025-10-23 17:36:50,182 - ERROR - [ERROR] Scraping failed: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("script#__NEXT_DATA__") to be visible
+    9 × locator resolved to hidden <script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"$$status":200,"$isomorphi…</script>
+
+2025-10-23 17:36:50,186 - WARNING - [WARNING] No products found in scrape
